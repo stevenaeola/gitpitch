@@ -4,19 +4,21 @@
 
 # The students they are a-changing
 
-- More students
-    - At school
-    - In the university
-- Different students:
-    - Better qualified home
-    - More international
-    - More with special needs
-    - More women (we wish)
+@ul
+
+- More students at school (so better qualified)
+- More international
+- More with special needs
 - More consumerist?
+- More women (we wish)
+
+@endul
 
     ---
     
 # The subject it is a-changing
+
+@ul
 
 - In schools
 - Developing content
@@ -24,9 +26,13 @@
     - Machine learning
     - The Riemann Hypothesis
 
+@endul
+
 ---
 
 # The university it is a-changing
+
+@ul
 
 - Higher proportion of income from fees
 - Focus on curricular efficiency
@@ -35,9 +41,13 @@
 - Module changes decentralised
 - All depts to engage in curriculum review
 
+@endul
+
 ---
 
 # The landscape it is a-changing
+
+@ul
 
 - TEF and subject-level TEF
     - Learning gain
@@ -45,20 +55,23 @@
 - Inclusion is bigger than ever, esp. for Durham
 - Employability is crucial
 
+@endul
+
 ---
 
 # What should we do?
 
 Working group to look at
 
+@ul
+
 - Curriculum
 - Pedagogy
 - Assessment
-
-And for each of these to consider
-
 - Data
 - Processes
+
+@endul
 
 Reporting Feb 2019 To EdComm and BoS
 
