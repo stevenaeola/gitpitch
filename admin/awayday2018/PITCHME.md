@@ -1,10 +1,10 @@
----?color=#7E317B
+---?color=##7E317B
 
 # Future of UG Teaching in CS
 
 ---
 
-# The students they are a-changing
+## The students they are a-changing
 
 @ul
 
@@ -18,7 +18,7 @@
 
 ---
     
-# The subject it is a-changing
+## The subject it is a-changing
 
 @ul
 
@@ -32,7 +32,7 @@
 
 ---
 
-# The university it is a-changing
+## The university it is a-changing
 
 @ul
 
@@ -47,7 +47,7 @@
 
 ---
 
-# The landscape it is a-changing
+## The landscape it is a-changing
 
 @ul
 
@@ -61,19 +61,15 @@
 
 ---
 
-# What should we do?
+## What should we do?
 
 Working group to look at
-
-@ul
 
 - Curriculum
 - Pedagogy
 - Assessment
 - Data
 - Processes
-
-@ulend
 
 Reporting Feb 2019 To EdComm and BoS
 
