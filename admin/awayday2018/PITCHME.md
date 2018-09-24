@@ -1,3 +1,5 @@
+---?color=#7E317B
+
 # Future of UG Teaching in CS
 
 ---
@@ -12,7 +14,7 @@
 - More consumerist?
 - More women (we wish)
 
-@endul
+@ulend
 
     ---
     
@@ -26,7 +28,7 @@
     - Machine learning
     - The Riemann Hypothesis
 
-@endul
+@ulend
 
 ---
 
@@ -41,7 +43,7 @@
 - Module changes decentralised
 - All depts to engage in curriculum review
 
-@endul
+@ulend
 
 ---
 
@@ -55,7 +57,7 @@
 - Inclusion is bigger than ever, esp. for Durham
 - Employability is crucial
 
-@endul
+@ulend
 
 ---
 
@@ -71,7 +73,7 @@ Working group to look at
 - Data
 - Processes
 
-@endul
+@ulend
 
 Reporting Feb 2019 To EdComm and BoS
 
