@@ -4,12 +4,12 @@
 
 ---
 
-![UNIX: live free or die](./media/livefree.png)
+![UNIX: live free or die](media/livefree.png)
 
 ---
 
 @snap[east sidebar]
-![50s fashion](./media/50s.png)
+![50s fashion](media/50s.png)
 @snapend
 
 ## 1958
