@@ -15,13 +15,13 @@ f the coursework mark for the module
 - Construct a dynamic web-site for a domain of your choosing
 - Use static HTML pages loading dynamic JSON content via AJAX
 - Client-side content to be responsive using a framework such as Bootstrap
-- Server to provide information via JSON through a REST API
+- Server to provide  JSON through REST API
 - Server to be written in nodejs
-- Server to be deployed either locally (for testing) or through cloud
+- Server to be deployed both locally (for testing) and in cloud
 
 ---
 
-## Construct a dynamic web-site for a domain of your choosing
+## Dynamic web-site
 
 - Any application domain as long as it includes people
 - Could be e.g. club, diary, group working, social, health
@@ -29,24 +29,24 @@ f the coursework mark for the module
 
 ---
 
-## Use static HTML pages loading dynamic JSON content via AJAX
+## Static HTML loading JSON via AJAX
 
 - 'Single page app'
 - Can have more than one page e.g. for user and admin
 - Pages should be standards compliant (HTML5)
-![Message Sequence Chart showing Client server interaction with AJAX](AJAX_msc.png)
+![Message Sequence Chart showing Client server interaction with AJAX](https://www.websequencediagrams.com/cgi-bin/cdraw?lz=dGl0bGUgQ2xpZW50L3NlcnZlciBpbnRlcmFjdGlvbgoKABUGLT5TABcFOiBTdGF0aWMgcGFnZSByZXF1ZXN0CgAWBi0-AEEGOiBIVE1MCmxvb3AgZWFjaCB1c2VyIABJBwA_EER5bmFtaWMgY29udGVudABLCCAoQUpBWCkASRFKU09OAIEKCQBnCFJlbmRlcgAXBQA_CWFzAIEBBSB3aXRoaW4gRE9NCmVuZAoK&s=roundgreen)
 
 ---
 
-## Client-side content to be responsive using a framework such as Bootstrap
+## Responsive content 
 
 - Include collapsing navbar (hamburger menu)
 - Include a grid layout
-- Use Bootstrap or semantic-ui or similar
+- Use Bootstrap or semantic-ui or similar framework
 
 ---
 
-## Server to provide information via JSON through a REST API
+## Server provides JSON through a REST API
 
 - Each person has forename, surname, username plus whatever you want to add
 - GET method to list all people at /people
@@ -55,7 +55,7 @@ f the coursework mark for the module
 - Response provided as JSON
 - Content-type needs to be correct
 - HTTP codes should be correct: use 400 for POST errors
-- On startup Delia Serbyshire (doctorwhocomposer) should be included in people
+- On startup Delia Derbyshire (doctorwhocomposer) should be included in people
 
 ---
 
@@ -65,7 +65,7 @@ f the coursework mark for the module
 
 ---
 
-## Server to be written in nodejs
+## Server written in nodejs
 
 - Recommended to use express, but not essential
 - Use npm for management: installation of packages should work with
@@ -78,7 +78,7 @@ npm install
 
 ---
 
-## Server to be deployed either locally (for testing) or through cloud
+## Server deployed locally and in cloud
 
 - Local installation must not use database: use in-memory model
 - You can choose cloud deployment platform e.g. OpenShift, BlueMix etc
@@ -86,7 +86,6 @@ npm install
 ```
 npm start
 ```
-
 - You don't need to include cloud deployment instructions
 - Include url of running system
 
