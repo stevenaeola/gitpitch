@@ -1,4 +1,4 @@
-# Web Programming Assignment 2018/19
+# Web Programming Assignment 2018/19 (DRAFT)
 
 ---
 
@@ -34,6 +34,11 @@ f the coursework mark for the module
 - 'Single page app'
 - Can have more than one page e.g. for user and admin
 - Pages should be standards compliant (HTML5)
+
+---
+
+## Message sequence chart
+
 ![Message Sequence Chart showing Client server interaction with AJAX](https://www.websequencediagrams.com/cgi-bin/cdraw?lz=dGl0bGUgQ2xpZW50L3NlcnZlciBpbnRlcmFjdGlvbgoKABUGLT5TABcFOiBTdGF0aWMgcGFnZSByZXF1ZXN0CgAWBi0-AEEGOiBIVE1MCmxvb3AgZWFjaCB1c2VyIABJBwA_EER5bmFtaWMgY29udGVudABLCCAoQUpBWCkASRFKU09OAIEKCQBnCFJlbmRlcgAXBQA_CWFzAIEBBSB3aXRoaW4gRE9NCmVuZAoK&s=roundgreen)
 
 ---
@@ -51,41 +56,49 @@ f the coursework mark for the module
 - Each person has forename, surname, username plus whatever you want to add
 - GET method to list all people at /people
 - GET method for individuals at /people/:username
+
+---
+
 - POST method for adding people, as long as username not taken
 - Response provided as JSON
 - Content-type needs to be correct
 - HTTP codes should be correct: use 400 for POST errors
 - On startup Delia Derbyshire (doctorwhocomposer) should be included in people
+- Can (should) add more methods to the web service
 
 ---
 
 ## Initial JSON response for GET /people
 
+Before any people or relationships added
 
+`[{"username":"doctorwhocomposer","forename":"Delia","surname":"Derbyshire"}]`
+
+Other properties can be included
+
+---
+
+### Initial JSON response for GET /people/doctorwhocomposer
+
+`{"username":"doctorwhocomposer","forename":"Delia","surname":"Derbyshire"}`
 
 ---
 
 ## Server written in nodejs
 
 - Recommended to use express, but not essential
-- Use npm for management: installation of packages should work with
-```
-npm install
-```
+- Use npm for management: installation of packages should work with `npm install`
 - Make sure you use --save or --save-dev option with packages you add
 - Automated test code (Jest) provided for basic REST functionality
 - Separate app and server so that test runs correctly
 
 ---
 
-## Server deployed locally and in cloud
+## Deployed locally and in cloud
 
 - Local installation must not use database: use in-memory model
 - You can choose cloud deployment platform e.g. OpenShift, BlueMix etc
-- Local deployment with
-```
-npm start
-```
+- Local deployment with `npm start`
 - You don't need to include cloud deployment instructions
 - Include url of running system
 
