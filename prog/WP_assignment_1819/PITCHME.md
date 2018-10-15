@@ -72,7 +72,9 @@ f the coursework mark for the module
 
 Before any people or relationships added
 
-`[{"username":"doctorwhocomposer","forename":"Delia","surname":"Derbyshire"}]`
+`[{"username":"doctorwhocomposer",
+   "forename":"Delia",
+   "surname":"Derbyshire"}]`
 
 Other properties can be included
 
@@ -80,7 +82,9 @@ Other properties can be included
 
 ### Initial JSON response for GET /people/doctorwhocomposer
 
-`{"username":"doctorwhocomposer","forename":"Delia","surname":"Derbyshire"}`
+`{"username":"doctorwhocomposer",
+  "forename":"Delia",
+  "surname":"Derbyshire"}`
 
 ---
 
