@@ -4,8 +4,7 @@
 
 ## Dates and weightings
 
-- This assignment contributes 25% to the overall mark for the module, and 50% o
-f the coursework mark for the module
+- This assignment contributes 25% to the overall mark for the module, and 50% of the coursework mark for the module
 - It should be submitted through duo by 14.00 on Wednesday 12th December 2018. Marks should be returned to you by 18th January 2019
 
 ---
@@ -68,23 +67,27 @@ f the coursework mark for the module
 
 ---
 
-## Initial JSON response for GET /people
+## Initial JSON response
 
-Before any people or relationships added
+- For GET /people
+- Before any people or relationships added
 
 `[{"username":"doctorwhocomposer",
    "forename":"Delia",
    "surname":"Derbyshire"}]`
 
-Other properties can be included
 
 ---
 
-### Initial JSON response for GET /people/doctorwhocomposer
+### Initial JSON response
+
+- For GET /people/doctorwhocomposer
 
 `{"username":"doctorwhocomposer",
   "forename":"Delia",
   "surname":"Derbyshire"}`
+
+Other properties can be included
 
 ---
 
