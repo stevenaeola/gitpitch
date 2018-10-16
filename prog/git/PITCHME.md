@@ -8,7 +8,7 @@ Some material reused and adapted from [Version Control with Git](https://swcarpe
 
 Licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 
----?image=prog/git/phd101212s.png
+---?image=prog/git/phd101212s.png&size=auto 90%
 
 “Piled Higher and Deeper” by Jorge Cham, <http://www.phdcomics.com>
 
