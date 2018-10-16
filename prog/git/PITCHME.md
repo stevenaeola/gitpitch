@@ -38,7 +38,7 @@ Licensed under [Creative Commons Attribution 4.0 International](https://creative
 
 @ul
 - Revision Control System (RCS)
-- Concurrent Versions System
+- Concurrent Versions System (CVS)
 - Microsoft Word Track Changes
 - Subversion
 - git
