@@ -44,6 +44,8 @@ Licensed under [Creative Commons Attribution 4.0 International](https://creative
 - git
 @ulend
 
+---
+
 ## All about git
 
 - Distributed version control system
