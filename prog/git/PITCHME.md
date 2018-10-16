@@ -125,7 +125,9 @@ Makes a commit based on currently staged files
 
 Will start an editor (see git config)
 
-Consider `git commit -m "message"` to avoid editor
+Consider
+```git commit -m "message"```
+to avoid editor
 
 ---
 
@@ -136,9 +138,9 @@ Pushes a branch to a remote repository
 `git push origin master`
 
 `origin` defined by
-`git remote add origin`
+```git remote add origin```
 or
-`git clone`
+```git clone```
 
 ---
 
