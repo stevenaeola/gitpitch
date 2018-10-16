@@ -20,4 +20,16 @@ Licensed under [Creative Commons Attribution 4.0 International](https://creative
 
 ![linear development of a document](prog/git/play-changes.png)
 
+---
+
+## Multiple authors
+
+![different changes](prog/git/versions.png)
+
+---
+
+## Merging changes
+
+![merges](prog/git/merge.png)
+
 
