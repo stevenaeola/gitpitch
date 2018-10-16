@@ -11,6 +11,10 @@ Licensed under [Creative Commons Attribution 4.0 International](https://creative
 ---?image=prog/git/phd101212s.png&size=auto 90%
 
 @snap[west]
-“Piled Higher and Deeper” by Jorge Cham, <http://www.phdcomics.com>
+“Piled Higher and Deeper”
+<br>
+Jorge Cham
+<br>
+<http://www.phdcomics.com>
 @snapend
 
