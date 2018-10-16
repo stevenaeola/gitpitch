@@ -8,7 +8,16 @@ Some material reused and adapted from [Version Control with Git](https://swcarpe
 
 Licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 
----?image=prog/git/phd101212s.png&size=auto 80%
+---?image=prog/git/phd101212s.png&size=auto 90%
 
-@css[title-top-right](“Piled Higher and Deeper” <http://www.phdcomics.com>)
+---
+
+ “Piled Higher and Deeper” by Jorge Cham <http://www.phdcomics.com>)
+
+---
+
+## Linear history
+
+![linear development of a document](prog/git/play-changes.png)
+
 
