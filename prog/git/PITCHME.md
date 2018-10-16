@@ -10,7 +10,5 @@ Licensed under [Creative Commons Attribution 4.0 International](https://creative
 
 ---?image=prog/git/phd101212s.png&size=auto 80%
 
-@snap[west,sidebar]
-“Piled Higher and Deeper” <http://www.phdcomics.com>
-@snapend
+@css[title-top-right](“Piled Higher and Deeper” <http://www.phdcomics.com>)
 
