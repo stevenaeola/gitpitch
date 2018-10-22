@@ -155,22 +155,63 @@ var sum2 = (a,b) => a+b;
 
 ---
 
-#
-- objects
-- arrays
-- functions
+## Arrays
+
+Square bracket notation: like python, Java, C
+
+These are equivalent:
+
+```
+var arr = new Array(1,2,3);
+```
+```
+var arr = Array(1,2,3);
+```
+```
+var arr = [1,2,3];
+```
+
+Arrays can contain elements of different types
 
 ---
+
+## Array iteration
+
+```
+for(var i=0; i < arr.length; i++){
+   console.log(arr[i];
+}
+```
+See methods in [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+e.g.
+```
+arr.push(4);
+```
+
+---
+
 ## Objects
 
-literal notation
-dot and bracket accessors
-constructors and new
-prototype
+@ul
+- Objects have named properties
+- Properties can have any type (including object, function)
+- A bit like Java Map and python Dictionary
+- Create with `Object` constructor or literal syntax
+- Access with dot or bracket
+- Inheritance through prototypes
 
 ---
 
-## JSON
+```
+var myCar = new Object();
+myCar.make = 'VW';
+myCar.model = 'Touran';
+
+console.log(myCar.make);
+console.log(myCar['make']);
+
+```
+
 
 ---
 
@@ -179,6 +220,7 @@ prototype
 - modules: require and module.exports
 - regexps
 - backticks (string expansion)
+- Set, Map
 - spread operator
 - <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide>
 - <https://www.theodinproject.com/courses/web-development-101/>
