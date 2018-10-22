@@ -54,6 +54,7 @@
     - `const` (new-style block scope)
 - `var` declarations are 'hoisted' to the top of the block
 - In non-strict undeclared variables are global
+
 ---
 
 ## Types
@@ -136,7 +137,7 @@ function sum(a, b){
 
 ---
 
-## functions as expression values
+## functions as values
 
 Almost equivalent is
 
