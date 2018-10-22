@@ -126,7 +126,7 @@ Useful when
 - Are first-class objects and can be
     - assigned to variables
     - passed as parameters
-- Often used for defining evetn callbacks
+- Often used for defining event callbacks
 - Don't have to be associated with objects but can be
 
 ```
