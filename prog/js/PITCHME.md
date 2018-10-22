@@ -18,7 +18,7 @@
 
 ---
 
-## Javascript: client-side and server side
+## Client- and server- side
 
 @ul
 - Recently JS is also used server-side: nodejs
@@ -53,9 +53,7 @@
     - `let` (new-style block scope)
     - `const` (new-style block scope)
 - `var` declarations are 'hoisted' to the top of the block
-- In non-strict undeclared variables are global (in some sense)
-variables inc hoisting, var, let, const
-
+- In non-strict undeclared variables are global
 ---
 
 ## Types
