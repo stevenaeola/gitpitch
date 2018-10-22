@@ -179,7 +179,7 @@ Arrays can contain elements of different types
 
 ```
 for(var i=0; i < arr.length; i++){
-   console.log(arr[i];
+   console.log(arr[i]);
 }
 ```
 See methods in [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
