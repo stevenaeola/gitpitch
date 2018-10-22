@@ -4,9 +4,7 @@
 
 ---
 
-## History
-
-Douglas Crockford has a good [potted history](https://app.pluralsight.com/player?name=javascript-good-parts-m2&mode=live&clip=0&course=javascript-good-parts&author=douglas-crockford) 
+## [History](https://app.pluralsight.com/player?name=javascript-good-parts-m2&mode=live&clip=0&course=javascript-good-parts&author=douglas-crockford) 
 
 @ul
 - Originally in browsers
@@ -26,7 +24,7 @@ Douglas Crockford has a good [potted history](https://app.pluralsight.com/player
 - Recently JS is also used server-side: nodejs
 - Good JS engines in mobile browsers
 - JS often used for cross-platform App dev [Cordova](https://cordova.apache.org/)
-- Also for desktop applications with [electron(https://electronjs.org/) e.g. [atom](https://atom.io/)
+- Also for desktop applications with [electron](https://electronjs.org/) e.g. [atom](https://atom.io/)
 - Interpreted, not compiled: errors only happen at run-time
 - `console.log` is your friend
 @endul
