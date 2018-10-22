@@ -14,7 +14,7 @@
 - Current version is ES8 (2018)
 - Most recent widely-supported version is ES6 (2015)
 - [Support varies](http://kangax.github.io/compat-table/es6/)
-@endul
+@ulend
 
 ---
 
@@ -27,7 +27,7 @@
 - Also for desktop applications with [electron](https://electronjs.org/) e.g. [atom](https://atom.io/)
 - Interpreted, not compiled: errors only happen at run-time
 - `console.log` is your friend
-@endul
+@ulend
 
 ---
 
@@ -41,7 +41,7 @@
 - "use strict"; good practice
 - Use `require` for modules in nodejs (many ways in browser)
 
-@endul
+@ulend
 
 ---
 
@@ -70,7 +70,7 @@ Six primitive types
 - string see [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
 - [symbol](https://developer.mozilla.org/en-US/docs/Glossary/Symbol) (immutable)
 - Also objects and functions (non-primitive)
-@endul
+@ulend
  
 ---
 
