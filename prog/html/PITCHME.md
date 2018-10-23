@@ -6,6 +6,9 @@
 
 ## My Favourite tags are
 
+```
+<script>
+```
 
 ---
 
