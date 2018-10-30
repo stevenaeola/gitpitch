@@ -5,7 +5,7 @@
 
 ---
 
-## Formative group task (week 5)
+## Formative group task (wk 5)
 
 - Work in groups of about three from your practical group
 - Aim for diversity of teams: not just people like you
