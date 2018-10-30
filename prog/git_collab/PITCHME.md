@@ -2,15 +2,6 @@
 
 # Collaboration with git
 
----
-
-Some material reused and adapted from  by the [Software Carpentry Foundation](https://software-carpentry.org/)
-
-Licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
-
-Some material reused and adapted from [Git Tutorials](https://www.atlassian.com/git/tutorials) by the [Atlassian](https://www.atlassian.com/)
-
-Licensed under [Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)
 
 ---
 
