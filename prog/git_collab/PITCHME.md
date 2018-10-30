@@ -5,7 +5,7 @@
 
 ---
 
-# Formative practical task (week 5)
+## Formative group task (week 5)
 
 - Work in groups of about three from your practical group
 - Aim for diversity of teams: not just people like you
@@ -15,7 +15,7 @@
 
 ---
 
-# Peer assessment (week 6)
+## Peer assessment (week 6)
 
 - Interesting content
 - Good consistent visual presentation
@@ -28,7 +28,7 @@
 
 ---
 
-# Working together
+## Working together
 
 - git supports collaboration
 - It is a tool not a method
@@ -36,7 +36,7 @@
 
 ---
 
-# Questions to ask
+## Questions to ask
 
 @ul
 - Where to host remote repos (one or many)?
@@ -48,7 +48,7 @@
 
 ---
 
-# Who has control?
+## Who has control?
 
 Options include:
 
@@ -58,7 +58,7 @@ Options include:
 
 ---
 
-# Task planning
+## Task planning
 
 Outside of scope of version control. Options include:
 
@@ -69,7 +69,7 @@ Outside of scope of version control. Options include:
 
 ---
 
-# Is it any good (complete?)
+## Is it any good (complete?)
 
 -
 -
@@ -87,7 +87,7 @@ Outside of scope of version control. Options include:
 
 ---
 
-# See also
+## See also
 
 - [Version Control with Git](https://swcarpentry.github.io/git-novice/)
 - [Collaborating with Git](https://www.atlassian.com/git/tutorials/syncing)
