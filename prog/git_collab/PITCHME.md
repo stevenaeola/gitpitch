@@ -71,9 +71,9 @@ Outside of scope of version control. Options include:
 
 ## Is it any good (complete?)
 
--
--
--
+- Code review
+- Automated test e.g. html validator
+- Git log
 
 ---
 
