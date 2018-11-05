@@ -53,6 +53,21 @@
 
 ---
 
+package.json
+```
+{
+  "name": "seminargroups",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon index.js"
+  }
+  ...
+  }
+
+```
+---
+
 ## Separate out app from server
 
 e.g. app.js file
