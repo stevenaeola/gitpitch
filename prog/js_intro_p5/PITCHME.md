@@ -97,7 +97,7 @@ Can run in browser as file, not just with http
 
 <https://p5js.org/>
 
----?gist=stevenaeola/318210d2868dc2dbc8d085f9630ba97b&lang=JavaScript&title=p5 Minimal example
+---?gist=stevenaeola/318210d2868dc2dbc8d085f9630ba97b&lang=HTML&title=p5 Minimal example
 
 @[1-4](HTML head and p5 CDN inclusion)
 @[6-7](user-defined setup function called once)
