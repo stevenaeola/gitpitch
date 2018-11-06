@@ -90,10 +90,10 @@ Can run in browser as file, not just with http
   </script>
 ```
 
----?image=https://p5js.org/assets/img/p5js.svg
+---?image=https://p5js.org/assets/img/p5js.svg&opacity=20
 
 
-@quote[p5.js is a JavaScript library ... to make coding accessibnle for artists, designers, educators and beginners]
+@quote[p5.js is a JavaScript library ... to make coding accessible for artists, designers, educators and beginners]
 
 <https://p5js.org/>
 
