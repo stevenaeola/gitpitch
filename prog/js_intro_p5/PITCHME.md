@@ -102,13 +102,11 @@ Can run in browser as file, not just with http
 
 ---?gist=stevenaeola/8354ae0e916982f1320c908f1ed279a8&lang=HTML&title=p5 More interesting
 
-
 ---
 
-## Javascript functions
+## Using p5
 
-- Are first-class entities
-- Can be passed as parameters or returned
-- Often associated with events e.g. click
-- Called with function name/value, parameters
-- Can use `function` keyword
+- p5 provides some (global) functions and variables
+- Details given at <https://p5js.org/reference/>
+- Tutorials at <https://p5js.org/learn/>
+- Nice example at <https://www.openprocessing.org/>
