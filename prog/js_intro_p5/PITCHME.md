@@ -78,15 +78,16 @@ Can run in browser as file, not just with http
 
 ## Importing code
 
-@ul
+
 - Link to external javascript code with `src` attribute
 - Usually placed in `head`
 - Can refer to files in same source
 - Can refer to external files via http
 - Content Delivery Networks (CDN)
-@ulend
 ```HTML
-<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js">
+  </script>
 ```
 
 ---?image=https://p5js.org/assets/img/p5js.svg
