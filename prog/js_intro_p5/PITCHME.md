@@ -100,9 +100,9 @@ Can run in browser as file, not just with http
 ---?gist=stevenaeola/318210d2868dc2dbc8d085f9630ba97b&lang=JavaScript&title=p5 Minimal example
 
 @[1-4](HTML head and p5 CDN inclusion)
-@[6-7](user-defined setup() function called once)
-@[9-11](draw() function is then called repeatedly by p5)
-@[10](ellipse() function is provided by p5)
+@[6-7](user-defined setup function called once)
+@[9-11](draw function is then called repeatedly by p5)
+@[10](ellipse function is provided by p5)
 
 
 ---
