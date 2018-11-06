@@ -31,13 +31,15 @@
 
 ---
 
-## [Hello world](prog/js_intro_p5/index1.html)
+## Hello world
 
 - Embed javascript in a web page
 - Use `script` tag
-```
+```HTML
 <html>
-<script>console.log("Hello world")</script>
+  <script>
+    console.log("Hello World")
+  </script>
 </html>
 ```
 
@@ -47,17 +49,59 @@
 
 Nothing?
 
-Looks the same as [this]((prog/js_intro_p5/index2.html))
-```
+Looks the same as this
+```HTML
 <html>
-<script>vljbsv123456789!@£$%^&*</script>
+  <script>
+    vljbsv123456789!@£$%^&*
+  </script>
 </html>
 ```
 
-Use developer tools to see the console
+Use developer tools to see the console output and error
 
 ---
 
 ## Hello again
 
-In the browser we can also use `alert`
+In the browser we can also use the `alert` function
+```HTML
+<html>
+  <script>
+    alert("Hello World")
+  </script>
+</html>
+```
+Can run in browser as file, not just with http
+
+---
+
+## Importing code
+
+@ul
+- Link to external javascript code with `src` attribute
+- Usually placed in `head`
+- Can refer to files in same source
+- Can refer to external files via http
+- Content Delivery Networks (CDN)
+@ulend
+```HTML
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+```
+
+---?image=https://p5js.org/assets/img/p5js.svg
+
+
+@quote[p5.js is a JavaScript library ... to make coding accessibnle for artists, designers, educators and beginners]
+
+<https://p5js.org/>
+
+---
+
+## Javascript functions
+
+- Are first-class entities
+- Can be passed as parameters or returned
+- Often associated with events e.g. click
+- Called with function name/value, parameters
+- Can use `function` keyword
