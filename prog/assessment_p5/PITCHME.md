@@ -1,6 +1,6 @@
 ---?color=#7E317B
 
-# COMP1101 Programming Summative Assessment 1 DRAFT
+# COMP1101 Programming Summative Assessment 1 (DRAFT)
 
 
 ---
@@ -40,6 +40,9 @@
     - Appropriate constructor
     - Get and set methods for properties
     - `draw` method with optional p5.Renderer as parameter
+
+--
+
 - Build an example page with properties controlled by form controls
 - Write documentation of your code using [Markdown](https://guides.github.com/features/mastering-markdown/)
 
@@ -100,7 +103,7 @@ Weighted equally
 
 ## Code quality: ESLint
 
-Apply all rules from [eslint.org/docs/rules/](https://eslint.org/docs/rules/) from the sections
+Apply rules from [eslint.org/docs/rules/](https://eslint.org/docs/rules/):
 
 - Possible Errors
 - Best Practices
@@ -108,7 +111,7 @@ Apply all rules from [eslint.org/docs/rules/](https://eslint.org/docs/rules/) fr
 - Stylistic Issues
 - ECMAScript 6
 
---
+---
 
 ## Code management: git
 
