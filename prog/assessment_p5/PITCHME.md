@@ -50,8 +50,9 @@
 
 ## Submission
 
-- Submit via duo a link to a github (or other git) repository containing your code and documentation
-- Make repository public on submission
+- Submit via duo
+   1. a .zip file containing your code and documentation
+   2. a .zip file containing the original code
 - Make a pull request to https://github.com/stevenaeola/Durham-p5-lib with your new component
 
 ---
@@ -64,7 +65,7 @@ Weighted equally
 - Development of original 
 - Quality of example
 - Quality of documentation
-- Code quality and management
+- Code quality
 
 ---
 
@@ -78,7 +79,7 @@ Weighted equally
 
 ## Development of original
 
-- Original code included in initial commit
+- Original code to be submitted as well as final version
 - Work done in refactoring code to class
 - Work done in useful parameterisation
 - Work done in extending scope 
@@ -111,11 +112,5 @@ Apply rules from [eslint.org/docs/rules/](https://eslint.org/docs/rules/):
 - Stylistic Issues
 - ECMAScript 6
 
----
-
-## Code management: git
-
-- Appropriate commits including comments
-- Consistent development trajectory
 
 
