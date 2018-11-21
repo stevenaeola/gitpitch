@@ -1,9 +1,7 @@
----?color=#7E317B
 
 # COMP1101 Programming Summative Assessment 1 (DRAFT)
 
 
----
 
 ## Term 1 Programming Exercise Outline
 
@@ -14,7 +12,6 @@
 - Peer reviews need to be submitted by 14:00 31/1/2019
 - Quality of your peer reviews contribute 5% to your module mark
 
----
 
 ## Subject-specific Knowledge
 
@@ -23,13 +20,11 @@
 - An understanding of the nature of imperative programming in the object-oriented style.
 - A knowledge and understanding of good programming practice (for example, reuse, documentation and style)
 
----
 
 ## Key Skills
 
 - an ability to recognise and apply the principles of abstraction and modelling
 
----
 
 ## Tasks
 
@@ -41,12 +36,10 @@
     - Get and set methods for properties
     - `draw` method with optional p5.Renderer as parameter
 
----
 
 - Build an example page with properties controlled by form controls
 - Write documentation of your code using [Markdown](https://guides.github.com/features/mastering-markdown/)
 
----
 
 ## Submission
 
@@ -55,7 +48,6 @@
    2. a .zip file containing the original code
 - Make a pull request to https://github.com/stevenaeola/Durham-p5-lib with your new component
 
----
 
 ## Marking Criteria
 
@@ -67,7 +59,6 @@ Weighted equally
 - Quality of documentation
 - Code quality
 
----
 
 ## Usability of code
 
@@ -75,7 +66,6 @@ Weighted equally
 - Encapsulation (private fields where appropriate)
 - Useful methods including `draw`
 
----
 
 ## Development of original
 
@@ -84,7 +74,6 @@ Weighted equally
 - Work done in useful parameterisation
 - Work done in extending scope 
 
----
 
 ## Quality of example
 
@@ -92,7 +81,6 @@ Weighted equally
 - Appropriate on-page instructions
 - Appropriate on-page controls (form)
 
----
 
 ## Quality of documentation
 
@@ -100,7 +88,6 @@ Weighted equally
 - Explanation of example
 - Source of initial code acknowledged (including licence)
 
----
 
 ## Code quality: ESLint
 
