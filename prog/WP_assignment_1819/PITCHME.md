@@ -59,10 +59,13 @@
 ---
 
 - POST method for adding people, as long as username not taken
+- `access_token` required for updates: `concertina` should work
+- incorrect or missing access token should provide HTTP 403 error
 - Response provided as JSON
 - Content-type needs to be correct
-- HTTP codes should be correct: use 400 for POST errors
+- HTTP codes should be correct: use 400 for POST errors apart from access token
 - On startup Delia Derbyshire (doctorwhocomposer) should be included in people
+- See <app.test.js> for detailed test cases
 - Can (should) add more methods to the web service
 
 ---
