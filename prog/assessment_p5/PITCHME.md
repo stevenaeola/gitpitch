@@ -1,7 +1,6 @@
 ---?color=#7E317B
 
-# COMP1101 Programming Summative Assessment 1 (DRAFT)
-
+# COMP1101 Programming Summative Assessment 1
 
 ---
 
@@ -33,16 +32,11 @@
 
 ## Tasks
 
-- Fork https://github.com/stevenaeola/Durham-p5-lib
 - Choose a sketch from [openprocessing.org](https://www.openprocessing.org/)
-- Put the original sketch code into a subdirectory of the repository
 - Adapt it into a reusable component using JavaScript classes
     - Appropriate constructor
     - Get and set methods for properties
     - `draw` method with optional p5.Renderer as parameter
-
----
-
 - Build an example page with properties controlled by form controls
 - Write documentation of your code using [Markdown](https://guides.github.com/features/mastering-markdown/)
 
@@ -53,7 +47,7 @@
 - Submit via duo
    1. a .zip file containing your code and documentation
    2. a .zip file containing the original code
-- Make a pull request to https://github.com/stevenaeola/Durham-p5-lib with your new component
+- Make a pull request to https://github.com/stevenaeola/Durham-p5-lib with your new component in a subdirectory
 
 ---
 
