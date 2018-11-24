@@ -65,7 +65,7 @@
 - Content-type needs to be correct
 - HTTP codes should be correct: use 400 for POST errors apart from access token
 - On startup Delia Derbyshire (doctorwhocomposer) should be included in people
-- See <app.test.js> for detailed test cases
+- See [app.test.js](app.test.js) for detailed test cases
 - Can (should) add more methods to the web service
 
 
