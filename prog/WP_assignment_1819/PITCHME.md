@@ -1,11 +1,11 @@
-# Web Programming Assignment 2018/19 (DRAFT)
+# Web Programming Assignment 2018/19
 
 ---
 
 ## Dates and weightings
 
 - This assignment contributes 25% to the overall mark for the module, and 50% of the coursework mark for the module
-- It should be submitted through duo by 14.00 on Wednesday 12th December 2018. Marks should be returned to you by 18th January 2019
+- It should be submitted through duo by 14.00 on Wednesday 1st February 2018. Marks should be returned to you by 1st March 2019. *This is a change from the original assessment deadline as notified on 2nd November 2019.*
 
 ---
 
@@ -96,7 +96,7 @@ Other properties can be included
 - Recommended to use express, but not essential
 - Use npm for management: installation of packages should work with `npm install`
 - Make sure you use --save or --save-dev option with packages you add
-- Automated test code (Jest) provided for basic REST functionality
+- [Automated test code (Jest) provided](app.test.js) for basic REST functionality are provided
 - Separate app and server so that test runs correctly
 
 ---
