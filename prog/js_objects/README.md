@@ -78,14 +78,14 @@ ball.draw();
 
 ```
 class Ball{
-      constructor(x, y, r){
-         this.x = x;
-	 this.y = y;
-	 this.radius = r;
-      }
-      draw(){
-	ellipse(this.x, this.y,
-	this.radius*2, this.radius*2);
+   constructor(x, y, r){
+      this.x = x;
+      this.y = y;
+      this.radius = r;
+   }
+   draw(){
+      ellipse(this.x, this.y,
+         this.radius*2, this.radius*2);
       }
 }
 let b = new Ball(400,300,20);
