@@ -55,7 +55,7 @@ ball.draw();
 - If a property isn't found in an object's own properties, then __proto__ is checked
 - Every function (which is also an object) has a property `prototype` which can be used when creating an object
 - The `new` keyword is used with a constructor function to create an object and set its `__proto__`
-- Read more at [MDN}(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+- Read more at [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 
 
 ## Inheriting behaviour

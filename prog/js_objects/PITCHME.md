@@ -57,16 +57,19 @@ ball.draw();
 
 ## Prototypal Inheritance
 
+@ul
 - Every object has a property `__proto__` which refers to another object
 - If a property isn't found in an object's own properties, then __proto__ is checked
 - Every function (which is also an object) has a property `prototype` which can be used when creating an object
 - The `new` keyword is used with a constructor function to create an object and set its `__proto__`
-- Read more at [MDN}(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+- Read more at [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+@ulend
 
 ---
 
 ## Inheriting behaviour
 
+@ul
 - In other languages (e.g Java, C#) every object belongs to a *class*
     - Data values (fields) are associated with objects
     - Behaviour (methods) are asociated with classes
@@ -75,6 +78,7 @@ ball.draw();
 - JS allows inheritance (common behaviour) through prototypes
 - Java uses *class-based inheritance*
 - JS use *prototypal inheritance*
+@ulend
 
 ---
 
