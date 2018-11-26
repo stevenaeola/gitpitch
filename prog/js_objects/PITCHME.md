@@ -76,12 +76,13 @@ ball.draw();
 - Things of the same type (class) can do the same things
 - JS is more flexible: each object can define its own behaviour
 - JS allows inheritance (common behaviour) through prototypes
+@ulend
 
 ---
 
 - Java uses *class-based inheritance*
 - JS use *prototypal inheritance*
-@ulend
+
 
 ---
 

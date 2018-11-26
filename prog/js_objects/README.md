@@ -72,6 +72,7 @@ ball.draw();
 - JS use *prototypal inheritance*
 
 
+
 ## Emulating classes in JS
 
 [Simple syntax for constructors and prototype functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
