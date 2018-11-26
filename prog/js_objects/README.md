@@ -74,25 +74,24 @@ ball.draw();
 
 ## Emulating classes in JS
 
-Simple syntax ties up constructors and setting prototype
+[Simple syntax for constructors and prototype functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 
 ```
 class Ball{
-      constructor(w, h, r){
-         this.width = w;
-	 this.height = h;
+      constructor(x, y, r){
+         this.x = x;
+	 this.y = y;
 	 this.radius = r;
       }
-
       draw(){
 	ellipse(this.x, this.y,
 	this.radius*2, this.radius*2);
       }
 }
+let b = new Ball(400,300,20);
+b.draw();
 
 ```
-
-[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 
 
 ## Why classes?
