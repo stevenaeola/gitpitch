@@ -38,7 +38,7 @@ ball.draw();
 
 ## this
 
-`this` in a function call refers to the object it was called on
+`this` refers to the object it was called on
 
 ```
 ball.draw = function(){
