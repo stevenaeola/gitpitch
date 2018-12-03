@@ -1,3 +1,4 @@
+
 ---?color=#7E317B
 
 # Testing nodejs REST
@@ -50,6 +51,7 @@
 - Use nodemon to auto-restart server
 - Add test script to your package.json
 - run test with npm test
+- see the [tests for the assignment](https://github.com/stevenaeola/gitpitch/blob/master/prog/WP_assignment_1819/app.test.js ) 
 
 ---
 
