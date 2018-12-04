@@ -55,7 +55,7 @@ var element = document.getElementById(id);
 - Browsers produce events as users interact with page
 - E.g. `click`, `keypress`, `focus`, `submit`
 - Use `addEventListener` to attach a function to an element
-- See [button2.html](https://github.com/stevenaeola/gitpitch/blob/master/prog/js_dom/button2.html);
+- See [button2.html](https://github.com/stevenaeola/gitpitch/blob/master/prog/js_dom/button2.html)
 - Better to separate JS and HTML in this way (MVC)
 @ulend
 
@@ -79,4 +79,4 @@ var element = document.getElementById(id);
 - Access individual controls by ID
 - Disable default action (form submission)
 - Link with existing objects e.g. p5 ball
-- See [ball with controls](https://github.com/stevenaeola/Prog18potatoes/tree/c887df28b3cbd7afc85b060c52f4a988fcc23bc1)
+- See [ball with controls](https://github.com/stevenaeola/Prog18potatoes/tree/c887df28b3cbd7afc85b060c52f4a988fcc23bc1/ball)
