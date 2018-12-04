@@ -24,7 +24,9 @@
 </html>
 
 ```
-See [Events and the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Events)
+- See [Events and the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Events)
+- [button.html](button.html)
+
 
 
 ## Identifying parts of the page: getElementById
