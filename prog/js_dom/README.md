@@ -25,7 +25,7 @@
 
 ```
 - See [Events and the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Events)
-- [button.html](prog/js_dom/button.html)
+- [button.html](https://github.com/stevenaeola/gitpitch/blob/master/prog/js_dom/button.html)
 
 
 
@@ -45,7 +45,7 @@ var element = document.getElementById(id);
 - Browsers produce events as users interact with page
 - E.g. `click`, `keypress`, `focus`, `submit`
 - Use `addEventListener` to attach a function to an element
-- See [button2.html](button2.html);
+- See [button2.html](https://github.com/stevenaeola/gitpitch/blob/master/prog/js_dom/button2.html);
 - Better to separate JS and HTML in this way (MVC)
 
 
@@ -57,7 +57,7 @@ var element = document.getElementById(id);
 - Handlers are often anonymous functions
     - function expression
     - arrow function expression
-- See [button3.html](button3.html)
+- See [button3.html](https://github.com/stevenaeola/gitpitch/blob/master/prog/js_dom/button3.html)
 
 
 ## Accessing DOM data
