@@ -25,7 +25,7 @@
 
 ```
 - See [Events and the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Events)
-- [button.html](button.html)
+- [button.html](prog/js_dom/button.html)
 
 
 
