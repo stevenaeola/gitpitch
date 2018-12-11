@@ -50,6 +50,8 @@ function draw(){
 - Can be used e.g. as texture for another object
 - All calls to graphics e.g. `rect`, `ellipse`, `fill` can be applied
 
+---
+
 ```JavaScript
 function draw(g){
   if(g){
@@ -69,6 +71,8 @@ To avoid duplication you could
 
 - (Optionally) create the canvas in the constructor and save the return value
 - OR create delegation functions inside your draw function e.g.
+
+---
 
 ```JavaScript
    rect(x,y,w,h){
