@@ -1,6 +1,8 @@
+---?color=#7E317B
 
 # Assignment questions 
 
+---
 
 ## Assignment questions
 
@@ -12,6 +14,7 @@
 - Others?
 
 
+---
 
 ## What does a reusable component look like?
 
@@ -20,6 +23,7 @@
 - Draw method in sketch becomes draw method of the object
 - Other methods for changing parameters and handling events
 
+---
 
 ## Minimal usage in sketch (index.js)
 
@@ -38,6 +42,7 @@ function draw(){
 
 ```
 
+---
 
 ## What is a `draw` method with optional p5.Renderer as parameter?
 
@@ -58,11 +63,13 @@ function draw(g){
 
 ```
 
+---
 
 To avoid duplication you could
 
 - (Optionally) create the canvas in the constructor and save the return value
 - OR create delegation functions inside your draw function e.g.
+
 ```JavaScript
    rect(x,y,w,h){
      if(g){
@@ -75,12 +82,14 @@ To avoid duplication you could
 
 ```
 
+---
 
 ## When are private fields appropriate?
 
 - They are a a post-ES6 experimental feature
 - On reflection, probably not appropriate to use
 
+---
 
 ## How to use ESLint?
 
@@ -88,6 +97,7 @@ To avoid duplication you could
 - [Set up on your machine](https://eslint.org/docs/user-guide/getting-started)
 - When running `eslint --init` choose `Answer questions ...`
 
+---
 
 ```
 DA-ECS-01:ball dcs0spb$ eslint --init
@@ -98,6 +108,7 @@ DA-ECS-01:ball dcs0spb$ eslint --init
 ? Do you use CommonJS? No
 ```
 
+---
 
 ```
 ? Do you use JSX? No
@@ -110,6 +121,7 @@ DA-ECS-01:ball dcs0spb$ eslint --init
 You might want to use Windows line endings
 
 
+---
 
 ## ESLint output
 
@@ -125,6 +137,7 @@ DA-ECS-01:ball dcs0spb$ eslint ball.js
 
 ```
 
+---
 
 ## Can I convert a processing sketch?
 
@@ -133,6 +146,7 @@ Yes
 - Replace variable types with `var` (or `let` or `const`)
 - Replace method return types e.g. `void` with `function`
 - Find equivalent objects e.g. `new PVector` becomes `createVector`
+---
 
 ## Others?
 

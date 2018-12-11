@@ -49,6 +49,7 @@ function draw(){
 - p5.Renderer objects are returned by `createCanvas` and `createGraphics`
 - Can be used e.g. as texture for another object
 - All calls to graphics e.g. `rect`, `ellipse`, `fill` can be applied
+
 ```JavaScript
 function draw(g){
   if(g){
