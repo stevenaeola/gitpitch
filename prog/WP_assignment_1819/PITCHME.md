@@ -5,7 +5,7 @@
 ## Dates and weightings
 
 - This assignment contributes 25% to the overall mark for the module, and 50% of the coursework mark for the module
-- It should be submitted through duo by 14.00 on Wednesday 1st February 2018. Marks should be returned to you by 1st March 2019. *This is a change from the original assessment deadline as notified on 2nd November 2019.*
+- It should be submitted through duo by 14.00 on Friday 1st February 2019. Marks should be returned to you by 1st March 2019. *This is a change from the original assessment deadline as notified on 2nd November 2019.*
 
 ---
 
