@@ -28,12 +28,12 @@ Balanced by teaching/research group & gender + external
 
 ## Progress to date:
 
-- Departmental awayday 25 September on streamlining assessment for 2019/20
+- Depart awayday 25 discussed streamlining assessment
 - Staff opinions on areas that need: more focus; less focus; updating 
 - Student voice: questionnaire circulated to L2,3,4 UGs
 - Plan to write up as research paper on gender difference in opinions
 - One working group meeting already held, more planned
-- Detailed discussions with group leaders about planned changes for next year
+- Detailed discussions with group leaders
 
 
 ## Issues
