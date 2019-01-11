@@ -50,6 +50,8 @@ Balanced by teaching/research group & gender + external
 - Reduce number of assessment points: synoptic where possible
 - Apply software engineering criteria of coupling and cohesion to ease maintenance
 - Better integration between theory and practice
+
+
 - Curriculum development needs to address across levels
    - Group vs individual
    - Presentation types
