@@ -66,7 +66,7 @@ Balanced by teaching/research group & gender + external
    - Project work
    - Research skills
 
-[Current module linkage](prerequisites2018.pdf)
+[Current module linkage](./admin/curriculum_review/prerequisites2018.pdf)
 
 ---
 
