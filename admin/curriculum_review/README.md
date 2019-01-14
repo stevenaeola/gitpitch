@@ -51,7 +51,6 @@ Balanced by teaching/research group & gender + external
 - Apply software engineering criteria of coupling and cohesion to ease maintenance
 - Better integration between theory and practice
 
-[Current module linkage](prerequisites2018.pdf)
 
 
 - Curriculum development needs to address across levels
@@ -59,6 +58,8 @@ Balanced by teaching/research group & gender + external
    - Presentation types
    - Project work
    - Research skills
+
+[Current module linkage](prerequisites2018.pdf)
 
 
 ## Going forward
