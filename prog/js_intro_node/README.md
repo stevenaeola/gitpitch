@@ -10,7 +10,7 @@
   - Package manager npm claims to be largest ecosystem of open source libraries in the world.
 
 
-# History and Culture
+# History
 
   - Developed from 2009
   - Based on Chrome V8 Javascript engine: compiles to machine code

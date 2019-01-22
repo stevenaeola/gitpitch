@@ -15,7 +15,7 @@
 
 ---
 
-# History and Culture
+# History
 
 @ul
   - Developed from 2009
