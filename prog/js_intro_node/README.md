@@ -127,7 +127,7 @@ console.log('Program done');
 
 
 
-# Installing express
+# Install express
 
 ```
 npm init
@@ -148,7 +148,7 @@ npm install express --save
 installs and puts dependency in package.json
 
 
-# Using express to do routing
+# Express routing
 ```
 var express = require('express')
 var app = express()
