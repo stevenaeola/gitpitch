@@ -189,8 +189,6 @@ app.listen(8090)
 - Via value in GET-encoded variable
 
 
-
-
 # Popular tools for node
 
   - See list at <https://www.npmjs.com/>

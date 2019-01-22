@@ -218,8 +218,6 @@ app.listen(8090)
 - Via value in GET-encoded variable
 @ulend
 
-
-
 ---
 
 # Popular tools for node
