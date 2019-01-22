@@ -76,7 +76,7 @@ console.log('Server running at http://127.0.0.1:8080/');
 Thanks to [SO user568109](http://stackoverflow.com/questions/14795145/how-the-single-threaded-non-blocking-io-model-works-in-node-js)
 
 
-# Hello world with event loop
+# Hello events
 ```
   var events = require('events');
   var e = new events.EventEmitter();

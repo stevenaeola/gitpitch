@@ -96,7 +96,7 @@ Thanks to [SO user568109](http://stackoverflow.com/questions/14795145/how-the-si
 
 ---
 
-# Hello world with event loop
+# Hello events
 ```
   var events = require('events');
   var e = new events.EventEmitter();
