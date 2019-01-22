@@ -71,7 +71,7 @@ console.log('Server running at http://127.0.0.1:8080/');
 - next instruction is executed once all callbacks are complete
 
 
-![nodejs threading model](image=https://i.stack.imgur.com/YCTgK.png)
+![nodejs threading model](https://i.stack.imgur.com/YCTgK.png)
 
 Thanks to [SO user568109](http://stackoverflow.com/questions/14795145/how-the-single-threaded-non-blocking-io-model-works-in-node-js)
 
