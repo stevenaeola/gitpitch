@@ -2,7 +2,7 @@
 
 # Introduction to nodejs
 
----?image=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/220px-Node.js_logo.svg.png&position=right&size=25
+---?image=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/220px-Node.js_logo.svg.png&position=right&size=25%
 
 # nodejs: What and Why?
 
