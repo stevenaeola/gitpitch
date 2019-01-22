@@ -4,18 +4,18 @@
 
 ---?image=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/220px-Node.js_logo.svg.png&position=right&size=25%
 
-# nodejs: What and Why?
+# What and Why?
 
 @ul
   - Server-side scripting in JavaScript: alternative to php, asp, RoR
   - Single thread execution: non-blocking
   - Not designed for compute-heavy applications
-  - Package manager npm claims to be `largest ecosystem of open source libraries in the world.`
+  - Package manager npm claims to be largest ecosystem of open source libraries in the world.
 @ulend
 
 ---
 
-# nodejs: History and Culture
+# History and Culture
 
 @ul
   - Developed from 2009
@@ -90,7 +90,7 @@ console.log('Server running at http://127.0.0.1:8080/');
 
 ---
 
----?image=https://i.stack.imgur.com/YCTgK.png
+![nodejs threading model](image=https://i.stack.imgur.com/YCTgK.png)
 
 Thanks to [SO user568109](http://stackoverflow.com/questions/14795145/how-the-single-threaded-non-blocking-io-model-works-in-node-js)
 
