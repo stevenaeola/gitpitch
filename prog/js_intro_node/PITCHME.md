@@ -211,8 +211,6 @@ app.get('/r', function(req, resp){
 app.listen(8090)
 ```
 
----
-
 @ul
 - Adds two separate routes
 - Extract max value in two different ways
