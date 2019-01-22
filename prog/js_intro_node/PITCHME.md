@@ -135,11 +135,15 @@ console.log('Program done');
 
 - npm is your friend
 - Dependencies are stored in package.json
-- Uses <weblink><url>http://semver.org</url><link>semantic versioning</link></weblink>
+- Uses [semantic versioning](http://semver.org)
   - Code should have public API by version
   - Version is X.Y.Z
   - X = major version, Y = minor version, Z = patch
   - Never change code within version once released
+
+---
+
+- version semantics
   - X = 0 for pre-release versions
   - Increase Z for bug-fixes, no new functionality
   - Increase Y, set Z=0 for backwards-compatibile new functionality
