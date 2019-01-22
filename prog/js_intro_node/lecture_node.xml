@@ -1,0 +1,222 @@
+<lecture course='WP' date='2018-10-29'>
+<title>Server-side javascript: nodejs</title>
+<newslide/>
+
+<heading>nodejs: What and Why?</heading>
+<picture>node_js_logo.png</picture>
+<points reveal='yes'>
+  <point>Server-side scripting in JavaScript: alternative to php</point>
+  <point>Single thread execution: non-blocking</point>
+  <point>Not designed for compute-heavy applications</point>
+  <point>Package manager npm claims to be <blockquote>largest ecosystem of open source libraries in the world.</blockquote></point>
+</points>
+
+<newslide/>
+
+<heading>nodejs: History and Culture</heading>
+<points reveal='yes'>
+  <point>Developed from 2009</point>
+  <point>Based on Chrome V8 Javascript engine: compiles to machine code</point>
+  <point>Originally by Joyent, now has its own foundation</point>
+  <point>MIT-style licence</point>
+  <point>Package manager npm</point>
+</points>
+
+<newslide/>
+
+<heading>Hosting</heading>
+
+<points reveal='yes'>
+<point>Cross-platform installation available for local hosting</point>
+<point>Available on many PaaS installations e.g. openshift, IBM bluemix</point>
+<point>Not as widely available as php but more than most others (my opinion/experience)</point>
+</points>
+
+<newslide/>
+
+<heading>Hello world</heading>
+
+<literal>
+console.log("Hello world")
+</literal>
+<points reveal='yes'>
+<point>Save in hello.js</point>
+<point>run with <literal>node hello.js</literal></point>
+<point>uses terminal as console instead of browser tools</point>
+</points>
+
+<newslide/>
+
+<heading>Web server</heading>
+
+<literal>
+http = require("http")
+
+http.createServer(function (request, response) {
+  response.writeHead(200, {'Content-Type': 'text/plain'});
+  response.end('Hello World\n');
+}).listen(8080);
+
+console.log('Server running at http://127.0.0.1:8080/');
+</literal>
+
+<newslide/>
+<points>
+<point>Use module http, based on CommonJS</point>
+<point>Module = file</point>
+<point>require returns a js object that contains the module components</point>
+<point>modules are installed with npm if necessary (plus dependencies)</point>
+<point>node starts its own web server rather than running as an apache module (like php often is)</point>
+</points>
+
+<newslide/>
+
+<heading>Event loop</heading>
+<points reveal='yes'>
+<point>node runs on an event loop</point>
+<point>callbacks are associated with events</point>
+<point>programs should be non-blocking so that callbacks are provided for things like
+<points>
+  <point>block of data arrives from file</point>
+  <point>block of data arrives from REST request</point>
+  <point>results data arrives from database request</point>
+</points>
+</point>
+<point>callbacks can themselves trigger new events</point>
+<point>next instruction is executed once all callbacks are complete</point>
+</points>
+
+<newslide/>
+
+<picture>node_event_loop.png</picture>
+<p>Thanks to <weblink><link>SO user568109</link><url>http://stackoverflow.com/questions/14795145/how-the-single-threaded-non-blocking-io-model-works-in-node-js</url></weblink></p>
+<newslide/>
+
+<heading>Hello world with event loop</heading>
+<literal>
+  var events = require('events');
+  var e = new events.EventEmitter();
+
+  function say(data){
+  console.log("Hello " + data)
+  e.emit('done')
+  }
+
+  e.on('say', say);
+
+  e.on('done', function(){
+  console.log('Message done');
+  })
+
+  e.emit('say', 'world');
+
+  console.log('Program done');
+</literal>
+
+<newslide/>
+
+<heading>Writing a RESTful API</heading>
+
+<points reveal='yes'>
+<point>Variables can be GET-encoded</point>
+<point>In REST APIs they are often included in the URL directly (without question marks)</point>
+<point>E.g. use <weblink><url>https://developer.twitter.com/en/docs/api-reference-index</url></weblink> to find details of a particular tweet</point>
+<point>Try it out live e.g. at <weblink><url>https://apigee.com/console/twitter</url></weblink></point>
+<point>In standard php set-up the resource (in the URL) maps into the filesystem structure</point>
+<point>We want to use routing to pick bits out of the URL for this in node</point>
+<point>There is a commonly used package called <weblink><link>express</link><url>http://expressjs.com/</url></weblink></point>
+</points>
+
+<newslide/>
+
+<heading>Installing modules</heading>
+
+<points reveal='yes'>
+<point>npm is your friend</point>
+<point>Dependencies are stored in package.json</point>
+<point>Uses <weblink><url>http://semver.org</url><link>semantic versioning</link></weblink>
+<points>
+  <point>Code should have public API by version</point>
+  <point>Version is X.Y.Z</point>
+  <point>X = major version, Y = minor version, Z = patch</point>
+  <point>Never change code within version once released</point>
+  <point>X = 0 for pre-release versions</point>
+  <point>Increase Z for bug-fixes, no new functionality</point>
+  <point>Increase Y, set Z=0 for backwards-compatibile new functionality</point>
+  <point>Increase X, set Y=Z=0 for backwards-incompatible new functionality</point>
+</points>
+</point>
+<point>In package.json can use tilde to match minor version, caret to match major version or <ge/> etc</point>
+</points>
+
+<newslide/>
+
+<heading>Installing express</heading>
+
+<literal>
+npm init
+</literal>
+<p>creates package.json</p>
+<literal>
+npm install express
+</literal>
+<p>installs express package and its dependencies</p>
+<literal>
+npm install express --save
+</literal>
+<p>installs and puts dependency in package.json</p>
+
+<newslide/>
+
+<heading>Using express to do routing</heading>
+<literal>
+var express = require('express')
+var app = express()
+
+app.get('/', function(req, resp){
+  resp.send('Hello world')
+})
+
+app.listen(8090)
+</literal>
+<p>This just starts an express app handling GET requests via port 8090</p>
+
+<newslide/>
+
+<literal>
+var express = require('express')
+var app = express()
+
+app.get('/random/:max', function(req, resp){
+  max = parseInt(req.params.max)
+  rand = Math.floor(Math.random()*max) +1
+  console.log('Max via url is ' + max + ' rand is ' + rand)
+  resp.send('' + rand)
+})
+
+app.get('/r', function(req, resp){
+  max = parseInt(req.query.max)
+  rand = Math.floor(Math.random()*max) +1
+  console.log('Max via query is ' + max + ' rand is ' + rand)
+  resp.send('' + rand)
+})
+
+app.listen(8090)
+</literal>
+<points reveal='yes'>
+<point>Adds two separate routes</point>
+<point>Extract max value in two different ways
+<points>
+<point>Via value in URL (:max)</point>
+<point>Via value in GET-encoded variable</point>
+</points>
+</point>
+</points>
+
+<newslide/>
+<heading>Popular tools for node</heading>
+<points>
+  <point>See list at <weblink><url>https://www.npmjs.com/</url></weblink></point>
+  <point>Killer app: chat system. See <weblink><url>http://socket.io/get-started/chat/</url></weblink></point>
+</points>
+</lecture>
