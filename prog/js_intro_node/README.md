@@ -78,23 +78,23 @@ Thanks to [SO user568109](http://stackoverflow.com/questions/14795145/how-the-si
 
 # Hello events
 ```
-  var events = require('events');
-  var e = new events.EventEmitter();
+var events = require('events');
+var e = new events.EventEmitter();
 
-  function say(data){
+function say(data){
   console.log("Hello " + data)
   e.emit('done')
-  }
+}
 
-  e.on('say', say);
+e.on('say', say);
 
-  e.on('done', function(){
+e.on('done', function(){
   console.log('Message done');
-  })
+})
 
-  e.emit('say', 'world');
+e.emit('say', 'world');
 
-  console.log('Program done');
+console.log('Program done');
 ```
 
 
@@ -103,11 +103,11 @@ Thanks to [SO user568109](http://stackoverflow.com/questions/14795145/how-the-si
 - Variables can be GET-encoded
 - In REST APIs they are often included in the URL directly (without question marks)
 - E.g. use [twitter API](https://developer.twitter.com/en/docs/api-reference-index)
-- We want to use routing to pick bits out of the URL for this in nodeks
+- We want to use routing to pick bits out of the URL for this in nodejs
 - There is a commonly used package called [express](http://expressjs.com/)
 
 
-# Installing modules
+# npm packages
 
 - npm is your friend
 - Dependencies are stored in package.json
