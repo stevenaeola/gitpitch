@@ -103,10 +103,9 @@ Find something appropriate at
 
 - <https://any-api.com/>
 - <https://www.programmableweb.com/>
+- google/facebook authentication
 
 Integrate it into your web server
-
-Authentication is a good candidate
 
 
 ## Submission
@@ -161,6 +160,7 @@ Equally weighted
 
 - Successful eslint (run with `npm pretest`)
 - Successful jest tests with good coverage (run with `npm test`)
+- Testing includes content-type and HTTP code
 - API documentation (README.md)
 
 
