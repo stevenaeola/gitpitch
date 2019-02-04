@@ -2,6 +2,8 @@
 
 # COMP1101 Programming Summative Assessment 2
 
+## DRAFT
+
 ---
 
 ## Term 2 Programming Exercise Outline
