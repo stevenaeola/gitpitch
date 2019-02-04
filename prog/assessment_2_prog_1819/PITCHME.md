@@ -192,5 +192,3 @@ Equally weighted
 - Successful cloud deployment
 - Successful integration with remote web service
 
----
-
