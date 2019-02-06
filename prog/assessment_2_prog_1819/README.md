@@ -6,7 +6,7 @@
 
 - Submission by 14:00 Thursday 2/5/2019
 - Return after exam period
-- Contributes 45% of module marks
+- Contributes 55% of module marks
 - Includes peer review feedback which you will be allocated
 - Peer reviews need to be submitted by 14:00 9/5/2019
 - Quality of your peer reviews contribute 5% to your module mark
