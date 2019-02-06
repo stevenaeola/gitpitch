@@ -117,6 +117,7 @@ Find something appropriate at
 
 - <https://any-api.com/>
 - <https://www.programmableweb.com/>
+- <https://rapidapi.com/>
 - google/facebook authentication
 
 Integrate it into your web server
