@@ -47,11 +47,12 @@
 - Number of linear clock cycles not so important
 - Some tasks can effectively be parallelised, some can't
 - Send the program to the data: google search
----
 
-- [Amdahl's law](https://en.wikipedia.org/wiki/Amdahl%27s_law)
+---?image=assets/800px-AmdahlsLaw.svg.png&size=auto 80%
 
-![Amdahl's law (from Wikipedia)](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/AmdahlsLaw.svg/800px-AmdahlsLaw.svg.png)
+@snap[north]
+[Amdahl's law](https://en.wikipedia.org/wiki/Amdahl%27s_law)
+@snapend
 
 ---
 

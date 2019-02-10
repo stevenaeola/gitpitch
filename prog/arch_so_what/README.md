@@ -38,9 +38,8 @@
 - Some tasks can effectively be parallelised, some can't
 - Send the program to the data: google search
 
-- [Amdahl's law](https://en.wikipedia.org/wiki/Amdahl%27s_law)
 
-![Amdahl's law (from Wikipedia)](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/AmdahlsLaw.svg/800px-AmdahlsLaw.svg.png)
+[Amdahl's law](https://en.wikipedia.org/wiki/Amdahl%27s_law)
 
 
 ## Cloud Computing
