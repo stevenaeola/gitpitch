@@ -19,7 +19,7 @@
 
 ## Processor Trends
 
-![CPU trends 1970-2010 Herb Sutter](/assets/CPUtrends.jpg)
+![CPU trends 1970-2010 Herb Sutter](http://www.gotw.ca/images/CPU.png)
 
 [The Free Lunch Is Over: A Fundamental Turn Toward Concurrency in Software, Herb Sutter](http://www.gotw.ca/publications/concurrency-ddj.htm)
 
@@ -45,7 +45,7 @@
 - Send the program to the data: google search
 - [Amdahl's law](https://en.wikipedia.org/wiki/Amdahl%27s_law)
 
-![Amdahl's law (from Wikipedia)](Amdahl_march_13_2008.jpg)
+![Amdahl's law (from Wikipedia)](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/AmdahlsLaw.svg/800px-AmdahlsLaw.svg.png)
 
 
 ## Cloud Computing
