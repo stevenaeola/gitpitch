@@ -25,7 +25,7 @@
 - Cooling for integrity (run at 9GHz with liquid nitrogen)
 - Battery (mobile)
 - Cloud computing power costs (including cooling)
-  - [arctic data centres[(https://www.bbc.co.uk/news/technology-40922048)
+  - [arctic data centres](https://www.bbc.co.uk/news/technology-40922048)
   - [underwater data centres](https://www.bbc.co.uk/news/technology-44368813)
 - [Bitcoin is expensive](https://powercompare.co.uk/bitcoin-mining-electricity-map/)
 - [Dark silicon](https://www.cc.gatech.edu/~hadi/doc/paper/2012-toppicks-dark_silicon.pdf) is a thing
@@ -37,6 +37,7 @@
 - Number of linear clock cycles not so important
 - Some tasks can effectively be parallelised, some can't
 - Send the program to the data: google search
+
 - [Amdahl's law](https://en.wikipedia.org/wiki/Amdahl%27s_law)
 
 ![Amdahl's law (from Wikipedia)](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/AmdahlsLaw.svg/800px-AmdahlsLaw.svg.png)
