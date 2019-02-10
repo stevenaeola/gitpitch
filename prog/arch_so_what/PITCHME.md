@@ -21,10 +21,13 @@
 
 ---?image=assets/CPUtrends.png&size=auto 90%
 
-@ul
-- [The Free Lunch Is Over: A Fundamental Turn Toward Concurrency in Software, Herb Sutter](http://www.gotw.ca/publications/concurrency-ddj.htm)
-- [Fastest Intel in Feb 2019 is 4.5GHz](https://en.wikipedia.org/wiki/Comparison_of_Intel_processors)
-@ulend
+@snap[west]
+[The Free Lunch Is Over: A Fundamental Turn Toward Concurrency in Software, Herb Sutter](http://www.gotw.ca/publications/concurrency-ddj.htm)
+@snapend
+
+@snap[east]
+[Fastest Intel in Feb 2019 is 4.5GHz](https://en.wikipedia.org/wiki/Comparison_of_Intel_processors)
+@snapend
 
 ---
 
