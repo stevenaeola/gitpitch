@@ -105,9 +105,7 @@ for (j = 0; j < n; j++) {
 
 ```
 
----
-
-## Results?image=assets/blas-results.pdf&size=auto 80%
+---?image=assets/blas-results.pdf&size=auto 80%
 
 @snap[north]
 Thanks to [Lawrence Mitchell](https://www.dur.ac.uk/computer.science/staff/profile/?id=17243)
