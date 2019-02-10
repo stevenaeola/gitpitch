@@ -19,14 +19,12 @@
 - Trend towards multi-core
 - Extreme end is GPU/TPU
 
----?image=assets/CPUtrends.png
+---?image=assets/CPUtrends.png&size=autp 90%
 
-## Processor Trends
-
-
-[The Free Lunch Is Over: A Fundamental Turn Toward Concurrency in Software, Herb Sutter](http://www.gotw.ca/publications/concurrency-ddj.htm)
-
-[Fastest Intel in Feb 2019 is 4.5GHz](https://en.wikipedia.org/wiki/Comparison_of_Intel_processors)
+@ul
+- [The Free Lunch Is Over: A Fundamental Turn Toward Concurrency in Software, Herb Sutter](http://www.gotw.ca/publications/concurrency-ddj.htm)
+- [Fastest Intel in Feb 2019 is 4.5GHz](https://en.wikipedia.org/wiki/Comparison_of_Intel_processors)
+@ulend
 
 ---
 
