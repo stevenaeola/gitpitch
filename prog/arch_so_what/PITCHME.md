@@ -14,7 +14,7 @@
 
 - [Moore's Law](https://en.wikipedia.org/wiki/Moore%27s_law) keeps on giving
 - [Dennard scaling](https://en.wikipedia.org/wiki/Dennard_scaling) doesn't since about 2006
-- Power dissipation goes up with cube of clock speed (switching only)
+- Power dissipation (switching) goes up with cube of clock speed
 - Static power dissipation starts to dominate at small scale
 - Trend towards multi-core
 - Extreme end is GPU/TPU
