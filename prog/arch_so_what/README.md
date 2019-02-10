@@ -19,8 +19,6 @@
 
 [The Free Lunch Is Over: A Fundamental Turn Toward Concurrency in Software, Herb Sutter](http://www.gotw.ca/publications/concurrency-ddj.htm)
 
-[Fastest Intel in Feb 2019 is 4.5GHz](https://en.wikipedia.org/wiki/Comparison_of_Intel_processors)
-
 
 ## Power is Important
 
