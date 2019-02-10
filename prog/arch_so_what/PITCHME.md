@@ -33,8 +33,8 @@
 - Cooling for integrity (run at 9GHz with liquid nitrogen)
 - Battery (mobile)
 - Cloud computing power costs (including cooling)
-  - arctic data centres https://www.bbc.co.uk/news/technology-40922048
-  - underwater data centres https://www.bbc.co.uk/news/technology-44368813
+  - [arctic data centres[(https://www.bbc.co.uk/news/technology-40922048)
+  - [underwater data centres](https://www.bbc.co.uk/news/technology-44368813)
 - [Bitcoin is expensive](https://powercompare.co.uk/bitcoin-mining-electricity-map/)
 - [Dark silicon](https://www.cc.gatech.edu/~hadi/doc/paper/2012-toppicks-dark_silicon.pdf) is a thing
 @ulend
