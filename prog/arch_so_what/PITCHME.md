@@ -107,11 +107,11 @@ for (j = 0; j < n; j++) {
 
 ---
 
-## Results
+## Results?image=assets/blas-results.pdf&size=auto 80%
 
-![Varying performance of matrix multiplication](blas-results.pdf)
-
+@snap[north]
 Thanks to [Lawrence Mitchell](https://www.dur.ac.uk/computer.science/staff/profile/?id=17243)
+@snapend
 
 ---?color=#aa2b4a
 

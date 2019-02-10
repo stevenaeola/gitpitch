@@ -88,9 +88,7 @@ for (j = 0; j < n; j++) {
 ```
 
 
-## Results
-
-![Varying performance of matrix multiplication](blas-results.pdf)
+## Results?image=assets/blas-results.pdf&size=auto 80%
 
 Thanks to [Lawrence Mitchell](https://www.dur.ac.uk/computer.science/staff/profile/?id=17243)
 
