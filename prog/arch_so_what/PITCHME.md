@@ -19,7 +19,7 @@
 - Trend towards multi-core
 - Extreme end is GPU/TPU
 
----?image=assets/CPUtrends.png&size=autp 90%
+---?image=assets/CPUtrends.png&size=auto 90%
 
 @ul
 - [The Free Lunch Is Over: A Fundamental Turn Toward Concurrency in Software, Herb Sutter](http://www.gotw.ca/publications/concurrency-ddj.htm)
