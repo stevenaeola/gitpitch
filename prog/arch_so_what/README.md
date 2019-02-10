@@ -4,7 +4,7 @@
 
 ## Trends
 ## Advantages
-## Disadvantagese
+## Disadvantages
 
 
 ## Context of Modern Computing

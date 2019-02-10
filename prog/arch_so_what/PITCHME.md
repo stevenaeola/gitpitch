@@ -6,7 +6,7 @@
 
 ## Trends
 ## Advantages
-## Disadvantagese
+## Disadvantages
 
 ---
 
