@@ -19,7 +19,6 @@
 
 ## Processor Trends
 
-![CPU trends 1970-2010 Herb Sutter](http://www.gotw.ca/images/CPU.png)
 
 [The Free Lunch Is Over: A Fundamental Turn Toward Concurrency in Software, Herb Sutter](http://www.gotw.ca/publications/concurrency-ddj.htm)
 
