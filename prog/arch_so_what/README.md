@@ -106,7 +106,7 @@ Thanks to [Lawrence Mitchell](https://www.dur.ac.uk/computer.science/staff/profi
 
 ## Spectre
 
-- Change CPU state depending on memory values you are not allowed to access (at location `data[offset]`
+- Change CPU state depending on memory values you are not allowed to access (at location `data[offset]`)
 - Speculative execution
 
 ```

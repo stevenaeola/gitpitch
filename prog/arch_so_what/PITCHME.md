@@ -132,7 +132,7 @@ Thanks to [Lawrence Mitchell](https://www.dur.ac.uk/computer.science/staff/profi
 
 ## Spectre
 
-- Change CPU state depending on memory values you are not allowed to access (at location `data[offset]`
+- Change CPU state depending on memory values you are not allowed to access (at location `data[offset]`)
 - Speculative execution
 
 ```
@@ -150,7 +150,7 @@ if (offset < arr1->length) {
 - Measure time to access `arr2->data[0x200]` and `arr2->data[0x300]`
 - Depends on whether it is in cache i.e. on LSb of `value`
 
-----
+---
 
 ## Exploitation
 
