@@ -93,6 +93,7 @@ Thanks to [Lawrence Mitchell](https://www.dur.ac.uk/computer.science/staff/profi
 
 # Disadvantages
 
+
 ## Meltdown/Spectre Vulnerabilities
 
 - Considered "catastrophic" and "[unbelievable](https://www.bloomberg.com/news/articles/2018-01-08/-it-can-t-be-true-inside-the-semiconductor-industry-s-meltdown)]"
