@@ -96,7 +96,7 @@ Thanks to [Lawrence Mitchell](https://www.dur.ac.uk/computer.science/staff/profi
 
 ## Meltdown/Spectre Vulnerabilities
 
-- Considered "catastrophic" and "[unbelievable](https://www.bloomberg.com/news/articles/2018-01-08/-it-can-t-be-true-inside-the-semiconductor-industry-s-meltdown)]"
+- Considered "catastrophic" and "[unbelievable](https://www.bloomberg.com/news/articles/2018-01-08/-it-can-t-be-true-inside-the-semiconductor-industry-s-meltdown)"
 - Identified late 2017, publicised early 2018, [reading privileged memory with a side-channel](https://googleprojectzero.blogspot.com/2018/01/reading-privileged-memory-with-side.html)
 - Spectre uses speculative branching to allow one user process to access another
 - Spectre affects some Intel, AMD and ARM chips
@@ -118,6 +118,7 @@ if (offset < arr1->length) {
  }
 }
 ```
+
 
 - Measure time to access `arr2->data[0x200]` and `arr2->data[0x300]`
 - Depends on whether it is in cache i.e. on LSb of `value`
