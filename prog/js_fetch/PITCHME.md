@@ -16,7 +16,7 @@
 
 ---
 
-## Asynchronous JavaScript (AJAX)
+## Asynchronous JavaScript and XML (AJAX)
 
 @ul
 - Use to update part of an HTML page with the result of a request
@@ -24,7 +24,7 @@
 - Page needs to work while waiting
 - An event is triggered when response arrives
 - Content of response is used to update page content
-- Originally used XMLHttpRequest
+- 'Single page app'
 - Mostly use JSON instead of XML these days
 @ulend
 
@@ -88,11 +88,13 @@ app.listen(8090);
 
 This does not work: browser console says
 
-```
-index.html:1 Access to fetch at 'http://127.0.0.1:8090/list' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
-index.html:1 Uncaught (in promise) TypeError: Failed to fetch
 
-```
+> index.html:1 Access to fetch at 'http://127.0.0.1:8090/list' from
+> origin 'null' has been blocked by CORS policy: No
+> 'Access-Control-Allow-Origin' header is present on the requested
+> resource. If an opaque response serves your needs, set the request's
+> mode to 'no-cors' to fetch the resource with CORS disabled. 
+> index.html:1 Uncaught (in promise) TypeError: Failed to fetch
 
 ---
 
