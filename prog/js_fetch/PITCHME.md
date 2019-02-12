@@ -94,7 +94,6 @@ This does not work: browser console says
 > 'Access-Control-Allow-Origin' header is present on the requested
 > resource. If an opaque response serves your needs, set the request's
 > mode to 'no-cors' to fetch the resource with CORS disabled. 
-> index.html:1 Uncaught (in promise) TypeError: Failed to fetch
 
 ---
 
