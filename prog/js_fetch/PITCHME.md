@@ -10,8 +10,9 @@
 - Asynchronous JavaScript (AJAX)
 - Fetch API
 - Cross-Origin Resource Sharing
-- Promises and exceptions
+- Promises
 - async and await
+- Exceptions
 @ulend
 
 ---
@@ -120,6 +121,8 @@ app.use(express.static('client'));
 127.0.0.1:8090/index.html
 ```
 
+---
+
 ## Promises
 
 - Fetch uses [promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
@@ -138,24 +141,49 @@ Add this to handle any errors from `fetch` handler chain
 ```
 .catch( (error) => alert(error)
 ```
+
+If you want to deal with 404 errors you will have to look at `response.ok` 
+
 ---
 
 ## async and await
+
+- New in ES2017
+- Provide 'syntactic sugar' for promises `.catch`
+- Use `async` keyword before `function` keyword
+- use `await` keyword in execution
+
+---
+
+## async example
+
+```
+window.addEventListener('click', async function(event){
+  let response = await fetch('http://127.0.0.1:809/list');
+  let body = await response.text();
+  document.getElementById('content').innerHTML=body
+});
+```
 
 ---
 
 ## Exceptions
 
+What happens if things go wrong?
 
+```
+window.addEventListener('click', async function(event){
+  try{
+    let response = await fetch('http://127.0.0.1:809/list');
+    let body = await response.text();
+    document.getElementById('content').innerHTML=body;
+  } catch(e) {
+    alert(e);
+  }
+});
+```
 
-
-
----
-
-
----
-
-
+N.B. `catch` instead of Python `except`
 
 
 
