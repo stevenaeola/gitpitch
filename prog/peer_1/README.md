@@ -56,7 +56,7 @@
 - Most grades have range of 5%
 
 
-Based on [Accounting for peer reviewer bias with Bayesian models]http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.296.4637)(
+Based on [Accounting for peer reviewer bias with Bayesian models](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.296.4637)(
 ```
 data {
   reviewdims = dim(REVIEWS)
