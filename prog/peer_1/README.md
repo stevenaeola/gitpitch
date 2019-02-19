@@ -2,7 +2,7 @@
 # Peer Review
 
 
-## In professional life
+## In professional life (Q1)
 
 - Code reviews
 - Team performance review
@@ -10,7 +10,7 @@
 - Lots of others
 
 
-## At university
+## At university (Q2)
 
 - Many people find it uncomfortable to give/receive
 - Better to start  with low stakes
@@ -21,7 +21,7 @@
 # Some of your thoughts
 
 
-## First years should not do this
+## First years should not do this (Q3)
 
 - There are clear benefits to learning
 - There are clear benefits to employability
@@ -56,6 +56,7 @@
 - Most grades have range of 5%
 
 
+Based on [Accounting for peer reviewer bias with Bayesian models]http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.296.4637)(
 ```
 data {
   reviewdims = dim(REVIEWS)
@@ -137,7 +138,6 @@ model {
 ## Peer review scoring
 
 - One mark for each review completed (max 3)
-- Two marks for review quality
 - If your average absolute bias was greater than 0.5 you lose a peer review mark
 - If your average absolute bias was greater than 1.0 you lose another peer review mark
 - No impact of variance on peer review mark, only on awarded score
@@ -167,7 +167,7 @@ model {
 - I reserve the right to reduce your peer review mark if you are wrong
 
 
-## Second assignment
+## Second assignment (Q4)
 
 - I will build FAQs on github alongside specification
 - I will provide commentary on marking criteria

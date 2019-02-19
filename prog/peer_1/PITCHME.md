@@ -4,7 +4,7 @@
 
 ---
 
-## In professional life
+## In professional life (Q1)
 
 @ul
 - Code reviews
@@ -15,13 +15,13 @@
 
 ---
 
-## At university
+## At university (Q2)
 
 @ul
 - Many people find it uncomfortable to give/receive
 - Better to start  with low stakes
 - Already done formative peer review
-@endul
+@ulend
 
 
 ---?color=#7E317B
@@ -30,7 +30,7 @@
 
 ---
 
-## First years should not do this
+## First years should not do this (Q3)
 
 - There are clear benefits to learning
 - There are clear benefits to employability
@@ -71,6 +71,7 @@
 
 ---
 
+Based on [Accounting for peer reviewer bias with Bayesian models]http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.296.4637)(
 ```
 data {
   reviewdims = dim(REVIEWS)
@@ -155,13 +156,14 @@ model {
 
 ## Peer review scoring
 
+@ul
 - One mark for each review completed (max 3)
-- Two marks for review quality
 - If your average absolute bias was greater than 0.5 you lose a peer review mark
 - If your average absolute bias was greater than 1.0 you lose another peer review mark
 - No impact of variance on peer review mark, only on awarded score
 - Reviewers looking at your work saw five pieces of work
 - Total of 9 pieces of co-reviewed work
+@ulend
 
 ---
 
@@ -189,7 +191,7 @@ model {
 
 ---
 
-## Second assignment
+## Second assignment (Q4)
 
 - I will build FAQs on github alongside specification
 - I will provide commentary on marking criteria
