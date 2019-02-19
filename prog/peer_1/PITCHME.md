@@ -143,14 +143,14 @@ model {
 
 ## Quality scores
 
-![Quality range](https://raw.githubusercontent.com/stevenaeola/gitpitch/master/prog/peer_1/bias_chart.png)
+![Quality range](https://raw.githubusercontent.com/stevenaeola/gitpitch/master/prog/peer_1/quality_chart.png)
 
 
 ---
 
 ## Bias
 
-![Quality range](https://raw.githubusercontent.com/stevenaeola/gitpitch/master/prog/peer_1/quality_chart.png)
+![Quality range](https://raw.githubusercontent.com/stevenaeola/gitpitch/master/prog/peer_1/bias_chart.png)
 
 ---
 
