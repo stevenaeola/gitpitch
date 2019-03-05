@@ -1,5 +1,4 @@
 
-
 # Testing nodejs REST
 
 
@@ -8,7 +7,7 @@
 - Does not prove the absence of bugs
 - Can help identify existing bugs
 - Can avoid introducing new bugs
-- Repeated testing necassary in agile development
+- Repeated testing necessary in agile development
 - Automated as far as possible
 
 
@@ -40,7 +39,7 @@
 
 ## Test scripts
 
-- There are very many javascript unit testing frameworks (mocha, jasmine)
+- There are very many JavaScript unit testing frameworks (mocha, jasmine)
 - I recommend using Jest
 - Read a [recent review](https://medium.com/welldone-software/an-overview-of-javascript-testing-in-2018-f68950900bc3)
 - `npm install --save-dev`
@@ -99,7 +98,7 @@ app.listen(8090);
   - the space of possible inputs (black box)
   - the code that has been executed (white box)
 - Unit testing combines the two
-- Need to think about  valid and invald inputs
+- Need to think about  valid and invalid inputs
 
 
 ## Mocking
