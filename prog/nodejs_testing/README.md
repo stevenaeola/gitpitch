@@ -41,7 +41,7 @@
 
 - There are very many JavaScript unit testing frameworks (mocha, jasmine)
 - I recommend using Jest
-- Read a [recent review](https://medium.com/welldone-software/an-overview-of-javascript-testing-in-2018-f68950900bc3)
+- Read a [recent review](https://medium.com/welldone-software/an-overview-of-javascript-testing-in-2019-264e19514d0a)
 - `npm install --save-dev`
 - Tests are js programs (as in jUnit)
 - Put tests in test directory or name .test.js
