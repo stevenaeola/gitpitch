@@ -5,6 +5,18 @@
 
 ---
 
+## Why testing?
+
+@ul
+- Does not prove the absence of bugs
+- Can help identify existing bugs
+- Can avoid introducing new bugs
+- Repeated testing necassary in agile development
+- Automated as far as possible
+@ulend
+
+---
+
 ## Basic Approaches
 
 - Using browser (manual)
@@ -13,7 +25,7 @@
 
 ---
 
-## browser-based testing
+## Browser-based testing
 
 
 - GET is easy: just type in URL
@@ -37,9 +49,9 @@
 ## Test scripts
 
 - There are very many javascript unit testing frameworks (mocha, jasmine)
-- I am using Jest
+- I recommend using Jest
 - Read a [recent review](https://medium.com/welldone-software/an-overview-of-javascript-testing-in-2018-f68950900bc3)
-- npm install
+- `npm install --save-dev`
 - Tests are js programs (as in jUnit)
 - Put tests in test directory or name .test.js
 
@@ -51,7 +63,7 @@
 - Use nodemon to auto-restart server
 - Add test script to your package.json
 - run test with npm test
-- see the [tests for the assignment](https://github.com/stevenaeola/gitpitch/blob/master/prog/WP_assignment_1819/app.test.js ) 
+- see some [example tests for people](./app.test.js ) 
 
 ---
 
@@ -59,7 +71,7 @@ package.json
 ```
 {
   "name": "seminargroups",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "jest",
     "dev": "nodemon index.js"
@@ -72,6 +84,8 @@ package.json
 
 ## Separate out app from server
 
+So that running tests does not launch the server
+
 e.g. app.js file
 ```
 const express = require('express');
@@ -80,9 +94,38 @@ const app = express();
 module.exports = app;
 
 ```
-e.g. index.js file
+e.g. server.js file
 ```
 const app = require('./app');
 app.listen(8090);
 
 ```
+
+---
+
+## Test coverage
+
+- In testing we try to improve quality
+- Coverage measures how much functionality has been tested
+- Could measure this in terms of
+  - the space of possible inputs (black box)
+  - the code that has been executed (white box)
+- Unit testing combines the two
+- Need to think about  valid and invald inputs
+
+---
+
+## Mocking
+
+@ul
+- You want to avoid accessing live systems during tests
+- Reading may be brittle
+- Writing may be dangerous
+- Real system may not be developed yet
+- Replace access to live data using [mocking](https://en.wikipedia.org/wiki/Mock_object)
+- There are [specific jest functions for this](https://jestjs.io/docs/en/mock-functions.html)
+- Also if you intend to use a remote 
+- If you intend to use a remote web service you should use mocking
+- Same for a remote database (e.g. Firebase) 
+
+@ulend
