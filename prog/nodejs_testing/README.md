@@ -109,7 +109,6 @@ app.listen(8090);
 - Real system may not be developed yet
 - Replace access to live data using [mocking](https://en.wikipedia.org/wiki/Mock_object)
 - There are [specific jest functions for this](https://jestjs.io/docs/en/mock-functions.html)
-- Also if you intend to use a remote 
 - If you intend to use a remote web service you should use mocking
 - Same for a remote database (e.g. Firebase) 
 
