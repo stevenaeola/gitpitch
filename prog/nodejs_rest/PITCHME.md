@@ -19,9 +19,9 @@
 ## Implementing a REST API in nodejs
 
 - Think about your entities
-- Provide GET methods for listing/searching and detail
-- Provide POST method(s) for adding/updating
-- Provide DELETE method (not necessary for the assignment)
+- GET methods for listing/searching and detail
+- POST method(s) for adding/updating
+- DELETE method (not necessary for the assignment)
 - Need to thing about http response code e.g.
   - 200 for OK (sent by default in express)
   - 403 for unauthorised
