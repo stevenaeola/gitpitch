@@ -62,7 +62,7 @@
 - Use nodemon to auto-restart server
 - Add test script to your package.json
 - run test with npm test
-- see some [example tests for people](./app.test.js ) 
+- see some [example tests for people](https://github.com/stevenaeola/gitpitch/blob/master/prog/nodejs_testing/app.test.js) 
 
 ---
 
