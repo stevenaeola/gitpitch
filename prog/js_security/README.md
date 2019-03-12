@@ -16,7 +16,7 @@ Very many! See [OWASP](https://www.owasp.org/index.php/Main_Page).
 
 Common attacks include
 * [Brute force](https://www.owasp.org/index.php/Brute_force_attack)
-* [Cross-site Scripting (XSS)](https://www.owasp.org/index.php/Cross-site_Scripting)
+* [Cross-site Scripting (XSS)](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS))
 * [(Distributed) Denial of service](https://www.owasp.org/index.php/Denial_of_Service)
 * [SQL injection](https://www.owasp.org/index.php/SQL_Injection)
 * The user e.g. [Jeff Bezos](https://www.bbc.co.uk/news/technology-47253869)
@@ -45,7 +45,7 @@ Common attacks include
 
 Thanks to [Amit Kumar Gupta](https://stackoverflow.com/users/453767/amit-kumar-gupta)
 
-[Message Sequence Chart for OAuth](https://i.stack.imgur.com/lrLe3.png)
+![Message Sequence Chart for OAuth](https://i.stack.imgur.com/lrLe3.png)
 
 
 ## External Authentication
