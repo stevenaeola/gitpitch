@@ -1,6 +1,6 @@
 ---?color=#7E317B
 
-# Authorisation and Security
+# Authentication and Security
 
 ---
 
