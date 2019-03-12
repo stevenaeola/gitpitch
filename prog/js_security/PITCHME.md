@@ -71,7 +71,7 @@ Using external service is a good idea
 * Can reduce the number of username/passwords to remember
 * Could choose one ([facebook](https://developers.facebook.com/docs/facebook-login/), [google](https://developers.google.com/identity/), [linkedin](https://docs.microsoft.com/en-us/linkedin/shared/authentication/authentication), [github](https://developer.github.com/v3/auth/))
 * Could choose generic provider e.g. [auth0](https://auth0.com/)
-@endul
+@ulend
 
 Do not attempt to do this yourself
 
