@@ -57,7 +57,7 @@ Common attacks include
 
 Thanks to [Amit Kumar Gupta](https://stackoverflow.com/users/453767/amit-kumar-gupta)
 
-![Message Sequence Chart for OAuth](https://i.stack.imgur.com/lrLe3.png)
+[Message Sequence Chart for OAuth](https://i.stack.imgur.com/lrLe3.png)
 
 ---
 
