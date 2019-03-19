@@ -1,10 +1,10 @@
 ---?color=#7E317B
 
-# Marking Programming Summative Assessment 2
+# Marking Programming Summative 2
 
 ---
 
-## Reminder: Term 2 Programming Exercise Outline
+## Reminder: Exercise Outline
 
 - Submission by 14:00 Thursday 2/5/2019
 - Return after exam period
@@ -48,6 +48,9 @@ Equally weighted
   - Professional appearance
   - Appropriate, consistent styling
   - Minimal interaction required (clicks, keypresses)
+  
+---
+
 - App complexity
   - Complexity of data: number of entities; attributes; relationships
   - Complexity of interaction: list; add; edit; verify
@@ -64,6 +67,9 @@ Equally weighted
   - Collapsing navbar (turns into hamburger)
   - Grid layout
   - Check with [mobile device simulation](https://developers.google.com/web/tools/chrome-devtools/device-mode/)
+  
+---
+
 - Gracefully handles server disconnection
   - Stop server after loading page
   - Check for sensible messages
@@ -76,14 +82,17 @@ Equally weighted
 
 - More than one entity type
   - Entities correspond with client-side
+- Installs with `npm install`
+- Starts with `npm start`
+
+---
+
 - REST API provides each entity with appropriate GET/POST methods
   - consistent API structure
   - GET only reads, POST only writes
   - POST has authentication
   - GET to list/search, returns list of minimal details
   - GET with ID (query encoded or in path) has more details, including relationships
-- Installs with `npm install`
-- Starts with `npm start`
 
 ---
 
@@ -92,14 +101,17 @@ Equally weighted
 - Successful eslint (run with `npm pretest`)
   - Lint rules at least those used in first assigment
   - No problems reported
+- API documentation (README.md)
+  - Compare with e.g. [twitter API docs](https://developer.twitter.com/en/docs/api-reference-index)
+
+---
+
 - Successful jest tests with good coverage (run with `npm test`)
   - All tests passed
   - Black box coverage: ranges of inputs
   - Valid and invalid (e.g. missing parameters)
   - Code coverage i.e. all branches executes
 - Testing includes content-type and HTTP code
-- API documentation (README.md)
-  - Compare with e.g. [twitter API docs](https://developer.twitter.com/en/docs/api-reference-index)
 
 ---
 
