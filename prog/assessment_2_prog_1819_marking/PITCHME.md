@@ -73,9 +73,9 @@ Equally weighted
 - Gracefully handles server disconnection
   - Stop server after loading page
   - Check for sensible messages
-  - What happens when it starts again
+  - What happens when it starts again?
 - Web site documentation (README.md)
-  - Does not have to be extensive
+  - Does not have to be extensive: user instructions
 ---
 
 ## Server-side functionality criteria
