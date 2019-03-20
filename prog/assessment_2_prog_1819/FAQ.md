@@ -1,3 +1,7 @@
+# Submission
+
+## I assume we're allowed to submit extra JSON files with the submission, if for example we are saving IDs in a JSON file which make requests as specific parameters to an API?
+
 # Client-side functionality
 
 ## Can I use react to build our web-site?
@@ -46,7 +50,14 @@ So if you want to use firebug (which is a good idea in general) then you should
 1. have a mocking system in place for local testing
 2. keep your credentials secret, by having a local configuration file which you don’t share. You could then give a link to the working cloud-deployment of the website for review purposes.
 
+## What if when marking peer reviewers use the daily quota for an API request? I assume we would send this back as a response
+
 # Server-side quality
 
 # Extensions
+
+# General
+
+## What if we have certain bugs after submitting which aren't related to our code? For example today it was highlighted that Youtube wasn't able to sort requests by date (both on their website and the API)
+
 
