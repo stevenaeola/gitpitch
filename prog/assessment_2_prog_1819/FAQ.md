@@ -83,6 +83,10 @@ So if you want to use firebug (which is a good idea in general) then you should
 
 You should make sure that your client has a way of handling and reporting this. Also make clear in the README.md any restrictions that you are aware of in terms of number of accesses.
 
+## Are we supposed to require access tokens for the client side accessing our server through specific GET/ POST methods??
+
+Yes for POST methods, no for GET methods
+
 # Server-side quality
 
 # Extensions
