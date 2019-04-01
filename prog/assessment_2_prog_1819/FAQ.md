@@ -36,6 +36,10 @@ should be avoided where there are core language alternatives. By the time you ar
 
 It’s more than fine to use an existing one - it’s a good idea.
 
+## Are we allowed to use template engines such as pug to transform a template into a HTML file?
+
+In principle templating is OK, but remember that updates to the page should take place in-page via AJAX, rather than by reloading the whole page. So basically it needs to be for partial pages, and to work on the client side, not the server side: the server should be sending JSON, not HTML.
+
 # Client-side quality criteria
 
 # Server-side functionality criteria
