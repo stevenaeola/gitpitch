@@ -81,6 +81,8 @@ You should make sure that your client has a way of handling and reporting this. 
 
 ## Are we supposed to require access tokens for the client side accessing our server through specific GET/ POST methods??
 
+Yes for POST methods, no for GET methods
+
 # Server-side quality
 
 # Extensions
