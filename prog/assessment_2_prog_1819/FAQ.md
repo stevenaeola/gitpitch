@@ -89,6 +89,15 @@ Yes for POST methods, no for GET methods
 
 # Server-side quality
 
+## I can't find much/any info on content-type and correct usage of this
+
+Your web service should be sending JSON. If you use the standard express `res.send` or `res.json` functions then the correct content-type will be set for you. The [example test cases](https://github.com/stevenaeola/gitpitch/blob/master/prog/nodejs_testing/app.test.js) include a test for the correct content-type.
+
+## How do I make sure I am using the right HTTP codes
+
+In normal operation, express will set the correct response code. If you want to set an error code then use e.g. `res.status(400)`. The [example test cases](https://github.com/stevenaeola/gitpitch/blob/master/prog/nodejs_testing/app.test.js) include test for the correct http response code.
+
+
 # Extensions
 
 # General
