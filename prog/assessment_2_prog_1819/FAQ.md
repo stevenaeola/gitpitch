@@ -98,6 +98,19 @@ So while sqlite may not go against point 1) it does not go against point 2). And
 
 # Server-side quality
 
+
+## I can't find much/any info on content-type and correct usage of this
+
+Your web service should be sending JSON. If you use the standard express `res.send` or `res.json` functions then the correct content-type will be set for you. The [example test cases](https://github.com/stevenaeola/gitpitch/blob/master/prog/nodejs_testing/app.test.js) include a test for the correct content-type.
+
+## How do I make sure I am using the right HTTP codes
+
+In normal operation, express will set the correct response code. If you want to set an error code then use e.g. `res.status(400)`. The [example test cases](https://github.com/stevenaeola/gitpitch/blob/master/prog/nodejs_testing/app.test.js) include test for the correct http response code.
+
+## The marking criteria says that eslint should run with the command "npm pretest". However, npm won't let me run that as it's not recognised as a command
+
+Any script that you include in the pretest script of your `package.json` will be executed before the test script if you execute `npm test`. To run pretest by itself with `npm run pretest`.
+
 ## How do I mock an external API call?
 
 I've updated the potatoes example on github to
