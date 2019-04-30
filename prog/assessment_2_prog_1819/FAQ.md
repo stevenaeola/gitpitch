@@ -97,6 +97,9 @@ Your web service should be sending JSON. If you use the standard express `res.se
 
 In normal operation, express will set the correct response code. If you want to set an error code then use e.g. `res.status(400)`. The [example test cases](https://github.com/stevenaeola/gitpitch/blob/master/prog/nodejs_testing/app.test.js) include test for the correct http response code.
 
+## The marking criteria says that eslint should run with the command "npm pretest". However, npm won't let me run that as it's not recognised as a command
+
+Any script that you include in the pretest script of your `package.json` will be executed before the test script if you execute `npm test`. To run pretest by itself with `npm run pretest`.
 
 # Extensions
 
