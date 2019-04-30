@@ -89,6 +89,14 @@ Yes for POST methods, no for GET methods
 
 # Server-side quality
 
+## How do I mock an external API call?
+
+I've updated the potatoes example on github to
+
+* check a login function in the post method
+* put the login in a separate module
+* mock the login functionality with JEST
+
 # Extensions
 
 # General
