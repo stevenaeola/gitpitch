@@ -87,6 +87,15 @@ You should make sure that your client has a way of handling and reporting this. 
 
 Yes for POST methods, no for GET methods
 
+## Can I use a database like  SQLite which just works on top of a .sqlite file rather than requiring a database process to run on the host machine?
+
+There are two points about databases here:
+
+1. It is not reasonable to expect peer assessors to have to install and configure up to four local databases
+2. We have not discussed SQL in the course, so it is not reasonable to expect a peer assessor to review SQL code
+
+So while sqlite may not go against point 1) it does not go against point 2). And given that it has been explicitly stated that a local database should not be used, it would not be unreasonable for somebody to mark you down if you did (I would). This applies to the assignment as a whole - there must be a locally deployable non-database implementation that a peer assessor can execute and evaluate.
+
 # Server-side quality
 
 ## How do I mock an external API call?
