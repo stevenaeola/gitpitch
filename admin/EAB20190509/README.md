@@ -199,6 +199,7 @@ Identified need to track themes running through e.g. assessment
 - github for all programming submissions
 - L2 less SE content, more AI and Data Science
 - L3 Break up and rebuild: some smaller modules
+- Redevelop projects
 
 
 # Next Steps
