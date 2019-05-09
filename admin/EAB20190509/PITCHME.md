@@ -1,4 +1,4 @@
----?color=##7E317B
+---?color=#7E317B
 
 # Future of UG Teaching in CS
 
@@ -47,7 +47,7 @@ See the 2018 module structure
 
 In schools – from age five
 
-Developing content moving from L3/4 options into core material e.g.
+Moving into core material 
 - Security
 - Machine learning
 
@@ -55,6 +55,7 @@ Developing content moving from L3/4 options into core material e.g.
 
 ## Motivation - University
 
+@ul
 - Higher proportion of income from fees
 - Focus on curricular efficiency
 - Using and providing more learning analytics
@@ -62,7 +63,8 @@ Developing content moving from L3/4 options into core material e.g.
   - assessment
   - inclusive practice
   - digital learning
-  
+@ulend
+
 ---
 
 ## Progress
@@ -135,11 +137,13 @@ Identified need to track themes running through e.g. assessment
 
 ## Review with PVC
 
+@ul
 - [Very dynamic subject area](https://www.gartner.com/smarterwithgartner/5-trends-emerge-in-gartner-hype-cycle-for-emerging-technologies-2018/) e.g. machine learning, security, blockchain, quantum
 - Student and staff numbers increasing
 - Need to be more efficient and creative with assessment and supervision
 - Address and improve diversity within student body
 - Some theoretical modules have low numbers
+@ulend
 
 ---
 
@@ -154,21 +158,25 @@ Identified need to track themes running through e.g. assessment
 
 ## L1 Maths (Andrei Krokhin)
 
+@ul
 - More on classical maths
   - calculus
   - linear algebra
   - probability
 - Too much for one module
+@ulend
 
 ---
 
 ## Principles
 
+@ul
 - Reduce assessment points
 - Increase cohesion; reduce coupling
 - Inclusive practice: gender; international; previous study
 - Integrate theory and practice
 - Remove alternate year teaching
+@ulend
 
 ---?color=#7E317B
 

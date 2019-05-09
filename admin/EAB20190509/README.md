@@ -41,7 +41,7 @@ See the 2018 module structure
 
 In schools – from age five
 
-Developing content moving from L3/4 options into core material e.g.
+Moving into core material 
 - Security
 - Machine learning
 
@@ -55,7 +55,7 @@ Developing content moving from L3/4 options into core material e.g.
   - assessment
   - inclusive practice
   - digital learning
-  
+
 
 ## Progress
 
