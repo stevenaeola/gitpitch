@@ -196,8 +196,8 @@ Identified need to track themes running through e.g. assessment
 
 - L1 Computational Thinking
 - L1 Programming: black and gold
-- github for all programming submissions
 - L2 less SE content, more AI and Data Science
+- github for all programming submissions
 - L3 Break up and rebuild: some smaller modules
 - Redevelop projects
 
