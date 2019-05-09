@@ -168,6 +168,15 @@ Identified need to track themes running through e.g. assessment
 
 ---
 
+## Increasing diversity
+
+- Real-world problems
+- Different programming routes
+- Visibility of females at open days etc
+- EDI statements by applicants
+
+---
+
 ## Principles
 
 @ul
