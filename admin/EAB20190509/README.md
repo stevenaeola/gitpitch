@@ -1,7 +1,7 @@
 
 # Future of UG Teaching in CS
 
-EAB Presentation 9/5/2019
+EAB 9/5/2019
 
 Steven Bradley s.p.bradley@durham.ac.uk
 
