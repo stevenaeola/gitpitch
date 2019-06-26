@@ -6,6 +6,9 @@ CS Away Day 26/6/2019
 Steven Bradley s.p.bradley@durham.ac.uk
 
 
+# Integrative Data Science
+
+
 ## Process
 
 Working group to look at 1 year and 3 year horizon for
@@ -233,3 +236,17 @@ Identified need to track themes running through e.g. assessment
 ## Finally
 
 - Develop with MSc content in mind
+
+
+## Module review
+
+- Can your module reduce to one piece of coursework?
+
+
+## Discussion
+
+- What should L3/L4 modules look like?
+- Identify 10 credit coherent modules
+- Choose to assess either with a piece of coursework or an exam
+- Start with existing modules
+- New content can be included
