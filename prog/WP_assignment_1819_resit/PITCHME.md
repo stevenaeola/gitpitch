@@ -2,7 +2,7 @@
 
 ---
 
-## Dates and weightings
+## Dates
 
 - It should be submitted through duo by 14:00 on Monday 5th August 2019
 
