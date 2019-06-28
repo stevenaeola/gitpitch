@@ -1,4 +1,4 @@
-# Programming Paradigms Reist Assignment 2018/19 
+# Programming Paradigms Resit Assignment 2018/19 
 
 ---
 
