@@ -45,6 +45,7 @@ So you need to be resilient
 
 * python (first)
 * command line/UNIX
+* git
 * HTML/CSS
 * JavaScript
 
