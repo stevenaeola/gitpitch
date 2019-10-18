@@ -13,17 +13,17 @@ Licensed under [Creative Commons Attribution 4.0 International](https://creative
 
 ## Linear history
 
-![linear development of a document](prog/git/play-changes.png)
+![linear development of a document](https://raw.githubusercontent.com/stevenaeola/gitpitch/master/prog/git/play-changes.png)
 
 
 ## Multiple authors
 
-![different changes](prog/git/versions.png)
+![different changes](https://raw.githubusercontent.com/stevenaeola/gitpitch/master/prog/git/versions.png)
 
 
 ## Merging changes
 
-![merges](prog/git/merge.png)
+![merges](https://raw.githubusercontent.com/stevenaeola/gitpitch/master/prog/git/merge.png)
 
 
 ## Version control software
