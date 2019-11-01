@@ -100,7 +100,7 @@ See [Comparing Computing Professionals’ Perceptions of Importance of Skills an
 
 ---
 
-@quote[They noted, for example, that “software craftsmanship and clean code,” “emphasis on coding style and commenting,” and “soft- ware maintenance” were not sufficiently stressed within their own undergraduate experiences]
+@quote[They noted, for example, that “software craftsmanship and clean code,” “emphasis on coding style and commenting,” and “software maintenance” were not sufficiently stressed within their own undergraduate experiences]
 
 ---
 
@@ -108,4 +108,4 @@ See [Comparing Computing Professionals’ Perceptions of Importance of Skills an
 
 ---
 
-@quote[such projects should be incorporated into early stages of the curriculum "From the get-go people would learn the development environment. Essential tools like git, svn, in unix, and learn some of the history. Then learn languages, design patterns, team interaction, the roles in an agile team, etc"]
+@quote[Such projects should be incorporated into early stages of the curriculum "From the get-go people would learn the development environment. Essential tools like git, svn, in unix, and learn some of the history. Then learn languages, design patterns, team interaction, the roles in an agile team, etc"]
