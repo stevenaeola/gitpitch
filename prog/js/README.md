@@ -1,12 +1,9 @@
----?color=#7E317B
 
 # Javascript
 
----
 
 ## [History](https://app.pluralsight.com/player?name=javascript-good-parts-m2&mode=live&clip=0&course=javascript-good-parts&author=douglas-crockford) 
 
-@ul
 - Originally in browsers
 - Not Java
 - It has some good parts
@@ -14,24 +11,18 @@
 - Current version is ES9 (2018)
 - Most recent widely-supported version is ES6 (2015)
 - [Support varies](http://kangax.github.io/compat-table/es6/)
-@ulend
 
----
 
 ## Client- and server- side
 
-@ul
 - More recently JS is also used server-side: nodejs
 - Good JS engines in mobile browsers
 - JS often used for cross-platform App dev [Cordova](https://cordova.apache.org/)
 - Also for desktop applications with [electron](https://electronjs.org/) e.g. [atom](https://atom.io/)
 - Interpreted, not compiled: errors only happen at run-time
 - `console.log` is your friend
-@ulend
 
----
 
----
 
 ## Hello world
 
@@ -45,7 +36,6 @@
 </html>
 ```
 
----
 
 ## What just happened?
 
@@ -62,7 +52,6 @@ Looks the same as this
 
 Use developer tools to see the console output and error
 
----
 
 ## Hello again
 
@@ -76,7 +65,6 @@ In the browser we can also use the `alert` function
 ```
 Can run in browser as file, not just with http
 
----
 
 ## Importing code
 
@@ -92,11 +80,9 @@ Can run in browser as file, not just with http
 </script>
 ```
 
----
 
 ## Syntax
 
-@ul
 - Mostly insensitive to white space (not python)
 - Case sensitive (not php)
 - Block structured, with braces (like Java)
@@ -104,9 +90,7 @@ Can run in browser as file, not just with http
 - "use strict"; good practice
 - Use `require` for modules in nodejs (many ways in browser)
 
-@ulend
 
----
 
 ## Variables and scope
 
@@ -118,13 +102,11 @@ Can run in browser as file, not just with http
 - `var` declarations are 'hoisted' to the top of the block
 - In non-strict undeclared variables are global
 
----
 
 ## Types
 
 Six primitive types
 
-@ul
 - boolean (`true` and `false`)
 - null
 - undefined
@@ -132,9 +114,7 @@ Six primitive types
 - string see [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
 - [symbol](https://developer.mozilla.org/en-US/docs/Glossary/Symbol) (immutable)
 - Also objects and functions (non-primitive)
-@ulend
  
----
 
 ## Using types
 
@@ -144,7 +124,6 @@ Six primitive types
 - Might choose to document e.g. parameters with comments
 - `typeof` find the type of a value
 
----
 
 ## Control structures
 
@@ -158,7 +137,6 @@ if (condition) {
 
 See also `while`, `for`, `switch`, `do`, `throw`, `try`, `catch`, ternary
 
----
 
 ## true, false, truthy and falsy
 
@@ -170,7 +148,6 @@ These are all 'falsy':
 - NaN
 - the empty string ("")
 
----
 
 Can use for default values e.g
 ```
@@ -181,7 +158,6 @@ Useful when
 - optional parameters have not been provided
 - object properties might not have been initialised
 
----
 
 ## functions
 
@@ -198,7 +174,6 @@ function sum(a, b){
 }
 ```
 
----
 
 ## functions as values
 
@@ -216,7 +191,6 @@ or
 var sum2 = (a,b) => a+b;
 ```
 
----
 
 ## Arrays
 
@@ -236,7 +210,6 @@ var arr = [1,2,3];
 
 Arrays can contain elements of different types
 
----
 
 ## Array iteration
 
@@ -251,11 +224,9 @@ e.g.
 arr.push(4);
 ```
 
----
 
 ## Objects
 
-@ul
 - Objects have named properties
 - Properties can have any type (including object, function)
 - A bit like Java Map and python Dictionary
@@ -263,7 +234,6 @@ arr.push(4);
 - Access with dot or bracket
 - Inheritance through prototypes
 
----
 
 ```
 var myCar = new Object();
@@ -276,7 +246,6 @@ console.log(myCar['make']);
 ```
 
 
----
 
 ## See also
 
