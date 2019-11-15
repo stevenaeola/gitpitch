@@ -53,7 +53,7 @@ See this in example1.html
 
 @ul
 - This is (at best) textualization, not visualization
-- Use [Scalable Vector Graphics[(https://www.w3.org/Graphics/SVG/IG/resources/svgprimer.html) (SVG) elements
+- Use [Scalable Vector Graphics](https://www.w3.org/Graphics/SVG/IG/resources/svgprimer.html) (SVG) elements
 - Not all of the data is being shown
 - Use `enter` function to add new elements
 @ulend
