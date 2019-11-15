@@ -1,0 +1,96 @@
+
+# _DRAFT_ COMP1101 Programming Summative Assessment 1
+
+
+## Term 1 Programming Exercise Outline
+
+- Submission by 14:00 Thursday 16/1/2020
+- Return by 13/2/2020
+- Contributes 35% of module marks
+- Includes peer review feedback which you will be allocated
+- Peer reviews need to be submitted by 14:00 3/2/2020
+- Quality of your peer reviews contribute 5% to your module mark
+
+
+## Subject-specific Knowledge
+
+- Interaction between JavaScript progams and the Document Object Model (DOM)
+- Using control statements to loop and make decisions.
+- An understanding of the nature of imperative programming in the object-oriented style.
+- A knowledge and understanding of good programming practice (for example, reuse, documentation and style)
+
+
+## Key Skills
+
+- an ability to recognise and apply the principles of abstraction and modelling
+
+
+## Tasks
+
+- Choose a visualization from [https://github.com/d3/d3/wiki/Gallery](https://github.com/d3/d3/wiki/Gallery)
+- Adapt it into a reusable component using JavaScript classes
+    - Appropriate constructor
+    - Get and set methods for properties
+- Choose a (new) dataset to work with 
+- Build an example vizualisation using your new class and your dataset
+- Write documentation of your code using [JSDoc](https://devdocs.io/jsdoc/)
+
+
+## Submission
+
+- Submit via duo
+   1. a .zip file containing your code and documentation
+   2. a .zip file containing the original code you based your work on
+
+
+## Marking Criteria
+
+Weighted equally
+
+- Usability and clarity of documentation
+- Clarity of code
+- Development of original 
+- Quality of example and code
+
+
+## Usability and clarity of documentation
+
+- All methods and parameters documented (including constructor) for users
+- Documentation provides enough detail to use the code without reading it
+
+
+## Clarity of code
+
+- Code is clear to understand for maintainers
+- Appropriate parameterisation including defaults
+- Appropriate use of class(es) and no global variables
+
+
+## Development of original
+
+- Original code to be submitted as well as final version
+- Work done in refactoring code 
+- Work done in interpreting dataset
+- Source of initial code acknowledged (including licence)
+
+
+## Quality of example and code
+
+- HTML page is valid
+- Visualization is appropriate for data
+- Appropriate on-page controls/interactivity
+- Code quality: ESLint
+
+
+## Quality: ESLint rules
+
+Use this .eslintrc.js
+```json
+module.exports = {
+    "extends": "standard",
+    "rules": {
+      "semi": [2, "always"],
+      "indent": "off"
+    }
+};
+```
