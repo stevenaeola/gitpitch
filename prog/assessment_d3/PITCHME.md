@@ -93,7 +93,7 @@ Weighted equally
 - Original code to be submitted as well as final version
 - Work done in refactoring code 
 - Work done in interpreting dataset
-- Source of initial code acknowledged (including licence)
+- Source of initial code and data acknowledged (including licence)
 
 ---
 
