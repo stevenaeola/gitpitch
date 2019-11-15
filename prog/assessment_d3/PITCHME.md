@@ -42,6 +42,18 @@
 
 ---
 
+### Datasets
+
+Possibilities include
+* [Registry of Open Data on AWS](https://registry.opendata.aws/)
+* [Google Dataset Search](https://toolbox.google.com/datasetsearch)
+* [Microsoft Research Open Data](https://msropendata.com/)
+* [Awesome public datasets](https://github.com/awesomedata/awesome-public-datasets)
+* [UK data service](https://www.ukdataservice.ac.uk/)
+
+Inspiration from <https://www.informationisbeautifulawards.com/>
+
+---
 ## Submission
 
 - Submit via duo
@@ -54,10 +66,10 @@
 
 Weighted equally
 
-- Usability and clarity of documentation
-- Clarity of code
-- Development of original 
-- Quality of example and code
+- Usability and clarity of documentation (peer assessed)
+- Clarity of code (peer assessed)
+- Development of original (tutor assessed)
+- Quality of example and code (tutor assessed)
 
 ---
 
