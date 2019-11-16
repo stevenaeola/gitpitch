@@ -11,7 +11,7 @@
 - Not Java
 - It has some good parts
 - Standardised by Ecma (once ECMA) as EcmaScript
-- Current version is ES8 (2018)
+- Current version is ES9 (2018)
 - Most recent widely-supported version is ES6 (2015)
 - [Support varies](http://kangax.github.io/compat-table/es6/)
 @ulend
@@ -21,13 +21,76 @@
 ## Client- and server- side
 
 @ul
-- Recently JS is also used server-side: nodejs
+- More recently JS is also used server-side: nodejs
 - Good JS engines in mobile browsers
 - JS often used for cross-platform App dev [Cordova](https://cordova.apache.org/)
 - Also for desktop applications with [electron](https://electronjs.org/) e.g. [atom](https://atom.io/)
 - Interpreted, not compiled: errors only happen at run-time
 - `console.log` is your friend
 @ulend
+
+---
+
+---
+
+## Hello world
+
+- Embed javascript in a web page
+- Use `script` tag
+```HTML
+<html>
+  <script>
+    console.log("Hello World")
+  </script>
+</html>
+```
+
+---
+
+## What just happened?
+
+Nothing?
+
+Looks the same as this
+```HTML
+<html>
+  <script>
+    vljbsv123456789!@£$%^&*
+  </script>
+</html>
+```
+
+Use developer tools to see the console output and error
+
+---
+
+## Hello again
+
+In the browser we can also use the `alert` function
+```HTML
+<html>
+  <script>
+    alert("Hello World")
+  </script>
+</html>
+```
+Can run in browser as file, not just with http
+
+---
+
+## Importing code
+
+
+- Link to external javascript code with `src` attribute
+- Usually placed at end or in `head`
+- Can refer to files in same source
+- Can refer to external files via http
+- Content Delivery Networks (CDN)
+```HTML
+<script
+ src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+</script>
+```
 
 ---
 

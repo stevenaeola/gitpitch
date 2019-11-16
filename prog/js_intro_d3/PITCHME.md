@@ -21,10 +21,10 @@
 Either download from [github](https://github.com/d3/d3)
 
 Or link from your HTML page
+
 ```
 <script src="https://d3js.org/d3.v5.js"></script>
 ```
-
 ---
 
 ## First example

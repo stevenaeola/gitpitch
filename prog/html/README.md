@@ -1,14 +1,11 @@
----?color=#7E317B
 
 # HTML
 
----
 
 ## How much programming have you done before?
 
 <https://student.turningtechnologies.eu/>
 
----
 
 ## What do you know about HTML?
 
@@ -18,7 +15,6 @@ Compare with your neighbour
 
 <https://student.turningtechnologies.eu/>
 
----
 
 ## Web Frameworks
 
