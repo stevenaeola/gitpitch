@@ -22,8 +22,9 @@ Either download from [github](https://github.com/d3/d3)
 
 Or link from your HTML page
 
+```
 <script src="https://d3js.org/d3.v5.js"></script>
-
+```
 ---
 
 ## First example
@@ -35,7 +36,7 @@ d3.select("body")
   .text(function(d) { return "I'm number " + d + "!"; });
 ```
 
-See this in example1.html
+See this in [example1.html](https://github.com/stevenaeola/gitpitch/blob/master/prog/js_intro_d3/example1.html)
 
 ---
 
@@ -84,7 +85,7 @@ d3.select("body")
   .attr("r", function(d) { return 5*Math.sqrt(d); });
 ```
 
-See example2.html
+See [example2.html](https://github.com/stevenaeola/gitpitch/blob/master/prog/js_intro_d3/example2.html)
 
 
 
