@@ -34,9 +34,9 @@
 - In a browser you have access to the global `document` object
 - `id` attribute of HTML elements should be unique
 - Find an element with
-```
+`
 var element = document.getElementById(id);
-```
+`
 - Returns an [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)
 
 
