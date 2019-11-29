@@ -37,13 +37,12 @@
 
 ## [Identifying parts of the page: getElementById](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
 
-@ul
-- In a browser you have access to the global `document` object
-- `id` attribute of HTML elements should be unique
-- Find an element with
 `
 var element = document.getElementById(id);
 `
+@ul
+- In a browser you have access to the global `document` object
+- `id` attribute of HTML elements should be unique
 - Returns an [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)
 @ulend
 
