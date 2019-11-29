@@ -15,12 +15,12 @@
 ## Event handling with HTML
 
 - Add `onclick` attribute to an element
-- Javascript is executed
+- JavaScript is executed (without separate tag)
 - Note embedded single quotes
 
 ```
 <html>
-<button onclick="alert('Hello potato');">
+<button onclick="alert('Sing me a song');">
 </html>
 
 ```
@@ -29,7 +29,7 @@
 
 
 
-## Identifying parts of the page: getElementById
+## [Identifying parts of the page: getElementById](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
 
 - In a browser you have access to the global `document` object
 - `id` attribute of HTML elements should be unique
@@ -40,13 +40,22 @@ var element = document.getElementById(id);
 - Returns an [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)
 
 
+
+## [Identifying parts of the page: querySelector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
+
+- Select item with CSS selector
+- First matching element is selected
+- Can use [querySelectorAll](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll_ with `foreach`
+
+
 ## Listening for events
 
 - Browsers produce events as users interact with page
-- E.g. `click`, `keypress`, `focus`, `submit`
+- E.g. `click`, `keypress`, `focus`, `submit` see [list](https://developer.mozilla.org/en-US/docs/Web/Events)
 - Use `addEventListener` to attach a function to an element
 - See [button2.html](https://github.com/stevenaeola/gitpitch/blob/master/prog/js_dom/button2.html)
 - Better to separate JS and HTML in this way (MVC)
+- How would you get a message to appear when hovering over "primary" text?
 
 
 ## Waiting for the DOM to be loaded
@@ -60,10 +69,19 @@ var element = document.getElementById(id);
 - See [button3.html](https://github.com/stevenaeola/gitpitch/blob/master/prog/js_dom/button3.html)
 
 
-## Accessing DOM data
+## Manipulating the  DOM
 
-- HTML `form` element defines inputs
-- Access individual controls by ID
-- Disable default action (form submission)
-- Link with existing objects e.g. p5 ball
-- See [ball with controls](https://github.com/stevenaeola/Prog18potatoes/tree/c887df28b3cbd7afc85b060c52f4a988fcc23bc1/ball)
+- Change the content of an element with [innerHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML) property
+- Add/remove elements with [append](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/append) and [remove](https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/remove)
+- These can be called through d3 `enter` and `exit` to match data
+- Change attributes e.g. class, style with [setAttribute](https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute)
+
+
+## Summary
+
+- Select parts of the page (DOM)
+- Update the page (DOM)
+- Attach actions (functions) to the page
+- Allows for dynamic pages (e.g. d3)
+- Next time: code quality and documentation
+
