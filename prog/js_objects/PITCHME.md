@@ -21,7 +21,6 @@ let ball = {x: 200, y: 300, radius: 50};
 Access and properties like this
 
 ```
-ellipse(ball.x, ball.y, ball.radius*2, ball.radius*2);
 ball.x += 5;
 ball.z = 8;
 ball["colour"] = "red";
@@ -47,8 +46,8 @@ ball.draw();
 
 ```
 ball.draw = function(){
-	  ellipse(this.x, this.y, this.radius*2, this.radius*2);
-	  }
+    alert("I am a ball this big: " + this.radius);
+}
 ball.draw();
 
 ```
@@ -98,9 +97,7 @@ class Ball{
       this.radius = r;
    }
    draw(){
-      ellipse(this.x, this.y,
-         this.radius*2, this.radius*2);
-      }
+       alert("I am a ball this big: " + this.radius);
 }
 let b = new Ball(400,300,20);
 b.draw();

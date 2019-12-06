@@ -1,12 +1,12 @@
-var x, y;
-
-function setup() {
-    createCanvas(900, 600);
-    x = width/2;
-    y = height/2;
-}
+var cx = 100;
+var cy = 200;
+var radius = 50;
 
 function draw() {
-    ellipse(x, y, 40, 40);
+  d3.select("svg").append("ellipse").attr("cx", cx).attr("cy",cy)
+    .attr("rx",radius).attr("ry",radius);
 }
+
+draw();
+
 
