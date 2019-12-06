@@ -112,6 +112,7 @@ b.draw();
 @ul
 - Reduces cut-and-paste: eases maintenance
 - Encourages *encapsulation*: hide the details so they can be changed easily
-- Make reusable compoments with classes
+- No global variables: no clashes
+- Make reusable components with classes
 - Reuse in the same project (multiple balls) or in different projects
 @ulend
