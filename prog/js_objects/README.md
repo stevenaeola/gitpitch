@@ -15,7 +15,7 @@ let ball = {x: 200, y: 300, radius: 50};
 
 ## obj.prop
 
-Access and properties like this
+Access properties like this
 
 ```
 ball.x += 5;
