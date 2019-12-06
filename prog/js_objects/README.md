@@ -85,6 +85,7 @@ class Ball{
    }
    draw(){
        alert("I am a ball this big: " + this.radius);
+   }
 }
 let b = new Ball(400,300,20);
 b.draw();
