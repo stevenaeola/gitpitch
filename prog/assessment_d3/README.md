@@ -1,5 +1,5 @@
 
-# _DRAFT_ COMP1101 Programming Summative Assessment 1
+# COMP1101 Programming Summative Assessment 1
 
 
 ## Term 1 Programming Exercise Outline
@@ -105,3 +105,15 @@ module.exports = {
     }
 };
 ```
+
+
+## Peer Review Marking
+
+5 marks are awarded for peer assessment
+
+* 2 marks for completion of four peer reviews
+* 3 marks for the accuracy of the reviews
+* Accuracy is based on agreement with peers
+* Accuracy marks deducted for being over-harsh and over-generous
+* The average student tends to get about 65%
+* 65% is on the good/very good boundary of the [marking conventions](https://www.dur.ac.uk/resources/university.calendar/volumeii/2019.2020/coreregsug.pdf) p15
