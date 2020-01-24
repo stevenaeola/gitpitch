@@ -189,8 +189,10 @@ app.listen(8090)
 - Via value in GET-encoded variable
 
 
-# Popular tools for node
+# In Summary
 
-  - See list at <https://www.npmjs.com/>
-  - Killer app: [chat system](http://socket.io/get-started/chat/)
+  - nodejs provides server-side JavaScript
+  - npm is the package manager
+  - servers can run locally or remotely
+  - express is a very popular package for routing requests
 
