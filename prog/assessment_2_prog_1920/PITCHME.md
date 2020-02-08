@@ -1,6 +1,6 @@
 ---?color=#7E317B
 
-# COMP1101 Programming Summative Assessment 2
+# _DRAFT_ COMP1101 Programming Summative Assessment 2
 
 ---
 
