@@ -19,7 +19,10 @@
 - Trend towards multi-core
 - Extreme end is GPU/TPU
 
----?image=assets/CPUtrends.png&size=auto 80%
+---
+
+[42 years of Microprocessor trend data](https://www.karlrupp.net/2018/02/42-years-of-microprocessor-trend-data/)
+---
 
 @snap[north]
 [The Free Lunch Is Over](http://www.gotw.ca/publications/concurrency-ddj.htm)

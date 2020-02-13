@@ -17,6 +17,8 @@
 - Extreme end is GPU/TPU
 
 
+[42 years of Microprocessor trend data](https://www.karlrupp.net/2018/02/42-years-of-microprocessor-trend-data/)
+
 [The Free Lunch Is Over](http://www.gotw.ca/publications/concurrency-ddj.htm)
 
 
