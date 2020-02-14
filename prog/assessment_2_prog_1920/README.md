@@ -166,3 +166,10 @@ Equally weighted
 * Accuracy marks deducted for being over-harsh and over-generous
 * The average student tends to get about 65%
 * 65% is on the good/very good boundary of the [marking conventions](https://www.dur.ac.uk/resources/university.calendar/volumeii/2019.2020/coreregsug.pdf) p15
+
+
+## How to do the assignment
+
+- Design HTML
+- Design web service
+- Join with Fetch
