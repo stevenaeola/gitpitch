@@ -1,5 +1,5 @@
 
-# _DRAFT_ COMP1101 Programming Summative Assessment 2
+# COMP1101 Programming Summative Assessment 2
 
 
 ## Term 2 Programming Exercise Outline
@@ -34,14 +34,14 @@
 
 ## Task summary
 
-- Construct a dynamic web-site for an application of your choosing
+- Construct a dynamic web site for an application of your choosing
 - Use static HTML pages loading dynamic JSON content from server via AJAX
 - Server written in nodejs to provide JSON through REST API
 
 
-## Dynamic web-site
+## Dynamic web site
 
-- Any application domain aa long as it includes at least two kinds of entity e.g.
+- Any application domain as long as it includes at least two kinds of entity e.g.
   - pictures
   - people
   - places
