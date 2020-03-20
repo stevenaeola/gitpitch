@@ -9,6 +9,7 @@
 - Can avoid introducing new bugs
 - Repeated testing necessary in agile development
 - Automated as far as possible
+- It's in the assignment ...
 
 
 ## Basic Approaches
@@ -39,10 +40,11 @@
 
 ## Test scripts
 
-- There are very many JavaScript unit testing frameworks (mocha, jasmine)
-- I recommend using Jest
-- Read a [recent review](https://medium.com/welldone-software/an-overview-of-javascript-testing-in-2019-264e19514d0a)
-- `npm install --save-dev`
+- There are very many JavaScript unit testing frameworks (mocha, jasmine, ava)
+- I recommend using [Jest](https://jestjs.io/)
+- Read a [2019 review](https://medium.com/welldone-software/an-overview-of-javascript-testing-in-2019-264e19514d0a)
+- Read about [tools in demand in 2020](https://blog.logrocket.com/most-in-demand-javascript-testing-tools-in-2020/)
+- `npm install --save-dev jest`
 - Tests are js programs (as in jUnit)
 - Put tests in test directory or name .test.js
 
