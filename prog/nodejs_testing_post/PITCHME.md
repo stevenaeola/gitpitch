@@ -48,7 +48,7 @@ Four main methods:
   - Use _.post_ method by itself
 - JSON, in the body
   - Use _.post_
-  _ _.send_ will automatically do JSON encoding
+  - _.send_ will automatically do JSON encoding
 - See `index.js` and `app.test.js` for example code to do this
 @ulend
 
