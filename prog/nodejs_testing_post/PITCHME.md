@@ -17,9 +17,23 @@
 
 ---
 
-## Special considerations for testing POST
+## Special considerations for sending POST
 
+@ul
 - Parameters are not sent in URL (unlike GET)
 - Use separate _.send_ method in supertest
+- Need to serialise parameters (turn into a string)
+- Default content-type is `application/x-www-form-urlencoded`
+- See `app.test.js` for example code to do this
+- Different if you're using `multipart/form-data`
+@ulend
+
+---
+
+## Testing the effect of POST
+
+@ul
+- Send a GET request to see if POST was successful
 - Need to wait for requests to finish within test method if sending multiple requests
 - Add _await_ and _async_ appropriately to achieve this
+@ulend
