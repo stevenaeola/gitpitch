@@ -35,7 +35,7 @@ Four main methods:
 
 ---
 
-## Encoding `.post` parameters 
+## Parameters for `.post` 
 
 @ul
 - URL-encoded, in the body
