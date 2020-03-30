@@ -27,17 +27,17 @@ Four main methods:
   - Most powerful/flexible
 
 
-## Encoding _.post_ parameters 
+## Encoding `.post` parameters 
 
 - URL-encoded, in the body
   - Need to serialise parameters (turn into a string)
-  - Use separate _.send_ method in supertest
+  - Use separate `.send` method in supertest
 - multipart form encoded, in the body
-  - Use _.attach_ (see [superagent](http://visionmedia.github.io/superagent/#multipart-requests))
+  - Use `.attach` (see [superagent](http://visionmedia.github.io/superagent/#multipart-requests))
 - URL-encoded, in the URL (like GET)
-  - Serialise parameters and attach to URL of _.post_ method
+  - Serialise parameters and attach to URL of `.post` method
 - JSON, in the body
-  - _.send_ will automatically do JSON encoding
+  - `.send` will automatically do JSON encoding
 - See `index.js` and `app.test.js` for example code to do this
 
 
