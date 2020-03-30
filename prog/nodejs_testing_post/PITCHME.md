@@ -35,7 +35,7 @@ Four main methods:
 
 ---
 
-## Encoding parameters for jest testing
+## Encoding parameters
 
 @ul
 - URL-encoded, in the body
