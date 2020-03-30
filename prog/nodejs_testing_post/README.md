@@ -38,14 +38,13 @@ Four main methods:
   - Serialise parameters and attach to URL of `.post` method
 - JSON, in the body
   - `.send` will automatically do JSON encoding
-- See `index.js` and `app.test.js` for example code to do this
 
 
 ## Testing the effect of POST
 
 - Send a GET request to see if POST was successful
 - Need to wait for requests to finish within test method if sending multiple requests
-- Add _await_ and _async_ appropriately to achieve this
+- Add `await` and `async` appropriately to achieve this
 
 
 # That's all folks
