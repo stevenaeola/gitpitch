@@ -27,7 +27,7 @@ Four main methods:
   - Most powerful/flexible
 
 
-## Encoding parameters for _.post_
+## Encoding _.post_ parameters 
 
 - URL-encoded, in the body
   - Need to serialise parameters (turn into a string)
