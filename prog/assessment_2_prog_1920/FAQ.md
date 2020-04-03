@@ -30,6 +30,10 @@ If this were for real then a database of some kind would be the best way to stor
 
 ## Server-side quality criteria
 
+### Is the testing solely on the server.js file or on the other js files the website uses also
+
+You only need to test the server side javascript: client-side testing is a whole different can of worms.
+
 
 ## Video Presentation
 
