@@ -69,3 +69,6 @@ But if you are using something else reasonable that is fine, as long as you incl
 
 ## Video Presentation
 
+### You mentioned that for every 10 seconds after 2 minutes we will be losing 10% of our marks, does this apply if our video is anywhere from 2 mins 1s to 2 mins 9 seconds long ?
+
+Yes, basically it’s 1% per second.
