@@ -21,7 +21,7 @@ Not recommended: in years gone by jQuery was essential to make things like event
 
 No
 
-### What do you mean by 'gracefully handles server disconnection' under the 'client-side quality criteria' (I am aware you mentioned this before, but I could not find where)?
+### What do you mean by 'gracefully handles server disconnection'
 
 Basically your client-side code should do something sensible if the connection to the server goes down (as it might do if it were connected via the internet). It should display an informative message to the user, and maybe try again later. You can test this by stopping the server and trying to interact with it through the client. Once the server is started up again the client should be able to carry on as before.
 
