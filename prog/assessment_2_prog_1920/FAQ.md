@@ -50,6 +50,10 @@ Yes, if you have a good tool for API generation such as <https://learning.postma
 
 You should not have to read the code to see the API documentation. You could write it in HTML by hand, or you could use a tool to do that. The postman tool looks good and well maintained, but the npm tool looks less good: not updated in a year, virtually no history of maintenance.
 
+### What do we need in the API documentation?
+
+For the API documentation the ideal is something like the documentation of the [Twitter API])https://developer.twitter.com/en/docs/api-reference-index) which lists the methods in the API and then provides the [details for each method])https://developer.twitter.com/en/docs/tweets/post-and-engage/api-reference/get-statuses-retweets-id) including details of parameters and response.
+
 ### How should we configure the ESLint file?
 
 
