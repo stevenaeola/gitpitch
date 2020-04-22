@@ -1,4 +1,4 @@
----?color=#7E317B
+---?color=#6A246D
 
 ## OO Programming
 ## Java vs python
@@ -7,11 +7,11 @@
 ### Durham University
 ### April 2020
 
----
+---?color=#BE1E2D
 
-# Why not have one big file for your program?
+## Why not have one big file for your program?
 
-@fa[pause-circle]
+@fa[pause-circle fa-pulse fa-10x]
 
 ---
 
