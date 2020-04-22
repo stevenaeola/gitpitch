@@ -11,7 +11,7 @@
 
 ## Why not have one big file for your program?
 
-@fa[pause-circle fa-pulse fa-10x]
+@fa[pause-circle fa-10x]
 
 ---
 
