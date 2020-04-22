@@ -1,5 +1,6 @@
 
-# Object-orientation: Java vs python
+## OO Programming
+## Java vs python
 
 ### Steven Bradley
 ### Durham University
