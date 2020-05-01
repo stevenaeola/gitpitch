@@ -37,7 +37,8 @@
 ## python methods
 
 - No visibility modifiers (underscore convention)
-- functions become methods via the class
+- Functions become methods via the class
+- Need to include `self` as first parameter (also in constructors)
 ```
 x.m(a)
 ```
@@ -46,7 +47,7 @@ is the same as
 c.m(x,a)
 ```
 where `x` is in class `c`
-- Need to include `self` as first parameter (also in constructors)
+
 
 
 ### python fields
