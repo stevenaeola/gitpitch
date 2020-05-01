@@ -68,7 +68,7 @@ extends, super, abstract, interface, implements
 
 - Object
   - .equals()
-  - toString()
+  - .toString()
 - String
 - java.util.ArrayList
 - Math

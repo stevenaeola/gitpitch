@@ -83,7 +83,7 @@ extends, super, abstract, interface, implements
 @ul
 - Object
   - .equals()
-  - toString()
+  - .toString()
 - String
 - java.util.ArrayList
 - Math
