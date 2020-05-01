@@ -2,6 +2,10 @@
 comment0.target=Concertina
 comment1.params=maker\ serial
 comment1.target=Concertina(java.lang.String,\ int)
-comment2.params=args
-comment2.target=void\ main(java.lang.String[])
-numComments=3
+comment2.params=buttons
+comment2.target=void\ setButtons(int)
+comment3.params=
+comment3.target=int\ getButtons()
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5
