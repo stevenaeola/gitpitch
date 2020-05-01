@@ -11,8 +11,7 @@
 - Why object-orientation (OO)?
 - Key features of OO
 - How do these compare in Java and python
-
-@endul
+@ulend
 
 ---?color=#BE1E2D
 
@@ -27,16 +26,13 @@
 @ul
 - Smaller files makes for less reading
 - Separate files allows for shared development
-
-Suppose I write code which works on matrices
-Coupling
-Global variables
-Cohesion
+- Cohesion and coupling
 - Encapsulate for decoupling
   - data (properties/fields)
   - code (functions/methods)
 - Ease name clashes
 - Inheritance
+@ulend
 
 ---
 

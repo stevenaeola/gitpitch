@@ -10,7 +10,6 @@
 - How do these compare in Java and python
 
 
-
 ## Why not have one big file for your program?
 
 
@@ -19,11 +18,7 @@
 
 - Smaller files makes for less reading
 - Separate files allows for shared development
-
-Suppose I write code which works on matrices
-Coupling
-Global variables
-Cohesion
+- Cohesion and coupling
 - Encapsulate for decoupling
   - data (properties/fields)
   - code (functions/methods)
