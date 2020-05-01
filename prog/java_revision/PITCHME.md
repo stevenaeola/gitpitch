@@ -6,11 +6,9 @@
 
 ## Summary
 
-@ul
 - Java concepts
 - Java syntax
 - Java classes/interfaces
-@ulend
 
 ---
 
@@ -22,8 +20,7 @@
 - Field (instance and class)
 - Constructor
 - Method (instance and class, including main)
-- Scope
-- Visibility
+- Scope and visibility
 @ulend
 
 ---
@@ -32,6 +29,7 @@
 
 @ul
 - Primitive and object types
+ - Assignment and equality
 - Overloading (method and operator)
 - Collections: variable and fixed size
 - Type parameter
@@ -41,7 +39,7 @@
 
 ## Inheritance Concepts
 
-
+@ul
 - Overriding
 - Polymorphism
 - Dynamic and static type
@@ -50,6 +48,7 @@
 - Dynamic method despatch
 - Abstract classes 
 - Interfaces
+@ulend
 
 ---
 
@@ -83,13 +82,13 @@ extends, super, abstract, interface, implements
 
 @ul
 - Object
- - .equals()
- - toString()
+  - .equals()
+  - toString()
 - String
 - java.util.ArrayList
 - Math
 - System
- - .out.println()
+  - .out.println()
 - List
 - Comparable
 @ulend

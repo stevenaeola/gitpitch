@@ -16,20 +16,19 @@
 - Field (instance and class)
 - Constructor
 - Method (instance and class, including main)
-- Scope
-- Visibility
+- Scope and visibility
 
 
 ## Java-specific Concepts
 
 - Primitive and object types
+ - Assignment and equality
 - Overloading (method and operator)
 - Collections: variable and fixed size
 - Type parameter
 
 
 ## Inheritance Concepts
-
 
 - Overriding
 - Polymorphism
@@ -68,12 +67,12 @@ extends, super, abstract, interface, implements
 ## Java Classes/Interfaces
 
 - Object
- - .equals()
- - toString()
+  - .equals()
+  - toString()
 - String
 - java.util.ArrayList
 - Math
 - System
- - .out.println()
+  - .out.println()
 - List
 - Comparable
