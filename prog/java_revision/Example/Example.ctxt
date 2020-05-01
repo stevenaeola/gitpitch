@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Example
+comment1.params=field1
+comment1.target=Example(int)
+comment2.params=
+comment2.target=int\ getField1()
+comment3.params=toAdd
+comment3.target=void\ addToField2(java.lang.String)
+comment4.params=toAdd
+comment4.target=void\ addToField2(int)
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment6.params=other
+comment6.target=int\ compareTo(Example)
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8
