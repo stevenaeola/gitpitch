@@ -33,6 +33,6 @@ Specified either as start (low) or end (high) address.
 Example: 
 `\[
 0.5GiB = 2^{19} B
-`]
+\]`
 
 
