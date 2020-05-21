@@ -31,6 +31,12 @@ The memory map allows for up to 1 GiB of external memory, starting at location 0
 Specified either as start (low) or end (high) address.
 
 Example: 
+
+`\[
+\left( \sum_{k=1}^n a_k b_k \right)^{\!\!2} \leq
+ \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+\]`
+
 `\[
 0.5GiB = 2^{19} B
 \]`
