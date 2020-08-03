@@ -5,7 +5,7 @@
 
 ---
 
-# A New Golden Age for Computer Architecture
+## A New Golden Age for Computer Architecture
 
 ---
 
