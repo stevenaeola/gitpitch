@@ -19,6 +19,6 @@
 ## Formalities
 
 * Prerequisite: COMP1071 Computer Systems Computer Systems 
-* Assesseed by exam
+* Assessed by exam
 
 
