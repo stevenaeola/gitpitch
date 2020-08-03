@@ -8,7 +8,7 @@
 
 ## Module content
 
-* Build a (virtual) computer from (virtual) scratch:
+* Build a (virtual) computer from (virtual) scratch
   * nand2tetris
 * Designing for performance
   * pipeline, cache, multicore
