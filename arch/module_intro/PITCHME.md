@@ -12,9 +12,12 @@
 ## Module content
 
 @ul
-* Build a (virtual) computer from (virtual) scratch: nand2tetris
-* Designing for performance: pipeline, cache, multicore
-* Breaking the abstraction layers: security and performance
+* Build a (virtual) computer from (virtual) scratch:
+  * nand2tetris
+* Designing for performance
+  * pipeline, cache, multicore
+* Breaking the abstraction layers
+  * security and performance
 @ulend
 
 ---
