@@ -73,3 +73,7 @@
 - Then we will have a vote (in fact 5)
 
 
+# Next time
+
+Version control with git
+
