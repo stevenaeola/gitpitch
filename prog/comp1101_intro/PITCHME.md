@@ -87,7 +87,7 @@
 - Then we will have a vote (in fact 5)
 @ulend
 
----color=#a5c8d0 
+---?color=#a5c8d0 
 
 # Next time
 
