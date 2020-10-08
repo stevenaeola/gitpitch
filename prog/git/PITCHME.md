@@ -42,6 +42,8 @@ Licensed under [Creative Commons Attribution 4.0 International](https://creative
 - Microsoft Word Track Changes
 - Subversion
 - git
+- mercurial
+- darcs
 @ulend
 
 ---
