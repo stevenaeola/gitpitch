@@ -1,6 +1,8 @@
 
 # HTML
 
+## HyperText Markup Language
+
 
 ## Last time
 
@@ -17,7 +19,7 @@
 * Web front-end frameworks
 
 
-## HyperText Markup Language
+## HTML tags
 
 (In groups) 
 * Introduce yourselves
@@ -61,5 +63,7 @@ And to prove it we can
 - Make our page HTML5 compliant
 - Include it in a bootstrap template
 - Follow progress at <https://github.com/stevenaeola/WeLoveSue>
+
+
 
 

@@ -2,7 +2,9 @@
 
 # HTML
 
----
+## HyperText Markup Language
+
+---?color=#a5c8d0 
 
 ## Last time
 
@@ -23,7 +25,7 @@
 
 ---
 
-## HyperText Markup Language
+## HTML tags
 
 (In groups) 
 * Introduce yourselves
@@ -74,5 +76,7 @@ And to prove it we can
 - Make our page HTML5 compliant
 - Include it in a bootstrap template
 - Follow progress at <https://github.com/stevenaeola/WeLoveSue>
+
+
 
 
