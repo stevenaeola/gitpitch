@@ -29,8 +29,10 @@
 
 (In groups) 
 * Introduce yourselves
-* List the HTML tags you are familiar with (five minutes)
-* One person to create a text file with them in (one per line)
+* List the HTML tags you are familiar with 
+  - five minutes
+* One person to create a text file with them in
+  - one per line
 
 ---
 
@@ -73,9 +75,11 @@
 ## WeLoveSue
 
 And to prove it we can
-- Make our page HTML5 compliant
-- Include it in a bootstrap template
-- Follow progress at <https://github.com/stevenaeola/WeLoveSue>
+
+- make our page HTML5 compliant
+- include it in a bootstrap template
+
+Follow progress at <https://github.com/stevenaeola/WeLoveSue>
 
 
 
