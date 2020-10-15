@@ -5,17 +5,16 @@
 
 ---
 
-## Formative group task (wk 5)
+## Formative group task (wk 4)
 
 - Work in groups of about three from your practical group
-- Aim for diversity of teams: not just people like you
 - Develop a set of web pages showcasing societal impact of CS
 - Use a framework e.g. Bootstrap
 - All pages to have author info linking to github and linkedin
 
 ---
 
-## Peer assessment (week 6)
+## Peer review (week 5)
 
 - Interesting content
 - Good consistent visual presentation
@@ -79,11 +78,13 @@ Outside of scope of version control. Options include:
 
 ## Making a release
 
+@ul
 - Push to gitpages
 - Branching: master and develop
 - Feature branching
 - E.g. [gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 - Release vs continuous delivery/deployment
+@ulend
 
 ---
 
