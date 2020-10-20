@@ -1,14 +1,14 @@
 
-# Javascript
+# JavaScript
 
 
 ## [History](https://app.pluralsight.com/player?name=javascript-good-parts-m2&mode=live&clip=0&course=javascript-good-parts&author=douglas-crockford) 
 
 - Originally in browsers
 - Not Java
-- It has some good parts
+- It has some good parts @fa[smile]
 - Standardised by Ecma (once ECMA) as EcmaScript
-- Current version is ES9 (2018)
+- Current version is [ES11 (2020)](https://medium.com/codingtown/ecmascript-2020-aka-es-11-9c547f69d96f)
 - Most recent widely-supported version is ES6 (2015)
 - [Support varies](http://kangax.github.io/compat-table/es6/)
 
@@ -17,16 +17,15 @@
 
 - More recently JS is also used server-side: nodejs
 - Good JS engines in mobile browsers
-- JS often used for cross-platform App dev [Cordova](https://cordova.apache.org/)
+- JS often used for cross-platform App dev with [Progressive Web Apps](https://web.dev/progressive-web-apps/)
 - Also for desktop applications with [electron](https://electronjs.org/) e.g. [atom](https://atom.io/)
 - Interpreted, not compiled: errors only happen at run-time
 - `console.log` is your friend
 
 
-
 ## Hello world
 
-- Embed javascript in a web page
+- Embed JavaScript in a web page
 - Use `script` tag
 ```HTML
 <html>
@@ -50,7 +49,7 @@ Looks the same as this
 </html>
 ```
 
-Use developer tools to see the console output and error
+Use developer tools to see the console output and error, or for [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)
 
 
 ## Hello again
@@ -76,7 +75,7 @@ Can run in browser as file, not just with http
 - Content Delivery Networks (CDN)
 ```HTML
 <script
- src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+ src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js">
 </script>
 ```
 
@@ -140,7 +139,7 @@ See also `while`, `for`, `switch`, `do`, `throw`, `try`, `catch`, ternary
 
 ## true, false, truthy and falsy
 
-These are all 'falsy':
+These are all ['falsy'](https://developer.mozilla.org/en-US/docs/Glossary/Falsy):
 - false
 - undefined
 - null
