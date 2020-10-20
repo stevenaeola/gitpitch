@@ -126,7 +126,7 @@ Six primitive types
 
 ## Control structures
 
-```
+```js
 if (condition) {
   statement_1;
 } else {
@@ -150,7 +150,7 @@ These are all ['falsy'](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)
 
 Can use for default values e.g
 ```
-var x = x || 4;
+let x = x || 4;
 ```
 Useful when
 
@@ -167,7 +167,7 @@ Useful when
 - Often used for defining event callbacks
 - Don't have to be associated with objects but can be
 
-```
+```js
 function sum(a, b){
    return a+b;
 }
@@ -178,7 +178,7 @@ function sum(a, b){
 
 Almost equivalent is
 
-```
+```js
 var sum = function (a, b){
     return a+b;
 }
@@ -186,7 +186,7 @@ var sum = function (a, b){
 
 or
 
-```
+```js
 var sum2 = (a,b) => a+b;
 ```
 
@@ -197,14 +197,14 @@ Square bracket notation: like python, Java, C
 
 These are equivalent:
 
+```js
+let arr = new Array(1,2,3);
 ```
-var arr = new Array(1,2,3);
+```js
+let arr = Array(1,2,3);
 ```
-```
-var arr = Array(1,2,3);
-```
-```
-var arr = [1,2,3];
+```js
+let arr = [1,2,3];
 ```
 
 Arrays can contain elements of different types
@@ -212,14 +212,14 @@ Arrays can contain elements of different types
 
 ## Array iteration
 
-```
-for(var i=0; i < arr.length; i++){
+```js
+for(let i=0; i < arr.length; i++){
    console.log(arr[i]);
 }
 ```
 See methods in [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 e.g.
-```
+```js
 arr.push(4);
 ```
 
@@ -234,8 +234,8 @@ arr.push(4);
 - Inheritance through prototypes
 
 
-```
-var myCar = new Object();
+```js
+let myCar = new Object();
 myCar.make = 'VW';
 myCar.model = 'Touran';
 
