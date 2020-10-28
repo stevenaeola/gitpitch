@@ -145,7 +145,7 @@ b.draw();
 - go back to the main branch: `git checkout main`
 - merge your branch: `git merge iss52`
 - delete your branch: `git branch -d iss52`
-@endul
+@ulend
 
 ---
 
@@ -156,4 +156,3 @@ b.draw();
 - Automatically merges and identifies issues
 - See also [`git rebase`](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
 
-@ulend
