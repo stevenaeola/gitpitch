@@ -60,7 +60,7 @@ In a `for` loop over a list you can use `of`
 for (let x of [1,2,3]){console.log(x)}
 ```
 
-In a 'for' loop over an object you can use `in` (gives keys)
+In a `for` loop over an object you can use `in` (gives keys)
 ```
 const me = {name: 'Steven', game: 'Lecturer'};
 for(let k in me){
