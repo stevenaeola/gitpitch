@@ -74,10 +74,10 @@ for(let k in me){
 ## Prototypal Inheritance
 
 @ul
-- Every object has a property `__proto__` which refers to another object
-- If a property isn't found in an object's own properties, then `__proto__` is checked
+- Every object has a property `\_\_proto\_\_` which refers to another object
+- If a property isn't found in an object's own properties, then `\_\_proto\_\_` is checked
 - Every function has a property `prototype` which is used when creating an object
-- The `new` keyword is used with a constructor function to create an object and set its `__proto__`
+- The `new` keyword is used with a constructor function to create an object and set its `\_\_proto\_\_`
 - Read more at [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 @ulend
 
