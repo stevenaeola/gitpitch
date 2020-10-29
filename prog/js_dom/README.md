@@ -62,7 +62,7 @@ var element = document.getElementById(id);
 
 - JS often included in `<head>`
 - But DOM elements not defined when code is executed
-- Common to use `document.addEventListener("DOMContentLoaded", ...)`
+- Common to use `document.addEventListener("DOMContentLoaded", f)`
 - Handlers are often anonymous functions
     - function expression
     - arrow function expression
