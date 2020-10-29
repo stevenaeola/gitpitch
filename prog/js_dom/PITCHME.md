@@ -89,7 +89,6 @@ var element = document.getElementById(id);
 
 - Change the content of an element with [innerHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML) property
 - Add/remove elements with [append](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/append) and [remove](https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/remove)
-- These can be called through d3 `enter` and `exit` to match data
 - Change attributes e.g. class, style with [setAttribute](https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute)
 
 ---
@@ -100,6 +99,6 @@ var element = document.getElementById(id);
 - Select parts of the page (DOM)
 - Update the page (DOM)
 - Attach actions (functions) to the page
-- Allows for dynamic pages (e.g. d3)
+- Allows for dynamic pages e.g. [Progressive Web Apps](https://web.dev/progressive-web-apps/)
 @ulend
 
