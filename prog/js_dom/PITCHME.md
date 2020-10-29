@@ -55,7 +55,7 @@ var element = document.getElementById(id);
 - Select item with CSS selector
 - First matching element is selected
 - Can use [querySelectorAll](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll)
-   - Use`for` or `.foreach` to iterate
+   - Use `for` or `.foreach` to iterate
 @ulend
 
 ---
