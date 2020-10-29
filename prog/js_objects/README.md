@@ -6,7 +6,7 @@
 
 Each property is named (with a key) and has a value
 
-In Javascript Object Notation (JSON) we can write
+In object literal notation (like JavaScript Object Notation (JSON)) we can write
 
 ```
 let ball = {x: 200, y: 300, radius: 50};
@@ -47,13 +47,29 @@ ball.draw();
 
 ```
 
+## of and in
+
+In a `for` loop over a list you can use `of`
+```
+for (let x of [1,2,3]){console.log(x)}
+```
+
+In a `for` loop over an object you can use `in` (gives keys)
+```
+const me = {name: 'Steven', game: 'Lecturer'};
+for(let k in me){
+    console.log('I have a ' + k);
+    console.log('It is ' + me[k]);
+}
+```
+
 
 ## Prototypal Inheritance
 
-- Every object has a property `__proto__` which refers to another object
-- If a property isn't found in an object's own properties, then `__proto__` is checked
-- Every function has a property `prototype` which can be used when creating an object
-- The `new` keyword is used with a constructor function to create an object and set its `__proto__`
+- Every object has a property `\_\_proto\_\_` which refers to another object
+- If a property isn't found in an object's own properties, then `\_\_proto\_\_` is checked
+- Every function has a property `prototype` which is used when creating an object
+- The `new` keyword is used with a constructor function to create an object and set its `\_\_proto\_\_`
 - Read more at [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 
 
@@ -100,3 +116,22 @@ b.draw();
 - No global variables: no clashes
 - Make reusable components with classes
 - Reuse in the same project (multiple balls) or in different projects
+
+
+## git revisited: basic branching
+
+- create a branch with `git branch iss52`
+- check it out with `git checkout iss52`
+- do some work, `add` and `commit`
+- go back to the main branch: `git checkout main`
+- merge your branch: `git merge iss52`
+- delete your branch: `git branch -d iss52`
+
+
+## What is the point of all that?
+
+- Different people can work on different features
+- Before merging you can update with `git pull`
+- Automatically merges and identifies issues
+- See also [`git rebase`](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
+
