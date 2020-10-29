@@ -44,7 +44,8 @@ var element = document.getElementById(id);
 
 - Select item with CSS selector
 - First matching element is selected
-- Can use [querySelectorAll](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll) with `foreach`
+- Can use [querySelectorAll](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll)
+   - Use`for` or `.foreach` to iterate
 
 
 ## Listening for events
@@ -82,5 +83,4 @@ var element = document.getElementById(id);
 - Update the page (DOM)
 - Attach actions (functions) to the page
 - Allows for dynamic pages (e.g. d3)
-- Next time: code quality and documentation
 
