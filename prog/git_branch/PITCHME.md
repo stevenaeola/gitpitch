@@ -65,7 +65,7 @@
 
 ---
 
-# Let's do it: repeat 
+## Let's do it: repeat 
 
 - Create an issue branch (numbered with github issue number)
 - Change your local code to address the issue
