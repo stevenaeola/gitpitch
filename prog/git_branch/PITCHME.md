@@ -49,7 +49,7 @@
 @ul
 - Common open source model 
   - you don't have permission to push directly
-- Fork the repo at github (c.f. clone at the remote)
+- Fork the repo at github (c.f. clone to local)
 - clone your forked repo into your local machine
 - add the original as upstream repo with [set remote](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork)
 - you can `git push` and `git pull` with your forked repo
@@ -58,10 +58,15 @@
 
 ---
 
-## Let's do it (in groups)!
+## Let's do it: set up
 
 - One of you operate the keyboard and share screen
 - Fork, clone and set upstream remote
+
+---
+
+# Let's do it: repeat 
+
 - Create an issue branch (numbered with github issue number)
 - Change your local code to address the issue
 - Add and commit your change (to the issue branch)
@@ -83,6 +88,6 @@
 - If your PR wasn't chosen you might want to remove that branch
 - Switch to master `git checkout master`
 - Pull the changes from upstream `git pull upstream`
-- Create new issue branch and follow the same process
+- Repeat new issue branch/commit/push/PR
 
 
