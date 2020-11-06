@@ -58,8 +58,7 @@
 - Change your local code to address the issue
 - Add and commit your change (to the issue branch)
   - Do not merge your issue branch into main
-- push your branch to forked repo
-```git push origin issNN```
+- push your branch to forked repo `git push origin issNN`
 - on github [make a pull request (PR)](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)
   - from the issue branch on your fork
   - to the master branch on the upstream repo
@@ -71,10 +70,8 @@
 ## Let's do it again
 
 - If your PR wasn't chosen you might want to remove that branch
-- Switch to master 
-```git checkout master```
-- Pull the changes from upstream 
-```git pull upstream```
+- Switch to master `git checkout master`
+- Pull the changes from upstream `git pull upstream`
 - Repeat new issue branch/commit/push/PR
 
 
