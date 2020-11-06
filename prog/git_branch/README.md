@@ -71,7 +71,8 @@
 
 - If your PR wasn't chosen you might want to remove that branch
 - Switch to master `git checkout master`
-- Pull the changes from upstream `git pull upstream`
+- Pull the changes from upstream
+  - `git pull upstream`
 - Repeat new issue branch/commit/push/PR
 
 
