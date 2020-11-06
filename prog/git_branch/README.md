@@ -49,6 +49,7 @@
 
 - One of you operate the keyboard and share screen
 - Fork, clone and set upstream remote
+- This may go horribly wrong: embrace failure!
 
 
 ## Let's do it: repeat 
