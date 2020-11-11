@@ -20,7 +20,7 @@ Response to request may be used to update or replace some or all of a web page.
 
 ---
 
-## Hypertext Transfer Protocol (HTTP)
+## Hypertext Transfer Protocol (HTTP) basics
 
 @ul
 
@@ -32,13 +32,17 @@ Response to request may be used to update or replace some or all of a web page.
     - HTTP 1.1 (1997)
     - HTTP 2.0 (2015/2020)
 -  Commonly accepted extensions: cookies 
+@ulend
+
+---
+
+## HTTP: more
+
 - HTTP 2 approved in 2015, including compression, push, pipelining and multiplexing
 -  For full details see <https://tools.ietf.org/html/rfc7540>
 -  For tutorial see <http://www.jmarshall.com/easy/http/>
 -  Some knowledge important for web apps
 -  Not just for HTML, but general resource (uRl)
-
-@ulend
 
 ---
 
