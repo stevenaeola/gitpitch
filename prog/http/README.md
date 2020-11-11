@@ -10,7 +10,7 @@ Responses include (write list in groups)
 
 ## Sources of requests
 
-ow might requests be generated?
+How might requests be generated?
 
 
 Response to request may be used to update or replace some or all of a web page.
@@ -88,4 +88,4 @@ Headers can include setting cookie values
 
 - A web server responds to http requests, usually on port 80
 - Request proivdes data in header and (possibly) body
-- Response provides data in body and (possibly) header
+- Response provides data in body and (possibly) headerH
