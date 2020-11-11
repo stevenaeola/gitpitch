@@ -4,46 +4,23 @@
 
 ---
 
-### Possible responses from a web request
+## Possible responses from a web request
 
-Responses include
-
-- A plain text file
-- A web page: some HTML
-- An image file (jpeg, gif, png)
-- A document (pdf, word)
-- Some data (XML, JSON)
-- A CSS file
-- A javascript program
-- A flash movie
-- A redirection (in headers)
-- A cookie value (in headers)
-- An error
-- A combination of the above
-
-How might requests be generated?
+Responses include (write list in groups)
 
 ---
 
-### Sources of requests
 
-- URL typed in by user
-- Hyperlink followed
-- Form submitted
-- Clicking in an image map
-- Image included in source file
-- Frameset or iframe in HTML source (can be recursive)
-- Following a redirection (including 301 error)
-- Javascript execution (triggered by mouseover etc)
-- Flash execution (or other plug-in e.g. pdf)
-- From a server (e.g. curl, robot, web service request)
+## Sources of requests
+
+ow might requests be generated?
+
 
 Response to request may be used to update or replace some or all of a web page.
 
 ---
 
-### Hypertext Transfer Protocol (HTTP)
-
+## Hypertext Transfer Protocol (HTTP)
 
 @ul
 
@@ -53,10 +30,10 @@ Response to request may be used to update or replace some or all of a web page.
     - HTTP 0.9 (1991)
     - HTTP 1.0 (1996)
     - HTTP 1.1 (1997)
-    - HTTP 2.0 (2015)
+    - HTTP 2.0 (2015/2020)
 -  Commonly accepted extensions: cookies 
-- HTTP 2 approved in 2015, including compression, push, pipelining and multiplexing</po
--  For full details see <http://www.w3c.org/Protocols>
+- HTTP 2 approved in 2015, including compression, push, pipelining and multiplexing
+-  For full details see <https://tools.ietf.org/html/rfc7540>
 -  For tutorial see <http://www.jmarshall.com/easy/http/>
 -  Some knowledge important for web apps
 -  Not just for HTML, but general resource (uRl)
@@ -65,34 +42,34 @@ Response to request may be used to update or replace some or all of a web page.
 
 ---
 
-### Overview
+## Overview
 
 
--  Client/Server: (usually) no response without request
+- Client/Server: (usually) no response without request
 - Requests and responses have similar format:
     - __Request/Status Line__ including HTTP version and Status Codes for response
     - __Headers__ including the host in HTTP 1.1, allowing for multiple sites on same IP
     - __Blank Line__
--  Can run manually using telnet
+- Can run manually using curl
+- Default port number is 80 (443 for https)
 
 ---
 
-### telnet requests
+## curl requests
 
-At a Linux prompt:
+At a command prompt:
 
 ```
-  telnet community.dur.ac.uk 80
-  GET /s.p.bradley/teaching/WP/lecture_http/ HTTP/1.1
-  Host: community.dur.ac.uk
+  curl -v google.coom
+  curl -v gooogle.com
+  curl -v google.com
+  curl -v https://www.dur.ac.uk/computer.science/password/current/
 ```
-
-Some sites require https (e.g. www.dur.ac.uk)
+ 
 
 ---
 
-### Request
-
+## Request types include
 
 - __GET__ most common
 - __POST__ for some forms
@@ -100,13 +77,11 @@ Some sites require https (e.g. www.dur.ac.uk)
 - __PUT__ rarely used outside web services
 - __DELETE__ rarely used outside web services
 
-
 Headers can include cookie values
 
 ---
 
-### Response
-
+## Response
 
 Response Codes
 
@@ -116,3 +91,12 @@ Response Codes
 - __400-499__ Client error (401 Unauthorised, 403 Forbidden, 404 Not Found)
 - __500-599__ Server error
 
+Headers can include setting cookie values
+
+---
+
+## Summary
+
+- A web server responds to http requests, usually on port 80
+- Request proivdes data in header and (possibly) body
+- Response provides data in body and (possibly) header
