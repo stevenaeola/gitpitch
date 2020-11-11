@@ -1,8 +1,6 @@
----?color=#7E317B
 
 # COMP1101 Programming (Black) Summative Assessment 1
 
----
 
 ## Term 1 Programming Exercise Outline
 
@@ -12,7 +10,6 @@
 - Contributes 50% of module marks
 - Includes peer review feedback which you will be allocated
 
----
 
 ## Subject-specific Knowledge
 
@@ -24,7 +21,6 @@
 - Making programs robust through the use of exceptions and exception handling
 - A knowledge and understanding of good programming practice (for example, reuse, documentation and style)
 
----
 
 ## Subject-Specific Skills
 
@@ -32,14 +28,12 @@
 - an ability to apply reuse by exploiting predefined components
 - an ability to use software tools related to programming (programming environments, code management, documentation tools, etc.)
 
----
 
 ## Key Skills
 
 - an ability to communicate technical information
 - an ability to recognise and apply the principles of abstraction and modelling
 
----
 
 
 ## Task summary
@@ -48,7 +42,6 @@
 - Use static HTML pages loading dynamic JSON content from server via AJAX
 - Server written in nodejs to provide JSON through REST API
 
----
 
 ## Dynamic web site
 
@@ -61,7 +54,6 @@
 - Could be e.g. club, social, health, gallery
 - If you are not sure then ask me
 
----
 
 ## Static HTML loading JSON via AJAX
 
@@ -71,13 +63,11 @@
 - Should be responsive i.e. work well on desktop and mobile
 - Recommend using framework such as Bootstrap, semantic-ui
 
----
 
 ## Message sequence chart
 
 ![Message Sequence Chart showing Client server interaction with AJAX](https://www.websequencediagrams.com/cgi-bin/cdraw?lz=dGl0bGUgQ2xpZW50L3NlcnZlciBpbnRlcmFjdGlvbgoKABUGLT5TABcFOiBTdGF0aWMgcGFnZSByZXF1ZXN0CgAWBi0-AEEGOiBIVE1MCmxvb3AgZWFjaCB1c2VyIABJBwA_EER5bmFtaWMgY29udGVudABLCCAoQUpBWCkASRFKU09OAIEKCQBnCFJlbmRlcgAXBQA_CWFzAIEBBSB3aXRoaW4gRE9NCmVuZAoK&s=roundgreen)
 
----
 
 ## Server provides JSON through a REST API
 
@@ -88,13 +78,11 @@ Each entity type (e.g. picture) has
 - POST method to add new entity
 - Document your API in the style of the [Twitter API](https://developer.twitter.com/en/docs/twitter-api/api-reference-index)
 
----
 
 - Response provided as JSON
 - Content-type needs to be correct
 - HTTP codes should be correct: use 200, 400 or 403 (if using authentication)
 
----
 
 ## Server written in nodejs
 
@@ -104,7 +92,6 @@ Each entity type (e.g. picture) has
 - Use eslint: run with `npm run pretest`
 - Recommend using express
 
----
 
 ## Submission
 
@@ -120,7 +107,6 @@ Source code (all zipped)
 
 Should not include `node_modules` in submission
 
----
 
 ## Assessment Criteria
 
@@ -132,7 +118,6 @@ Equally weighted
 - Server-side quality
 - Video presentation
 
----
 
 ## Client-side functionality criteria
 
@@ -141,7 +126,6 @@ Equally weighted
 - 'Single page' style: asynchronous updates
 - Staff reviewed
 
----
 
 ## Client-side quality criteria
 
@@ -152,7 +136,6 @@ Equally weighted
   - recommences on server restart
 - Peer reviewed; staff moderated
 
----
 
 ## Server-side functionality criteria
 
@@ -162,7 +145,6 @@ Equally weighted
 - Starts with `npm start`
 - Staff reviewed
 
----
 
 ## Server-side quality criteria
 
@@ -172,7 +154,6 @@ Equally weighted
 - Completeness of API documentation 
 - Peer reviewed; staff moderated
 
----
 
 ## Video Presentation
 
@@ -185,7 +166,6 @@ Equally weighted
 - Lose 10% of marks for every 10 seconds over 2 minutes
 - Staff reviewed
 
----
 
 ## Peer Review Marking
 
@@ -198,7 +178,6 @@ Equally weighted
 * The average student tends to get about 65%
 * 65% is on the good/very good boundary of the [marking conventions](https://www.dur.ac.uk/resources/university.calendar/volumeii/2019.2020/coreregsug.pdf) p15
 
----
 
 ## How to do the assignment
 
