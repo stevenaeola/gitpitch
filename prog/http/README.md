@@ -5,6 +5,20 @@
 ## Possible responses from a web request
 
 Responses include (write list in groups)
+- A plain text file
+- A web page: some HTML
+- An image file (jpeg, gif, png)
+- An executable (.exe, .msi)
+- A document (pdf, word)
+- Some data (XML, JSON)
+- A CSS file
+- A JavaScript program
+- A flash movie
+- A redirection (in headers)
+- A cookie value (in headers)
+- An error
+- A combination of the above
+- 
 
 
 
@@ -12,6 +26,17 @@ Responses include (write list in groups)
 
 How might requests be generated?
 
+- URL typed in by user
+- Hyperlink followed
+- Form submitted
+- Clicking in an image map
+- Image included in source file
+- CSS included in source file
+- Frameset or iframe in HTML source (can be recursive)
+- Following a redirection (including 301 error)
+- JavaScript execution (triggered by mouseover etc)
+- Flash execution (or other plug-in e.g. pdf)
+- From a server (e.g. curl, robot, web service request)
 
 Response to request may be used to update or replace some or all of a web page.
 
