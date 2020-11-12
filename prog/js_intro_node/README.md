@@ -14,10 +14,10 @@
 
   - Developed from 2009
   - Based on Chrome V8 Javascript engine: compiles to machine code
-  - Originally by Joyent, now has its own foundation
+  - Originally by Joyent, part of [OpenJS foundation](https://openjsf.org/)
   - [Major fork in 2014](https://flaviocopes.com/node-history/) to io.js, since merged
   - MIT-style licence
-  - Package manager npm (and yarn). See [left pad incident](https://blog.npmjs.org/post/141577284765/kik-left-pad-and-npm)
+  - Package manager [npm](https://www.npmjs.com/) (and [yarn](https://yarnpkg.com/)). See [left pad incident](https://blog.npmjs.org/post/141577284765/kik-left-pad-and-npm)
 
 
 # Hosting
