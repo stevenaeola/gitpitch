@@ -1,5 +1,5 @@
 
-# DRAFT COMP1101 Programming (Black) Summative Assessment 1 DRAFT
+# COMP1101 Programming (Black) Summative Assessment 1
 
 
 ## Term 1 Programming Exercise Outline
