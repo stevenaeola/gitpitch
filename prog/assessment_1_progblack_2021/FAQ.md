@@ -35,6 +35,10 @@ Yes this is definitely a good idea, as it makes the code easier to read, more ro
 
 If this were for real then a database of some kind would be the best way to store data. However, databases are not part of this course. My recommendation would be to write functions for saving the state, which just write to file a JSON string representing the state. This would not work with multiple users but would be enough for simple testing.
 
+### What do you mean by an 'entity type'?
+
+If this were object oriented programming they would be referred to classes. It is a 'type' or 'kind' of thing. The different entity types will have different information stored for them. If your app is about poets and their poems then you would have two entitity types: 'poet' and 'poem'. For each poet you might want to store their id, name(s), date of birth, url of image. For each poem you might want to store an id, the title, date of writing, and the text. The relationships between the entities would be of the form poet1 authored poem2. Exactly how you store the information about the relationship is up to you: you could store the author id with the poem, or store a list of poems ids with the author, or have a separate store relating the two. In either case, when you get the details of an entity you should include everything, including the relationships.
+
 
 ## Server-side quality criteria
 
