@@ -139,7 +139,7 @@ app.use(express.static('client'));
 Add this to handle any errors from `fetch` handler chain
 
 ```
-.catch( (error) => alert(error)
+.catch( (error) => alert(error))
 ```
 
 If you want to deal with 404 errors you will have to look at `response.ok` 
