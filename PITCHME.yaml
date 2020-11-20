@@ -1,0 +1,4 @@
+theme : simple
+theme-override : layout.css
+
+mathjax : TeX-MML-AM_HTMLorMML-full
