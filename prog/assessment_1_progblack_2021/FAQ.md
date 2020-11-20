@@ -52,7 +52,7 @@ You should not have to read the code to see the API documentation. You could wri
 
 ### What do we need in the API documentation?
 
-For the API documentation the ideal is something like the documentation of the [Twitter API])https://developer.twitter.com/en/docs/api-reference-index) which lists the methods in the API and then provides the [details for each method])https://developer.twitter.com/en/docs/tweets/post-and-engage/api-reference/get-statuses-retweets-id) including details of parameters and response.
+For the API documentation the ideal is something like the documentation of the [Twitter API](https://developer.twitter.com/en/docs/api-reference-index) which lists the methods in the API and then provides the [details for each method](https://developer.twitter.com/en/docs/tweets/post-and-engage/api-reference/get-statuses-retweets-id) including details of parameters and response.
 
 ### How should we configure the ESLint file?
 
