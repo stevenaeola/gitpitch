@@ -48,7 +48,6 @@ See also [tutorial on nodejs to build a REST API](https://codeburst.io/node-js-b
 
 ## REST and Single Page App
 
-@ul
 - In a single page app reduce traffic by updating content rather than reloading
 - Access REST methods directly from client (using fetch)
 - Problem: if we use a form it gets submitted and loads 'action' page
@@ -62,4 +61,4 @@ or
 ```
 event.stopPropogation();
 ```
-@ulend
+
