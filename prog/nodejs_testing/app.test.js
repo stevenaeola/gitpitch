@@ -4,83 +4,48 @@
 const request = require('supertest');
 const app = require('./app');
 
-function checkDeliaDerbyshire(res)
-{
-
-    const jContent = res.body;
-    if(typeof jContent !== 'object'){
-	throw new Error('not an object');
-    }
-
-    if(jContent['surname'] !== 'Derbyshire'){
-	console.log(jContent);
-	throw new Error('surname should be Derbyshire');
-    }
-
-    if(jContent['forename'] !== 'Delia'){
-	throw new Error('forename should be Delia');
-    }
-}
-
-// thanks to Nico Tejera at https://stackoverflow.com/questions/1714786/query-string-encoding-of-a-javascript-object
-// returns something like "access_token=concertina&username=bobthebuilder"
-function serialise(obj){
-    return Object.keys(obj).map(k => `${encodeURIComponent(k)}=${encodeURIComponent(obj[k])}`).join('&');
-}
-
-describe('Test the people service', () => {
-    test('GET /people succeeds', () => {
+describe('Test the things service', () => {
+    test('GET /thing/list succeeds', () => {
         return request(app)
-	    .get('/people')
+	    .get('/thing/list')
 	    .expect(200);
     });
 
-    test('GET /people returns JSON', () => {
+    test('GET /thing/list returns JSON', () => {
         return request(app)
-	    .get('/people')
+	    .get('/thing/list')
 	    .expect('Content-type', /json/);
     });
 
-    test('GET /people includes doctorwhocomposer', () => {
+    test('GET /thing/list includes red hair', () => {
         return request(app)
-	    .get('/people')
-	    .expect(/doctorwhocomposer/);
+	    .get('/thing/list')
+	    .expect(/red hair/);
     });
 
-    test('GET /people/doctorwhocomposer succeeds', () => {
+    test('GET /thing/1 succeeds', () => {
         return request(app)
-	    .get('/people/doctorwhocomposer')
+	    .get('/thing/1')
 	    .expect(200);
     });
 
-    test('GET /people/doctorwhocomposer returns JSON', () => {
+    test('GET /thing/1 returns JSON', () => {
         return request(app)
-	    .get('/people/doctorwhocomposer')
+	    .get('/thing/1')
 	    .expect('Content-type', /json/);
     });
 
-    test('GET /people/doctorwhocomposer includes name details', () => {
+    test('GET /thing/1 includes 40', () => {
         return request(app)
-	    .get('/people/doctorwhocomposer')
-	    .expect(checkDeliaDerbyshire);
+	    .get('/thing/1')
+	    .expect(/40/);
     });
 
-
-    test('POST /people needs access_token', () => {
+    test('POST /thing/add succeeds', () => {
+        const params = {'newthing': 'TechUp'};
         return request(app)
-	    .post('/people')
-	    .expect(403);
+        .post('/thing/add')
+        .send(params)
+	    .expect(200);
     });
-
-    test('POST /people cannot replicate', () => {
-	const params = {access_token: 'concertina',
-			username: 'doctorwhocomposer',
-			forename: 'Bob',
-			surname: 'Builder'};
-        return request(app)
-	    .post('/people')
-	    .send(serialise(params))
-	    .expect(400);
-    });
-
 });
