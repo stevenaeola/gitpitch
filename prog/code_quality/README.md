@@ -40,7 +40,7 @@ module.exports = {
 
 ## Code review best practice
 
-[### Advice from Michaela Greiler](https://www.michaelagreiler.com/respectful-constructive-code-review-feedback/)
+[Advice from Michaela Greiler](https://www.michaelagreiler.com/respectful-constructive-code-review-feedback/)
 
 
 ## Getting the most out of VSCode
