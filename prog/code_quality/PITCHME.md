@@ -1,6 +1,4 @@
----?color=#7E317B
-
-# Code Quality
+# Code Quality {data-background-color=#7E317B}
 
 
 ---

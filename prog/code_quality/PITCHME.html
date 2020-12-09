@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title>PITCHME</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/simple.css" id="theme">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+
+<section>
+<section id="code-quality" class="title-slide slide level1" data-background-color="#7E317B">
+<h1 data-background-color="#7E317B">Code Quality</h1>
+
+</section>
+<section id="summary" class="slide level2">
+<h2>Summary</h2>
+<ul>
+<li>Running visualisation with CORS errors</li>
+<li>Encapsulation and classes</li>
+<li>Documentation with JSDoc</li>
+<li>ESLint</li>
+</ul>
+</section>
+<section id="cors-errors" class="slide level2">
+<h2>CORS Errors</h2>
+<ul>
+<li>Cross-Origin Resource Sharing</li>
+<li>JS Module feature (import) is picky</li>
+<li>Run the whole thing through a web server e.g.</li>
+</ul>
+<pre><code>python -m http.server</code></pre>
+<ul>
+<li>Then access through <a href="http://127.0.0.1:8000" class="uri">http://127.0.0.1:8000</a></li>
+</ul>
+</section>
+<section id="making-a-local-version" class="slide level2">
+<h2>Making a local version</h2>
+<ul>
+<li>Include in your own script by taking the relevant parts into one JS file</li>
+<li>Include the data too</li>
+<li>Use <code>d3.select</code> rather than <code>d3.append</code></li>
+<li>See <a href="sunburst">updated sunburst</a></li>
+</ul>
+</section>
+<section id="encapsulation-and-classes" class="slide level2">
+<h2>Encapsulation and classes</h2>
+<ul>
+<li>Take all of the code and put it inside your class</li>
+<li>Parameterise any numeric and string constants</li>
+<li>Have a constructor that takes data object (or possibly url)</li>
+</ul>
+</section>
+<section id="documentation-with-jsdoc" class="slide level2">
+<h2>Documentation with JSDoc</h2>
+<ul>
+<li>Generates web site of documentation based on comments in code</li>
+<li>Install <a href="https://nodejs.org/en/download/">nodejs</a></li>
+<li>Install jsdoc with <code>npm install -g jsdoc</code></li>
+<li>Run with <code>jsdoc file.js</code></li>
+<li>Read the <a href="https://devdocs.io/jsdoc/about-getting-started">documentation documentation</a></li>
+<li>Specific advice on <a href="https://devdocs.io/jsdoc/howto-es2015-classes">classes</a></li>
+</ul>
+</section>
+<section id="code-quality-with-eslint" class="slide level2">
+<h2>Code Quality with ESLint</h2>
+<ul>
+<li>Checks coding standards are applied</li>
+<li>Install with <code>npm install -g eslint</code></li>
+<li>Use a particular set of rules e.g. standard (need to install)</li>
+<li>Customise (see coursework specification)</li>
+<li>Run with <code>eslint file.js</code></li>
+</ul>
+</section></section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
+
+  // reveal.js plugins
+  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+
+        // reveal.js plugins
+        plugins: [
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    </body>
+</html>
