@@ -5,6 +5,7 @@
 
 - This is not the assignment specification
 - General idea
+- Skills to develop
 - Things to do
   - Contribute to Open Source Software
   - Take part in a (collaborative) competition
@@ -14,7 +15,7 @@
 ## This is not the assignment specification
 
 - That will come later
-- This is to give yuo time to think/research about what you want to do
+- This is to give you time to think/research about what you want to do
 
 
 ## General idea
@@ -25,8 +26,74 @@
 - Reflective summary
 - Be collaborative
 - Make a contribution
+- Assessed by reflective journal (blog?)
+
+
+
+# Skills to develop 
+
+- These are examples only
+- Keep track of your progress
+- You could write a learning tutorial as a contribution
 
 
 
 
+## JavaScript Skills
+
+
+- [TypeScript](https://www.typescriptlang.org/)
+- [React](https://reactjs.org/) or [Vue](https://vuejs.org/)
+- [Progressive Web Apps](https://web.dev/progressive-web-apps/)
+- [d3](https://d3js.org/) with [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG)
+- [WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Getting_started_with_WebGL) / [WebAudio](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) / [Other APIs](https://developer.mozilla.org/en-US/docs/Web/API)
+
+
+
+## Non-JavaScript Skills
+
+
+- [Django](https://www.djangoproject.com/)
+- [Continuous Integration (CI/CD)](https://www.atlassian.com/continuous-delivery/continuous-integration)
+- Cloud platforms ([AWS](https://aws.amazon.com/) / [Azure](https://azure.microsoft.com/en-gb/) / [Google](https://cloud.google.com/appengine) / [OpenShift](https://www.openshift.com/) / [IBM](https://cloud.ibm.com/docs))
+- [Rust](https://www.rust-lang.org/)
+
+
+
+# Things to do 
+
+
+## Contribute to Open Source Software
+
+- Choose your favourite project
+- Pick from a [list of things up for grabs](https://up-for-grabs.net/#/) for [first timers](https://www.firsttimersonly.com/)
+- [Code for social good](https://app.code4socialgood.org/project/list/projects)
+- [Don't need to commit code](https://opensource.guide/how-to-contribute/) you can
+  - Review/ translate docs and help
+  - Issue gardening (remove duplicates)
+  - Answer questions on forums e.g. StackOverflow
+  - Make a video of installation process
+
+
+## Take part in a (collaborative) competition
+
+<https://www.showcode.io/unicode/>
+
+
+## Take part in a hackathon
+
+<https://hack.athon.uk/>
+
+
+# Or do you own thing 
+
+- As long as it is collaborative
+
+
+## You don't need to start it now
+
+
+- Handed out in Week 11 (first week of next term)
+- You might like to thing about it
+- Handed in end of Easter vacation
 
