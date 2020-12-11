@@ -22,11 +22,10 @@
 
 
 - You choose an area to develop and apply your skills
-- Record your progress (with git)
-- Reflective summary
 - Be collaborative
 - Make a contribution
-- Assessed by reflective journal (blog?)
+- Record your progress (with git)
+- Assessed by reflective journal
 
 
 
