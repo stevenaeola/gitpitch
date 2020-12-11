@@ -47,6 +47,7 @@
 - [d3](https://d3js.org/) with [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG)
 - [p5](https://p5js.org/) and [openprocessing](https://www.openprocessing.org/)
 - [WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Getting_started_with_WebGL) / [WebAudio](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) / [Other APIs](https://developer.mozilla.org/en-US/docs/Web/API)
+- [node-RED](https://nodered.org/)
 - Something else from [State of JS](https://2019.stateofjs.com/overview/)
 
 
@@ -56,7 +57,12 @@
 
 - [Django](https://www.djangoproject.com/)
 - [Continuous Integration (CI/CD)](https://www.atlassian.com/continuous-delivery/continuous-integration)
-- Cloud platforms ([AWS](https://aws.amazon.com/) / [Azure](https://azure.microsoft.com/en-gb/) / [Google](https://cloud.google.com/appengine) / [OpenShift](https://www.openshift.com/) / [IBM](https://cloud.ibm.com/docs))
+- Cloud platforms 
+ - [AWS](https://aws.amazon.com/) 
+ - [Azure](https://azure.microsoft.com/en-gb/) 
+ - [Google](https://cloud.google.com/appengine)
+ - [IBM](https://cloud.ibm.com/docs))
+ - [OpenShift](https://www.openshift.com/) 
 - [Rust](https://www.rust-lang.org/)
 
 
