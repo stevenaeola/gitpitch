@@ -81,14 +81,22 @@
 
 ## Contribute to Open Source Software
 
+::: incremental
 - Choose your favourite project
 - Pick from a [list of things up for grabs](https://up-for-grabs.net/#/) for [first timers](https://www.firsttimersonly.com/)
 - [Code for social good](https://app.code4socialgood.org/project/list/projects)
-- [Don't need to commit code](https://opensource.guide/how-to-contribute/) you can
-  - Review/ translate docs and help
-  - Issue gardening (remove duplicates)
-  - Answer questions on forums e.g. StackOverflow
-  - Make a video of installation process
+:::
+
+---
+
+## [Don't need to commit code](https://opensource.guide/how-to-contribute/) 
+
+::: incremental
+- Review/ translate docs and help
+- Issue gardening (remove duplicates)
+- Answer questions on forums e.g. StackOverflow
+- Make a video of installation process
+:::
 
 ---
 
