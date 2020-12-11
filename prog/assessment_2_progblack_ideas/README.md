@@ -90,7 +90,7 @@
 <https://hack.athon.uk/>
 
 
-# Or do you own thing 
+# Or do your own thing 
 
 - As long as it is collaborative
 

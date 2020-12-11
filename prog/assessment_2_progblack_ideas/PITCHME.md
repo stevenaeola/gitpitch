@@ -112,7 +112,7 @@
 
 ---
 
-# Or do you own thing {data-background-color=#00AEEF}
+# Or do your own thing {data-background-color=#00AEEF}
 
 - As long as it is collaborative
 
