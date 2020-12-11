@@ -68,12 +68,7 @@
 
 - [Django](https://www.djangoproject.com/)
 - [Continuous Integration (CI/CD)](https://www.atlassian.com/continuous-delivery/continuous-integration)
-- Cloud platforms 
- - [AWS](https://aws.amazon.com/) 
- - [Azure](https://azure.microsoft.com/en-gb/) 
- - [Google](https://cloud.google.com/appengine)
- - [IBM](https://cloud.ibm.com/docs))
- - [OpenShift](https://www.openshift.com/) 
+- Cloud platforms ([AWS](https://aws.amazon.com/) / [Azure](https://azure.microsoft.com/en-gb/) / [Google](https://cloud.google.com/appengine) / [OpenShift](https://www.openshift.com/) / [IBM](https://cloud.ibm.com/docs))
 - [Rust](https://www.rust-lang.org/)
 
 :::
