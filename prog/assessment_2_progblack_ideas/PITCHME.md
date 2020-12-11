@@ -123,7 +123,8 @@
 :::incremental
 
 - Handed out in Week 11 (first week of next term)
-- You might like to thing about it
 - Handed in end of Easter vacation
+- You might like to thing about it
+
 
 :::
