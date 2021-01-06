@@ -4,7 +4,11 @@
 ## Formal Business
 
 
-- Elections as terms end: forthcoming (February 2021) for chair, vice-char
+- Elections as terms end: forthcoming (February 2021) for 
+  - chair (currently Steven Bradley)
+  - vice-chair (currently Sally Fincher)
+  - membership secretary (currently Samia Kamal)
+  - officer can have max two terms
 - Finance report (none)
     
 ## Who are we
