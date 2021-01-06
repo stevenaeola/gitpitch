@@ -11,6 +11,7 @@
   - vice-chair (currently Sally Fincher)
   - membership secretary (currently Samia Kamal)
   - officer can have max two terms
+  - to be held via SurveyMonkey
 - Finance report (none)
 :::
 ---
