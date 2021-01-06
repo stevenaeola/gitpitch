@@ -1,13 +1,11 @@
-
-# UK ACM SIGCSE AGM 2021
+# UK ACM SIGCSE AGM 2021 
 
 
 ## Formal Business
 
 
-- Elections as terms end: forthcoming (February 2021)
+- Elections as terms end: forthcoming (February 2021) for chair, vice-char
 - Finance report (none)
-
     
 ## Who are we
 
@@ -21,6 +19,6 @@
 ## What we do
 
 - Events: CEP
-- UKICER (first 2019)
-- Local events
+- UKICER (first 2019), joint with Ireland SIGCSE
+- Local events: journal club
 
