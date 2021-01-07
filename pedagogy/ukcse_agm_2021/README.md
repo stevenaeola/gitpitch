@@ -31,3 +31,7 @@
   - journal club (Duncan Hull)
   - CS pedagogy  (Jane Waite)
 
+
+That's all folks 
+
+Thanks for coming
