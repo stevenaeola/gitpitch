@@ -32,6 +32,6 @@
   - CS pedagogy  (Jane Waite)
 
 
-That's all folks 
+# That's all folks 
 
 Thanks for coming
