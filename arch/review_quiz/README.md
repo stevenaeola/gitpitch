@@ -8,8 +8,9 @@
 - You are going to write a quiz
 - In groups of about four
 - Write two questions relating to previous content
-- If nobody gets it right you lose 10 points
 - Everybody then answers the questions
+- YOu get points for the ones you get right
+- If nobody gets your question right you lose 10 points
 - Team with the most points wins
 :::
     
