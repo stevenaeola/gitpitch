@@ -25,4 +25,15 @@
 - Remember they can google
 - You have 8 minutes
 
+---
+
+## Marking
+
+- Group representative please post to the chat
+  - your room number
+  - a link to a document with your answers to other questions
+- Paste the answers to your questions in the ANSWERS doc (in chat)
+- Find the document for room n%11 +1
+- Mark their answers (max 2 marks per question)
+
 
