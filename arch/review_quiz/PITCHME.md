@@ -22,4 +22,6 @@
 - Have your answers ready, but not in the document
 - Decide who is going to do the pasting
 - Remember they can google
+- You have 8 minutes
+
 
