@@ -26,9 +26,16 @@
 
 ---
 
-## What we do
+## What we do & shout-outs
 
 - Events: CEP
-- UKICER (first 2019), joint with Ireland SIGCSE
-- Local events: journal club
+- UKICER (first 2019), joint with Ireland SIGCSE <https://youtu.be/wXz64RP391g>
+- Local events
+  - journal club (Duncan Hull)
+  - CS pedagogy  (Jane Waite)
 
+---
+
+# That's all folks {data-background-color=#7E317B}
+
+Thanks for coming

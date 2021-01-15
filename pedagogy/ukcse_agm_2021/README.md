@@ -3,6 +3,7 @@
 
 ## Formal Business
 
+::: incremental
 
 - Elections as terms end: forthcoming (February 2021) for 
   - chair (currently Steven Bradley)
@@ -11,6 +12,7 @@
   - officer can have max two terms
   - to be held via SurveyMonkey
 - Finance report (none)
+:::
     
 ## Who are we
 
@@ -21,9 +23,15 @@
 - Board members
 
 
-## What we do
+## What we do & shout-outs
 
 - Events: CEP
-- UKICER (first 2019), joint with Ireland SIGCSE
-- Local events: journal club
+- UKICER (first 2019), joint with Ireland SIGCSE <https://youtu.be/wXz64RP391g>
+- Local events
+  - journal club (Duncan Hull)
+  - CS pedagogy  (Jane Waite)
 
+
+# That's all folks 
+
+Thanks for coming
