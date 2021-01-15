@@ -84,3 +84,7 @@ Yes, basically it’s 1% per second.
 ###  What information are we supposed to include in the video?
 
 The video only needs to cover the points that are not peer assessed. Treat it as a sales pitch for the criteria listed under client-side functionality and server-side functionality. You don't need to show every single thing that your site does, just show how it meets the requirements. So things like HTML validation, automated testing and the API documentation do not need to be covered. It is difficult to keep videos anonymous, so your peer assessors will not see the video.
+
+## What software should we use to record the presentation, and where could we find it?
+
+The univeristy provides panopto (which is used for sharing lecture recordings) for recording and simple editing and gives some [instructions for use](https://www.dur.ac.uk/encore/howtouseencore/desktop/). Freely available desktop tools include [OBS Studio](https://obsproject.com/) and [daVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/) for recording and editing, which are both powerful but have more of a learning curve. MacOS provides QuickTime player and iMovie for recording and editing. TechRadar have a [list of screen recorder software](https://www.techradar.com/uk/news/the-best-free-screen-recorder) for other alternatives.
