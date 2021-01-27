@@ -28,7 +28,7 @@
 ## Key Skills
 
 - an ability to communicate technical information
-- an ability to plan and work independently.
+- an ability to plan and work independently
 
 ---
 
