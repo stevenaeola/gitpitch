@@ -50,7 +50,7 @@
 Make at least four separate entries, with at least two weeks between each entry. The entries can either be separate files or different sections within the same file. They should be written using Markdown and stored in a private repository on github. You need to commit and push each entry as you make it so that the dates of the entries are correctly recorded in git. You can include images and external links.
 
 For each entry dentify
-- What you have done (learning your skill and contributing to your project)
+- What you have done (to learn your skill and contribute to your project)
 - What you have learned
 - Any changes to your goals (or what your initial goals are for the first entry)
 - Next step(s) to achieve your goals 
