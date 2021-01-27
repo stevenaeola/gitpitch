@@ -51,7 +51,7 @@ For each entry dentify
 
 The learning log should have a maximum total word count of 1500 words, as measured by the [Microsoft VS Code Word Count plugin](https://marketplace.visualstudio.com/items?itemName=ms-vscode.wordcount) and have a reasonable balance between the entries.
 
-Critera (10% each)
+### Assessment critera (10% each)
 - Number, timing and word count of entries (use of git)
 - Appropriate development and monitoring of goals
 - Evidence of increased understanding
@@ -66,12 +66,13 @@ Based on your experience, write a Markdown document which explains to somebody e
 - Beckground (10%): What do you need to know before starting, including links to material to catch up
 - Learning materials (10%): appropriate links to external resources with commentary
 - Evaluation (10%): How useful is the skill, compared with the effort of learning it
-- Presentation (10%)
-  - written in markdown
-  - appropriate choice of media (images, video)
-  - clear writing appropriate for audience
 
- The giode for learners should have a maximum total word count of 1500 words, as measured by the [Microsoft VS Code Word Count plugin](https://marketplace.visualstudio.com/items?itemName=ms-vscode.wordcount) 
+A presentation mark (10%) will be awarded on the basis of
+  - written in markdown
+  - choice of media (images, video)
+  - clear writing style appropriate for audience
+
+ The guide for learners should have a maximum total word count of 1500 words, as measured by the [Microsoft VS Code Word Count plugin](https://marketplace.visualstudio.com/items?itemName=ms-vscode.wordcount) 
 
 ## Submission
 
