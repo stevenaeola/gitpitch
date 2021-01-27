@@ -4,7 +4,7 @@
 
 ## Term 2 Programming Exercise Outline
 
-- Submission of learning log  by 14:00 23 April 2021
+- Submission by 14:00 23 April 2021
 - Return by 21 May 2021
 - Contributes 50% of module marks
 
@@ -75,6 +75,6 @@ Based on your experience, write a Markdown document which explains to somebody e
 
 ## Submission
 
-Your learning log and your guide for learners should be held within a single private repository on github. In the repository you should include a README file including a link to the repository on github. You should submit the entire content of the repository. The repository on github must be accessible by me (username stevenaeola). Allow access to the repository through Settings - Manage Access - Invite a collaborator. Note that this does not affect the access to any code you may write, which would most likely be in a public repsoitory.
+Your learning log and your guide for learners should be held within a single private repository on github. In the repository you should include a README file including a link to the repository on github. You should submit the entire content of the repository as a zip file. The repository on github must be accessible by me (username stevenaeola). Allow access to the repository through Settings - Manage Access - Invite a collaborator. If you do not allow access you will lose marks. Note that this does not affect the access to any code you may write, which would most likely be in a public repsoitory.
 
 
