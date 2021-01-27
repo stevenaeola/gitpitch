@@ -36,8 +36,8 @@
 
 - Choose a skill to develop (JavaScript or non-JavaScript)
 - Choose a collaborative project to contribute to e.g.
-  - Open Source Software
-  - Hackathon
+  - open Source Software
+  - hackathon
   - (collaborative) competition
 - See [lecture on ideas for skills and projects](https://github.com/stevenaeola/gitpitch/blob/master/prog/assessment_2_progblack_ideas/README.md) including video on Encore
 - Record your progress in git with a learning log
