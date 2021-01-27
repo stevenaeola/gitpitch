@@ -29,7 +29,7 @@
 
 ## Task summary
 
-- Choose a skill to develop (JavaScript on non JavaScript)
+- Choose a skill to develop (JavaScript or non-JavaScript)
 - Choose a collaborative project to contribute to e.g.
   - Open Source Software
   - Hackathon
