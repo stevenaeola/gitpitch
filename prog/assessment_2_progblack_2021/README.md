@@ -4,7 +4,7 @@
 
 ## Term 2 Programming Exercise Outline
 
-- Submission of code and video by 14:00 23 April 2021
+- Submission of learning log  by 14:00 23 April 2021
 - Return by 21 May 2021
 - Contributes 50% of module marks
 
@@ -36,18 +36,20 @@
   - (collaborative) competition
 - See [lecture on ideas for skills and projects](https://github.com/stevenaeola/gitpitch/blob/master/prog/assessment_2_progblack_ideas/README.md) including video on Encore
 - Record your progress in git with a learning log
+- Write a guide for other learners
 
 
 ## Learning log
 
+Make at least four separate entries, with at least two weeks between each entry. The entries can either be separate files or different sections within the same file. They should be written using Markdown and stored in a private repository on github. You need to commit and push each entry as you make it so that the dates of the entries are correctly recorded in git. You can include images and external links.
 
-Identify
-- What you have done
+For each entry dentify
+- What you have done (learning your skill and contributing to your project)
 - What you have learned
-- Any changes to your goals (what the goals are for the first one)
-- Next step(s) to achieve your goals
+- Any changes to your goals (or what your initial goals are for the first entry)
+- Next step(s) to achieve your goals 
 
-The learning log should have a maximum total word count of 1600 words, as measured by the [Microsoft VS Code Word Count plugin](https://marketplace.visualstudio.com/items?itemName=ms-vscode.wordcount) and have a reasonable balance between the entries.
+The learning log should have a maximum total word count of 1500 words, as measured by the [Microsoft VS Code Word Count plugin](https://marketplace.visualstudio.com/items?itemName=ms-vscode.wordcount) and have a reasonable balance between the entries.
 
 Critera (10% each)
 - Number, timing and word count of entries (use of git)
@@ -56,17 +58,23 @@ Critera (10% each)
 - Evidence of collaboration
 - Evidence of criticality about your own actions and assumptions
 
-# Guide for learners
+## Guide for learners
 
-Based on your experience, write a web page which explains to somebody else to to learn the skill.
+Based on your experience, write a Markdown document which explains to somebody else how to master the skill you have been learning. The report should be structured as follows
 
-- Why learn it
-- explain assumed knowledge and links to material to catch up
-- appropriate links to external resources with commentary
-- How useful is the skill, compared with the effort of learning it
-- Presentation
-  - source in markdown
+- Motivation (10%): Why learn it
+- Beckground (10%): What do you need to know before starting, including links to material to catch up
+- Learning materials (10%): appropriate links to external resources with commentary
+- Evaluation (10%): How useful is the skill, compared with the effort of learning it
+- Presentation (10%)
+  - written in markdown
   - appropriate choice of media (images, video)
   - clear writing appropriate for audience
+
+ The giode for learners should have a maximum total word count of 1500 words, as measured by the [Microsoft VS Code Word Count plugin](https://marketplace.visualstudio.com/items?itemName=ms-vscode.wordcount) 
+
+## Submission
+
+Your learning log and your guide for learners should be held within a single private repository on github. In the repository you should include a README file including a link to the repository on github. You should submit the entire content of the repository. The repository on github must be accessible by me (username stevenaeola). Allow access to the repository through Settings - Manage Access - Invite a collaborator. Note that this does not affect the access to any code you may write, which would most likely be in a public repsoitory.
 
 
