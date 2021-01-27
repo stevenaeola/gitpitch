@@ -74,7 +74,7 @@ Based on your experience, write a Markdown document which explains to somebody e
 - Evaluation (10%): How useful is the skill, compared with the effort of learning it
 
 A presentation mark (10%) will be awarded on the basis of
-  - written in markdown
+  - formatting in markdown
   - choice of media (images, video)
   - clear writing style appropriate for audience
 
