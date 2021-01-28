@@ -63,12 +63,12 @@ The learning log should have a maximum total word count of 1500 words, as measur
 Based on your experience, write a Markdown document which explains to somebody else how to master the skill you have been learning. The report should be structured as follows
 
 - Motivation (10%): Why learn it
-- Beckground (10%): What do you need to know before starting, including links to material to catch up
+- Beckground (10%): What do you need to know before starting, including links to material to catch up. Make it clear who your target audience is
 - Learning materials (10%): appropriate links to external resources with commentary
 - Evaluation (10%): How useful is the skill, compared with the effort of learning it
 
 A presentation mark (10%) will be awarded on the basis of
-  - formatting in markdown
+  - formatting in （[github flavored](https://github.github.com/gfm/)) Markdown
   - choice of media (images, video)
   - clear writing style appropriate for audience
 
