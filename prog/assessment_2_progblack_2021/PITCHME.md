@@ -1,5 +1,5 @@
 
-# COMP1101 Programming (Black) Summative Assessment 2 DRAFT {data-background-color=#7E317B}
+# COMP1101 Programming (Black) Summative Assessment 2 {data-background-color=#7E317B}
 
 ---
 
