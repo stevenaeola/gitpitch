@@ -119,9 +119,9 @@ if (offset < arr1->length) {
 - New variants announced in November 2018
 - Performance at price of security
 
----?color=#cfdad1
+---
 
-## Rowhammer
+## Rowhammer {data-background-color=#cfdad1}
 
 <https://www.youtube.com/watch?v=rGaF15-ko5w> (start from 3:05)
 

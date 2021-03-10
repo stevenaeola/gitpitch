@@ -107,7 +107,7 @@ if (offset < arr1->length) {
 - Performance at price of security
 
 
-## Rowhammer
+## Rowhammer 
 
 <https://www.youtube.com/watch?v=rGaF15-ko5w> (start from 3:05)
 
