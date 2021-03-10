@@ -51,7 +51,7 @@ for (j = 0; j < n; j++) {
 
 ![Results](blasresults.png)
 
-Thanks to [Lawrence Mitchell](https://www.dur.ac.uk/computer.science/staff/profile/?id=17243)
+Thanks to Lawrence Mitchell
 
 
 # Disadvantages {data-background-color=#aa2b4a}
@@ -60,13 +60,15 @@ Thanks to [Lawrence Mitchell](https://www.dur.ac.uk/computer.science/staff/profi
 
 ## Meltdown/Spectre Vulnerabilities
 
-@ul
+::: incremental
+
 - Considered "catastrophic" and "[unbelievable](https://www.bloomberg.com/news/articles/2018-01-08/-it-can-t-be-true-inside-the-semiconductor-industry-s-meltdown)"
 - Identified late 2017, publicised early 2018, [reading privileged memory with a side-channel](https://googleprojectzero.blogspot.com/2018/01/reading-privileged-memory-with-side.html)
 - Spectre uses speculative branching to allow one user process to access another
 - Spectre affects some Intel, AMD and ARM chips
 - Meltdown uses out-of-order execution with exceptions, Intel (from 2011) and possibly ARM
-@ulend
+
+:::
 
 
 ---
@@ -137,14 +139,16 @@ if (offset < arr1->length) {
 
 ---
 
-@ul
+::: incremental
+
 - Knowing how things work can help you
   - Make things better (speedup)
   - Make things worse (vulnerability)
 - Long time since anybody knew all about how a computer works
 - Integrating knowledge is important
 - 'May you live in interesting times'
-@ulend
+
+:::
 
 
 
