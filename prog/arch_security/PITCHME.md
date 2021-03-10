@@ -135,9 +135,7 @@ if (offset < arr1->length) {
 
 ---
 
-# Summary
-
----
+## Summary
 
 ::: incremental
 

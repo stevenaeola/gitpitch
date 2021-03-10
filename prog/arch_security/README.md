@@ -119,8 +119,7 @@ if (offset < arr1->length) {
 - However, [not all rowhammer attacks](https://www.bleepingcomputer.com/news/security/ddr4-memory-still-at-rowhammer-risk-new-method-bypasses-fixes/)
 
 
-# Summary
-
+## Summary
 
 
 - Knowing how things work can help you
