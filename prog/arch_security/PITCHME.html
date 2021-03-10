@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title>PITCHME</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/simple.css" id="theme">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+
+<section id="knowing-about-memory" class="slide level1" data-background-color="#7E317B">
+<h1 data-background-color="#7E317B">Knowing about memory</h1>
+<p>For better or for worse</p>
+</section>
+<section class="slide level1">
+
+<h2 id="optimising-performance">Optimising performance</h2>
+<h2 id="security-i-meltdownspectre">Security I: Meltdown/Spectre</h2>
+<h2 id="quiz">Quiz</h2>
+<h2 id="security-ii-rowhammer">Security II: Rowhammer</h2>
+</section>
+<section class="slide level1">
+
+<h2 id="matrix-multiplication">Matrix Multiplication</h2>
+<ul>
+<li>Remarkable variation in FLOPS for the same FLOPs</li>
+<li>All dependent on working with memory architecture</li>
+<li>Based on <a href="https://dl.acm.org/citation.cfm?id=2764454">BLIS: a framework for rapidly instantiating BLAS functionality</a></li>
+</ul>
+</section>
+<section class="slide level1">
+
+<h2 id="basic">Basic</h2>
+<pre><code>for (j = 0; j &lt; n; j++) {
+  for (p = 0; p &lt; k; p++) {
+    for (i = 0; i &lt; m; i++) {
+      c[j*ldc + i] = c[j*ldc + i] + a[p*lda + i] * b[j*ldb + p];
+    }
+  }
+}</code></pre>
+</section>
+<section class="slide level1">
+
+<h2 id="bad-order">Bad order</h2>
+<pre><code>for (j = 0; j &lt; n; j++) {
+  for (i = 0; i &lt; m; i++) {
+    for (p = 0; p &lt; k; p++) {
+      c[j*ldc + i] = c[j*ldc + i] + a[p*lda + i] * b[j*ldb + p];
+    }
+  }
+}
+</code></pre>
+</section>
+<section class="slide level1">
+
+<figure>
+<img data-src="blasresults.png" alt="Results" /><figcaption aria-hidden="true">Results</figcaption>
+</figure>
+<p>Thanks to <a href="https://www.dur.ac.uk/computer.science/staff/profile/?id=17243">Lawrence Mitchell</a></p>
+</section>
+<section id="disadvantages" class="slide level1" data-background-color="#aa2b4a">
+<h1 data-background-color="#aa2b4a">Disadvantages</h1>
+</section>
+<section class="slide level1">
+
+<h2 id="meltdownspectre-vulnerabilities">Meltdown/Spectre Vulnerabilities</h2>
+<p><span class="citation" data-cites="ul">@ul</span> - Considered “catastrophic” and “<a href="https://www.bloomberg.com/news/articles/2018-01-08/-it-can-t-be-true-inside-the-semiconductor-industry-s-meltdown">unbelievable</a>” - Identified late 2017, publicised early 2018, <a href="https://googleprojectzero.blogspot.com/2018/01/reading-privileged-memory-with-side.html">reading privileged memory with a side-channel</a> - Spectre uses speculative branching to allow one user process to access another - Spectre affects some Intel, AMD and ARM chips - Meltdown uses out-of-order execution with exceptions, Intel (from 2011) and possibly ARM <span class="citation" data-cites="ulend">@ulend</span></p>
+</section>
+<section class="slide level1">
+
+<h2 id="meltdown">Meltdown</h2>
+<p><a href="https://www.youtube.com/watch?v=mgAN4w7LH2o" class="uri">https://www.youtube.com/watch?v=mgAN4w7LH2o</a></p>
+</section>
+<section class="slide level1">
+
+<h2 id="spectre">Spectre</h2>
+<ul>
+<li>Change CPU state depending on memory values you are not allowed to access (at location <code>data[offset]</code>)</li>
+<li>Speculative execution</li>
+</ul>
+<pre><code>if (offset &lt; arr1-&gt;length) {
+ value = arr1-&gt;data[offset];
+ index2 = ((value&amp;1)*0x100)+0x200;
+ if (index2 &lt; arr2-&gt;length) {
+   value2 = arr2-&gt;data[index2];
+ }
+}</code></pre>
+</section>
+<section class="slide level1">
+
+<ul>
+<li>Measure time to access <code>arr2-&gt;data[0x200]</code> and <code>arr2-&gt;data[0x300]</code></li>
+<li>Depends on whether it is in cache i.e. on LSb of <code>value</code></li>
+</ul>
+</section>
+<section class="slide level1">
+
+<h2 id="exploitation">Exploitation</h2>
+<ul>
+<li>None reported in the wild</li>
+<li>Some variants rely on executing user code in kernel space with verified JIT eBPF bytecode execution</li>
+<li>Some rely on MESI protocol to keep values in cache for longer by sharing between cores</li>
+<li>JavaScript potentially allows remote exploitation</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<h2 id="mitigation">Mitigation</h2>
+<ul>
+<li>Many mitigations affect performance by flushing cache (TLB)</li>
+<li>Meltdown has kernel patch, Spectre doesn’t</li>
+<li>‘Spectre may haunt us for a while’</li>
+<li>Intel announced fix for new hardware in October 2018</li>
+<li>New variants announced in November 2018</li>
+<li>Performance at price of security</li>
+</ul>
+<p>—?color=#cfdad1</p>
+<h2 id="rowhammer">Rowhammer</h2>
+<p><a href="https://www.youtube.com/watch?v=rGaF15-ko5w" class="uri">https://www.youtube.com/watch?v=rGaF15-ko5w</a> (start from 3:05)</p>
+</section>
+<section class="slide level1">
+
+<h2 id="mitigation-1">Mitigation</h2>
+<ul>
+<li>DDR4 introduced Target Row Refresh (TRR)</li>
+<li>Stops single and double-sided rowhammer attackes</li>
+<li>However, <a href="https://www.bleepingcomputer.com/news/security/ddr4-memory-still-at-rowhammer-risk-new-method-bypasses-fixes/">not all rowhammer attacks</a></li>
+</ul>
+</section>
+<section id="summary" class="slide level1">
+<h1>Summary</h1>
+</section>
+<section class="slide level1">
+
+<p><span class="citation" data-cites="ul">@ul</span> - Knowing how things work can help you - Make things better (speedup) - Make things worse (vulnerability) - Long time since anybody knew all about how a computer works - Integrating knowledge is important - ‘May you live in interesting times’ <span class="citation" data-cites="ulend">@ulend</span></p>
+</section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
+
+  // reveal.js plugins
+  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+
+        // reveal.js plugins
+        plugins: [
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    </body>
+</html>
