@@ -35,7 +35,7 @@
 - [Bitcoin is expensive](https://powercompare.co.uk/bitcoin-mining-electricity-map/)
 - [Dark silicon](https://www.cc.gatech.edu/~hadi/doc/paper/2012-toppicks-dark_silicon.pdf) is a thing
 
-::: incremental
+:::
 
 ---
 
