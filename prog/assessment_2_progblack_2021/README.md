@@ -4,8 +4,8 @@
 
 ## Term 2 Programming Exercise Outline
 
-- Submission by 14:00 23 April 2021
-- Return by 21 May 2021
+- Submission by 14:00 ~~23~~ 27 April 2021
+- Return by ~~21~~ 25 May 2021
 - Contributes 50% of module marks
 
 
