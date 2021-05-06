@@ -1,20 +1,20 @@
-
-## OO Programming
-## Java vs python
+# OOP: Java vs python 
 
 
 ## Summary
+
 
 - Why object-orientation (OO)?
 - Key features of OO
 - How do these compare in Java and python
 
 
-## Why not have one big file for your program?
 
+# Why not have one big file for your program? 
 
 
 ## OO helps maintenance
+
 
 - Smaller files makes for less reading
 - Separate files allows for shared development
@@ -24,6 +24,7 @@
   - code (functions/methods)
 - Ease name clashes
 - Inheritance
+
 
 
 ## python classes
@@ -50,15 +51,15 @@ where `x` is in class `c`
 
 
 
-### python fields
+## python fields
 
 - Don't exist independently
 - Class properties are like java statics
 
 
-### Differences to Java
+## Differences to Java
 
-- No types
+- No static types
 - Constructors called with class name (not `new`)
 - Multiple inheritance is allowed
 - Lists are polymorphic, use array syntax
