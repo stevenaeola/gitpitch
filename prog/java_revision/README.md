@@ -1,5 +1,4 @@
-
-# Java Revision
+# Java Revision 
 
 
 ## Summary
@@ -11,6 +10,7 @@
 
 ## Basic Concepts
 
+
 - Class
 - Object
 - Field (instance and class)
@@ -19,7 +19,9 @@
 - Scope and visibility
 
 
+
 ## Java-specific Concepts
+
 
 - Primitive and object types
  - Assignment and equality
@@ -28,7 +30,9 @@
 - Type parameter
 
 
+
 ## Inheritance Concepts
+
 
 - Overriding
 - Polymorphism
@@ -40,11 +44,13 @@
 - Interfaces
 
 
+
+
 ## Java Syntax
 
 ```
 . = ==
-() [] <> {}
+() [] <> 
 ; :
 ```
 
@@ -66,6 +72,7 @@ extends, super, abstract, interface, implements
 
 ## Java Classes/Interfaces
 
+
 - Object
   - .equals()
   - .toString()
@@ -76,3 +83,4 @@ extends, super, abstract, interface, implements
   - .out.println()
 - List
 - Comparable
+

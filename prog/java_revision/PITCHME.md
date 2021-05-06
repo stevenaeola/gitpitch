@@ -1,6 +1,4 @@
----?color=#7E317B
-
-# Java Revision
+# Java Revision {data-background-color=#7E317B}
 
 ---
 
@@ -14,32 +12,37 @@
 
 ## Basic Concepts
 
-@ul
+::: incremental
+
 - Class
 - Object
 - Field (instance and class)
 - Constructor
 - Method (instance and class, including main)
 - Scope and visibility
-@ulend
+
+:::
 
 ---
 
 ## Java-specific Concepts
 
-@ul
+::: incremental
+
 - Primitive and object types
  - Assignment and equality
 - Overloading (method and operator)
 - Collections: variable and fixed size
 - Type parameter
-@ulend
+
+:::
 
 --- 
 
 ## Inheritance Concepts
 
-@ul
+::: incremental
+
 - Overriding
 - Polymorphism
 - Dynamic and static type
@@ -48,7 +51,9 @@
 - Dynamic method despatch
 - Abstract classes 
 - Interfaces
-@ulend
+
+::: incremental
+
 
 ---
 
@@ -80,7 +85,8 @@ extends, super, abstract, interface, implements
 
 ## Java Classes/Interfaces
 
-@ul
+::: incremental
+
 - Object
   - .equals()
   - .toString()
@@ -91,4 +97,5 @@ extends, super, abstract, interface, implements
   - .out.println()
 - List
 - Comparable
-@ulend
+
+:::
