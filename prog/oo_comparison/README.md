@@ -63,3 +63,12 @@ where `x` is in class `c`
 - Constructors called with class name (not `new`)
 - Multiple inheritance is allowed
 - Lists are polymorphic, use array syntax
+- See [concertina.py](https://raw.githubusercontent.com/stevenaeola/gitpitch/master/prog/oo_comparison/Python/concertina.py) and [Concertina.java](https://raw.githubusercontent.com/stevenaeola/gitpitch/master/prog/oo_comparison/Java/Concertina.java)
+
+
+## Java programmers look away now
+
+> Java programmers will wrinkle their brows, screw up their noses, or even scream with horror when they read the following: The Pythonic way to introduce attributes is to make them public.
+
+From [OOP Python Tutoria](https://www.python-course.eu/python3_properties.php)
+
