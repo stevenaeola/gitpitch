@@ -1,3 +1,1 @@
-theme : simple
-theme-text : [ "Open Sans", "#CCCCCC", "none" ]
-theme-override : layout.css
+../PITCHME.yaml

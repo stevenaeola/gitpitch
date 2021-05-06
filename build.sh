@@ -1,5 +1,5 @@
 #!/bin/bash
-sed '/^---/ d' PITCHME.md | sed '/^@/ d' | sed 's/{.*}//' > README.md
+sed '/^---/ d' PITCHME.md | sed '/^@/ d' | sed '/^:::/ d' | sed 's/{.*}//' > README.md
 
 PATHEND=$(pwd | rev | cut -d'/' -f-2 | rev)
 

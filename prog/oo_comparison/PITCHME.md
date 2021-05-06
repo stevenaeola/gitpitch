@@ -1,29 +1,26 @@
----?color=#6A246D
-
-## OO Programming
-## Java vs python
+# OOP: Java vs python 
 
 ---
 
 ## Summary
 
-@ul
+::: incremental
+
 - Why object-orientation (OO)?
 - Key features of OO
 - How do these compare in Java and python
-@ulend
 
----?color=#BE1E2D
+:::
 
-## Why not have one big file for your program?
 
-@fa[pause-circle fa-7x]
+# Why not have one big file for your program? {data-background-color=#BE1E2D}
 
 ---
 
 ## OO helps maintenance
 
-@ul
+::: incremental
+
 - Smaller files makes for less reading
 - Separate files allows for shared development
 - Cohesion and coupling
@@ -32,7 +29,8 @@
   - code (functions/methods)
 - Ease name clashes
 - Inheritance
-@ulend
+
+:::
 
 ---
 
@@ -62,16 +60,16 @@ where `x` is in class `c`
 
 ---
 
-### python fields
+## python fields
 
 - Don't exist independently
 - Class properties are like java statics
 
 ---
 
-### Differences to Java
+## Differences to Java
 
-- No types
+- No static types
 - Constructors called with class name (not `new`)
 - Multiple inheritance is allowed
 - Lists are polymorphic, use array syntax

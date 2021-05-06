@@ -49,6 +49,7 @@ public class Example extends AbstractClassExample implements InterfaceExample, C
         return this.getField1() - other.field1;
     }
     
+    
     public static void main(String[] args){
         // referring to static (class) variable
         System.out.println(Example.numberOfObjects + " objects");

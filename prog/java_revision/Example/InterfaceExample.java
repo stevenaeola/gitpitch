@@ -1,4 +1,3 @@
-public interface InterfaceExample
-{
+public interface InterfaceExample {
     void addToField2(String toAdd);
 }
