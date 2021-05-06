@@ -81,5 +81,5 @@ where `x` is in class `c`
 
 > Java programmers will wrinkle their brows, screw up their noses, or even scream with horror when they read the following: The Pythonic way to introduce attributes is to make them public.
 
-From [OOP Python Tutoria](https://www.python-course.eu/python3_properties.php)
+From [OOP Python Tutorial](https://www.python-course.eu/python3_properties.php)
 
