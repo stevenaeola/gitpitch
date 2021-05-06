@@ -52,7 +52,7 @@
 - Abstract classes 
 - Interfaces
 
-::: incremental
+:::
 
 
 ---
